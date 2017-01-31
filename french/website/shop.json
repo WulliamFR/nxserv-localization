@@ -2,28 +2,28 @@
 	"title": "Boutique",
 	"h1": "Boutique NxServ",
 
-	"needs_login": "Sign in with Steam to add funds to your on-server account",
+	"needs_login": "Connectez-vous avec Steam pour ajouter des fonds sur votre compte en jeu",
 
 	"promise": [
-		"It is absolutely free to play on NxServ servers, the only thing you need is a licensed copy of Garry's Mod, however you can please yourself with special items in our shop. For some gamemodes like NxRP (former DarkRP) it is possible to purchase a Premium subscription for one month. Premium makes your game pleasant, easy and comfortable.",
+		"Il est totalement gratuit de jouer sur les serveurs NxServ, le seul prérequis est une copie licensée de Garry's Mod, cependant vous pouvez toujours vous faire plaisir avec des objets spéciaux dans notre boutique. Pour quelques modes de jeu comme NxRP (anciennement DarkRP) il est possible d'acheter un abonnement Premium d'un mois. Le Premium rend votre expérience plaisante, facile et confortable.",
 
-		"We've also made lovely accessories for your in-game character, which you can wear on any of our servers. To see whole range of available items, use F4 menu (on DarkRP) or \"Shop\" in the menu of other gamemodes.",
+		"Nous avons créé d'adorables accessoires pour votre personnage en jeu, que vous pouvez porter sur chacun de nos serveurs. Pour voir la liste complète d'objets, utilisez le menu F4 (sur DarkRP) our \"Shop\" dans le menu Échap.",
 
-		"Like to play with us? Make us and yourself happy — purchase the item of your choice in NxServ Shop.",
+		"Vous aimez jouer avec nous? Rendez tout le monde content - achetez les objets de votre choix dans la boutique NxServ.",
 
-		"— Cheers, NxServ."
+		"— À la vôtre, NxServ."
 	],
 
-	"choose_your_weapon": "Choose your prefered method to add funds to your on-server account",
-	"just_do_it": "Transfer us any amount of cash and it will appear in the shop on the server.",
+	"choose_your_weapon": "Choisissez votre méthode préférée pour ajouter des fonds sur votre compte en jeu.",
+	"just_do_it": "Transférez nous n'importe quel montant d'argent et cela apparaîtra dans la boutique sur le serveur.",
 	"via_yandex": "Via Yandex.Money",
-	"robot_rock": "All transactions are handled automatically.",
-	"problems_officer": "Having a trouble?",
-	"pick_region": "Choose your game region",
-	"pick_region_desc": "Click a card with such servers, on which you would like to buy something.",
+	"robot_rock": "Toutes les transactions sont gérées automatiquement.",
+	"problems_officer": "Il y a un problème?",
+	"pick_region": "Choisissez votre région de jeu",
+	"pick_region_desc": "Cliquer sur la carte du serveur pour lequel vous voulez acheter quelque chose.",
 
-	"proceed_to_payment": "Proceed to payment page",
-	"pp_instructions": "To transfer money using PayPal, you need to press <b>Proceed</b> button and successfully complete the transaction.",
+	"proceed_to_payment": "Procéder à la page de paiement",
+	"pp_instructions": "Pour transférer de l'argent en utilisant PayPal, vous devez cliquer sur le bouton <b>Continuer</b> et compléter la transaction avec succès.",
 
-	"transaction_times": "Payment should be processed automatically in about a minute after transaction."
+	"transaction_times": "Le paiement devrait être géré automatiquement approximativement une minute après la transaction."
 }
