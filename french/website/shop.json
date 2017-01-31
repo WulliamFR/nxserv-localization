@@ -1,0 +1,29 @@
+{
+	"title": "Boutique",
+	"h1": "Boutique NxServ",
+
+	"needs_login": "Sign in with Steam to add funds to your on-server account",
+
+	"promise": [
+		"It is absolutely free to play on NxServ servers, the only thing you need is a licensed copy of Garry's Mod, however you can please yourself with special items in our shop. For some gamemodes like NxRP (former DarkRP) it is possible to purchase a Premium subscription for one month. Premium makes your game pleasant, easy and comfortable.",
+
+		"We've also made lovely accessories for your in-game character, which you can wear on any of our servers. To see whole range of available items, use F4 menu (on DarkRP) or \"Shop\" in the menu of other gamemodes.",
+
+		"Like to play with us? Make us and yourself happy — purchase the item of your choice in NxServ Shop.",
+
+		"— Cheers, NxServ."
+	],
+
+	"choose_your_weapon": "Choose your prefered method to add funds to your on-server account",
+	"just_do_it": "Transfer us any amount of cash and it will appear in the shop on the server.",
+	"via_yandex": "Via Yandex.Money",
+	"robot_rock": "All transactions are handled automatically.",
+	"problems_officer": "Having a trouble?",
+	"pick_region": "Choose your game region",
+	"pick_region_desc": "Click a card with such servers, on which you would like to buy something.",
+
+	"proceed_to_payment": "Proceed to payment page",
+	"pp_instructions": "To transfer money using PayPal, you need to press <b>Proceed</b> button and successfully complete the transaction.",
+
+	"transaction_times": "Payment should be processed automatically in about a minute after transaction."
+}
