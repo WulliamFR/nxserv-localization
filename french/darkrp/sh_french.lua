@@ -1361,7 +1361,7 @@ local french = {
 	teamkill_hurt_warn = "ATTENTION: Vous avez attaqué %s, un de vos collègues !",
 
 	-- lives
-	lives_died = "Il vous reste %d vies. Encore %d minute(s) avant d'en récupérer une autre.",
+	lives_died = "Il vous reste %d vie(s). Encore %d minute(s) avant d'en récupérer une autre.",
 	lives_died_warn = "Si il ne vous reste plus de vies, vous ne serez plus en mesure d'utiliser des armes.",
 	lives_restored = "Vous venez de récupérer une vie. Nombre de vies: %d",
 	lives_hud1 = "Vies: %d/2",
