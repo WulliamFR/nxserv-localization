@@ -131,7 +131,7 @@ module.exports = {
 						Si l'entrée est suivie d'un couloir, et les portes vous appartiennent, vous êtes autorisé à la bloquer.`,
 					`Toute construction devra posséder une entrée, publiquement accessible avec un keypad ou un bouton et être crochettable.`,
 					`Toute entrée qui est faite par un mappeur devra être publiquement accessible avec un keypad ou un bouton et être crochettable.`,
-					`Les objets, cachés derrière/dessous/dessus un props, devra être accessible avec un keypad ou un bouton et être crochettable.`,
+					`Les objets, cachés derrière/dessous/dessus un prop, devront être accessibles avec un keypad ou un bouton et être crochettable.`,
 					`Vous n'êtes pas autorisé à utiliser plus de deux couches de portes (les portes usuels sont aussi prise en compte).<br>
 						Si cette porte est de plus de deux props, il devra y avoir un keypad facilement visible près de la porte, qui ouvre toute l'entrée au même moment.`,
 					`Les boutons/keypads doivent être proches de l'objet auquel ils contrôlent et facilement visibles.`,
