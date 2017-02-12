@@ -6,7 +6,7 @@ local french = {
 	need_sadmin = "Vous devez être superadmin pour faire cela %s",
 	no_privilege = "Vous n'avez pas les bons privilèges pour faire cela",
 	no_jail_pos = "Pas de prison",
-	invalid_x = "%s invalide! %s",
+	invalid_x = "%s invalide ! %s",
 
 	-- F1 menu
 	f1ChatCommandTitle = "Commandes de chat",
@@ -350,7 +350,7 @@ local french = {
 	died_in_jail = "%s est mort en prison !",
 
 	credits_for = "CREDITS POUR %s\n",
-	credits_see_console = "Les crédits DarkRp ont été imprimés dans la console.",
+	credits_see_console = "Les crédits DarkRP ont été imprimés dans la console.",
 
 	data_not_loaded_one = "Vos données n'ont pas encore été chargées. Veuillez patienter.",
 	data_not_loaded_two = "Si ce problème persiste, essayez de vous reconnecter ou de contacter un admininistrateur.",
@@ -436,8 +436,8 @@ local french = {
 	price_too_low = "Prix trop faible !",
 	hit_target_recently_killed_by_hit = "La cible a été tuée par un mercenaire trop récemment.",
 	customer_recently_bought_hit = "Le client a déjà fait une demande d'assassinat récemment.",
-	accept_hit_question = "À accepté la proposition d'assassinat de la part de %s\nregarding %s pour tuer %s%d?", -- backwards compatibility
-	accept_hit_request = "À accepté la proposition d'assassinat de la part de %s\nregarding %s pour tuer %s?",
+	accept_hit_question = "%s vous demande de tuer %s\npour %s%d.", -- backwards compatibility
+	accept_hit_request = "%s vous demande de tuer %s\npour %s.",
 	hit_requested = "Cible demandée !",
 	hit_aborted = "Cible abandonnée ! %s",
 	hit_accepted = "Cible acceptée !",
@@ -797,7 +797,7 @@ local french = {
 	laws_removed = "Le maire a supprimé la loi numéro ",
 	laws_set = "Définition des lois de ",
 	laws_clear = "Le maire a supprimé les anciennes lois.",
-	laws_reset = "Le maire a restauré les lois.",
+	laws_reset = "Le maire a restauré les lois par défaut.",
 	laws_default = "Les lois par défaut ont été restaurées.",
 
 	-- City Management
@@ -1272,7 +1272,7 @@ local french = {
 	printer_new_way = "Vous ne pouvez plus faire apparaître une imprimante n'importe où.\nVous devez appeler un vendeur spécialisé.\nMaintenez C > Appels d'urgences ou de services > Contacter un vendeur d'imprimante",
 	buyprinter_new_way = "Vous pouvez seulement acheter une imprimante avec un service spécial",
 
-	charger_battery = "Batterie chargée à 100%",
+	charger_battery = "Batterie chargée à 100%%",
 	weapon_vape = "Vaporisateur",
 	repair_verb = "Réparer",
 	door_single = "Porte",
@@ -1297,7 +1297,7 @@ local french = {
 	itemshop_eject_money = "Éjecter l'argent",
 	itemshop_settings = "Service",
 	itemshop_on_service = "EN SERVICE",
-	itemshop_put_shipments = "Mettez votre colis directement sur l'écran pour l'ajouter",
+	itemshop_put_shipments = "Mettez votre cargaison directement sur l'écran pour l'ajouter",
 	itemshop_restore = "Restorer",
 	itemshop_rename = "Renommer",
 	itemshop_setprice_title = "Le prix a été fixé à %s",
@@ -1361,11 +1361,11 @@ local french = {
 	teamkill_hurt_warn = "ATTENTION: Vous avez attaqué %s, un de vos collègues !",
 
 	-- lives
-	lives_died = "Il vous reste %d vie. Encore %d minute(s) avant d'en récupérer une autre.",
+	lives_died = "Il vous reste %d vies. Encore %d minute(s) avant d'en récupérer une autre.",
 	lives_died_warn = "Si il ne vous reste plus de vies, vous ne serez plus en mesure d'utiliser des armes.",
 	lives_restored = "Vous venez de récupérer une vie. Nombre de vies: %d",
-	lives_hud1 = "Vie: %d/2",
-	lives_hud2 = "Récupération dans: %s minutes",
+	lives_hud1 = "Vies: %d/2",
+	lives_hud2 = "Récupération dans: %s minute(s)",
 }
 
 DarkRP.addLanguage("fr", french)
