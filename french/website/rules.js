@@ -98,7 +98,7 @@ module.exports = {
 				"Règles des gangs",
 				[
 					`Les chefs de gangs ne sont pas dans la même équipe. Ils peuvent être l'un contre l'autre.`,
-					`Les gangs seront comptés valides, uniquement si il ont été créé à partir du système de gang.`,
+					`Les gangs seront comptés valides, uniquement si ils ont été créé à partir du système de gang.`,
 				]
 			],
 			[
