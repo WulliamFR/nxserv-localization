@@ -31,9 +31,9 @@ local french = {
 
 	payday_message = "Jour de paie ! Vous recevez %s !",
 	payday_unemployed = "Vous n'avez pas reçu de salaire, car vous êtes au chômage !",
-	payday_missed = "Paie non reçu, car vous êtes en prison !",
+	payday_missed = "Paie non reçue, car vous êtes en prison !",
 
-	property_tax = "Taxes de propriété payées, cela vous a coûté %s",
+	property_tax = "Taxes de propriété payées, elles vous ont coûté %s",
 	property_tax_cant_afford = "Vous ne pouvez payer les taxes de propriété, votre propriété a été saisie !",
 	taxday = "Jour de taxes ! %s%% de vos revenus ont été pris",
 
@@ -279,7 +279,7 @@ local french = {
 	added_jailpos = "Vous avez ajouté une position de prison supplémentaire !",
 	reset_add_jailpos = "Vous avez supprimé toutes les positions de prison et vous en avez ajouté une nouvelle.",
 	created_spawnpos = "La position d'appartion de %s a été créée.",
-	updated_spawnpos = "La position d'apparition de %s a été mis à jour.",
+	updated_spawnpos = "La position d'apparition de %s a été mise à jour.",
 	do_not_own_ent = "Vous ne possédez pas cette entité",
 	cannot_drop_weapon = "Impossible de jeter cette arme",
 	job_switch = "Le changement de métier a été effectué avec succès !",
@@ -298,9 +298,9 @@ local french = {
 	driver = "Conducteur: %s",
 	name = "Nom: %s",
 	lock = "Fermer",
-	locked = "Verouillé",
+	locked = "Verrouillé",
 	unlock = "Ouvrir",
-	unlocked = "Déverouillé",
+	unlocked = "Déverrouillé",
 	player_doesnt_exist = "Ce joueur n'existe pas.",
 	job_doesnt_exist = "Ce métier n'existe pas !",
 	must_be_alive_to_do_x = "Vous devez être en vie pour faire cela %s.",
@@ -349,11 +349,11 @@ local french = {
 	dead_in_jail = "Vous êtes mainteant mort jusqu'à que votre peine de prison soit terminée !",
 	died_in_jail = "%s est mort en prison !",
 
-	credits_for = "CREDITS FOR %s\n",
-	credits_see_console = "DarkRP credits printed to console.",
+	credits_for = "CREDITS POUR %s\n",
+	credits_see_console = "Les crédits DarkRp ont été imprimés dans la console.",
 
 	data_not_loaded_one = "Vos données n'ont pas encore été chargées. Veuillez patienter.",
-	data_not_loaded_two = "Si ce problème persiste, essayez de vous reconnecter ou de contacter un admninistrateur.",
+	data_not_loaded_two = "Si ce problème persiste, essayez de vous reconnecter ou de contacter un admininistrateur.",
 
 	cant_spawn_weapons = "Vous ne pouvez pas faire apparaître d'armes.",
 	drive_disabled = "La conduite est désactivée pour le moment.",
@@ -436,8 +436,8 @@ local french = {
 	price_too_low = "Prix trop faible !",
 	hit_target_recently_killed_by_hit = "La cible a été tuée par un mercenaire trop récemment.",
 	customer_recently_bought_hit = "Le client a déjà fait une demande d'assassinat récemment.",
-	accept_hit_question = "A accepté la proposition d'assassinat de la part de %s\nregarding %s pour tuer %s%d?", -- backwards compatibility
-	accept_hit_request = "A accepté la proposition d'assassinat de la part de %s\nregarding %s pour tuer %s?",
+	accept_hit_question = "À accepté la proposition d'assassinat de la part de %s\nregarding %s pour tuer %s%d?", -- backwards compatibility
+	accept_hit_request = "À accepté la proposition d'assassinat de la part de %s\nregarding %s pour tuer %s?",
 	hit_requested = "Cible demandée !",
 	hit_aborted = "Cible abandonnée ! %s",
 	hit_accepted = "Cible acceptée !",
@@ -488,8 +488,8 @@ local french = {
 	F4entities = "Objets",
 	F4ammo = "Munitions",
 	F4vehicles = "Véhicules",
-	F4donate = "",
-	F4premium = "Premium-offres",
+	F4donate = "Dons",
+	F4premium = "Offres Premium",
 	F4cars = "Voitures",
 	F4hats = "Vêtements",
 	F4attachments = "Extras d'arme",
@@ -632,7 +632,7 @@ local french = {
 	Ouvrez un bar et servez vos clients. Engagez un agent de sécurité pour faire dégager les personnes ivres.]],
 	carmaster = "Mécanicien automobile",
 	carmaster_desc = [[Réparez et ravitaillez les véhicules en essence.]],
-	security = "La sécurité",
+	security = "Agent de sécurité",
 	security_desc = [[Devenez un agent de la sécurité d'une boutique locale ou de la banque. Vous pouvez aussi être garde du corps.
 	Vous devez protéger les établissements des intimidateurs et des voleurs.
 	Si la situation s'aggrave: appelez la police.
@@ -726,7 +726,7 @@ local french = {
 
 	respawn_timer = "%d secondes restantes avant votre réapparition",
 	respawn_fee = "Vous avez payé %s pour les services médicaux",
-	premium_only = "Cette fonctionnalité est uniquement reservée aux premiums !",
+	premium_only = "Cette fonctionnalité est uniquement reservée aux Premiums !",
 
 	hitman_use = "Demander un assassinat",
 
@@ -750,7 +750,7 @@ local french = {
 	car_request = "Est-ce que %s peut monter dans votre véhicule ?",
 	car_request_sent = "Demande envoyée",
 	car_request_sent_already = "Demande déjà envoyée",
-	car_ok_but_distance = "Le conducteur a accepté que vous montiez dans son véhicule, mais vous êtes trop loin de lui",
+	car_ok_but_distance = "Le conducteur a accepté que vous montiez dans son véhicule, mais vous êtes maintenant trop loin de lui",
 	car_ok_but_distance_owner = "Le passager est maintenant trop loin de vous",
 	car_retrieved = "Le véhicule a été retourné à son propriétaire avec succès",
 	car_alarm = "Alarme de la voiture !",
@@ -758,8 +758,8 @@ local french = {
 	need_warrant = "Mandat requis",
 	car_rent_broken = "Ce véhicule est endommagé, appelez le mécanien automobile pour le réparer",
 	car_rent_end = "Vous ne louez plus ce véhicule",
-	car_rent_premium = "Seuls les premiums peuvent utiliser un véhicule loué.",
-	car_rent_need_premium = "Seuls les premiums peuvent louer des véhicules.\nVous pouvez le devenir en appuyant sur TAB.",
+	car_rent_premium = "Seuls les Premiums peuvent utiliser un véhicule loué.",
+	car_rent_need_premium = "Seuls les Premiums peuvent louer des véhicules.\nVous pouvez le devenir en appuyant sur TAB.",
 	car_rent_limit = "Vous avez déjà loué cette voiture !",
 	car_rent_start = "Vous pouvez commencer à utiliser votre véhicule loué",
 	car_rent_stop = "Arrêter la location de ce véhicule",
@@ -771,7 +771,7 @@ local french = {
 	car_modify = "Modifier",
 	car_sell_for = "Vendre: ",
 	sell_x_for_x = "Vendre %s pour %s ?",
-	modify_x_for_x = "Modifier %s pour %s? ",
+	modify_x_for_x = "Modifier %s pour %s ? ",
 	car_sell = "Vendre le véhicule",
 	car_modification = "Modifier le véhicule",
 	car_apply = "Appliquer: ",
@@ -780,7 +780,7 @@ local french = {
 	car = "Voiture",
 	car_kick = "Éjecter",
 	previous_owner = "Précédent propriétaire: %s",
-	taxi_popup = "Taxi %d/km€",
+	taxi_popup = "Taxi %d€/km",
 	car_retrieval = "Ranger le véhicule",
 
 	-- Laws
@@ -797,7 +797,7 @@ local french = {
 	laws_removed = "Le maire a supprimé la loi numéro ",
 	laws_set = "Définition des lois de ",
 	laws_clear = "Le maire a supprimé les anciennes lois.",
-	laws_reset = "Le maire a remis les les lois à zéro.",
+	laws_reset = "Le maire a restauré les lois.",
 	laws_default = "Les lois par défaut ont été restaurées.",
 
 	-- City Management
@@ -812,7 +812,7 @@ local french = {
 	cc_lawlength = "La longueur des lois doivent être comprises entre 3 et 1000 caractères",
 	cc_resetlaws = "Restaurer les lois par défaut",
 	cc_clearlaws = "Supprimer toutes les lois",
-	cc_addlaw = "Loi ajoutée",
+	cc_addlaw = "Ajouter une loi",
 	cc_lawlimit = "La limite de lois a été atteinte !",
 	cc_lawtext = "Texte de loi",
 	cc_invitecop = "Inviter dans la police",
@@ -831,7 +831,7 @@ local french = {
 	cc_upgraded = "Vous avez acheté l'amélioration '%s'",
 	cc_mayor_upgraded = "%s a acheté l'amélioration '%s'",
 	cc_helicopter_spawned = "Hélicoptère livré à l'héliport",
-	cc_helicopter_obstructed = "L'héliport est obstrué!",
+	cc_helicopter_obstructed = "L'héliport est obstrué !",
 
 	lockdown_reason = "Raison: %s",
 	door_cp = "Forces de l'ordre",
@@ -844,7 +844,7 @@ local french = {
 	charger_medkit_desc = "Les distributeurs de santé sont apparus au poste de police.",
 	charger_suit_desc = "Les distributeurs d'armure sont apparus au poste de police.",
 	door_upgrade_desc = "Les portes du gouverment reçoivent la fonction 'verrouillage/déverrouillage'.",
-	police_halo_desc = "Les coéquipiers ont un contour vert à travers les murs. Si un coéquipier parle à la radio, son profil devient bleu. Si un coéquipier est blessé, son contour devient rouge pendant un moment.",
+	police_halo_desc = "Les collègues ont un contour vert à travers les murs. Si un collègue parle à la radio, son profil devient bleu. Si un coéquipier est blessé, son contour devient rouge pendant un moment.",
 	microwave_desc = "Le micro-ondes est apparu au poste de police.",
 	radio_desc = "Tous les membres du gang vont recevoir une radio.",
 
@@ -902,7 +902,7 @@ local french = {
 	make_shipment = "Créer une cargaison",
 	pack = "Pack",
 
-	cmenu_hint = "Maintenez la pour voir les actions possibles",
+	cmenu_hint = "Maintenez la touche pour voir les actions possibles",
 	hint = "Astuce",
 
 	-- bomb
@@ -929,7 +929,7 @@ local french = {
 	pwl_close = "Fermer le casier",
 
 	pwl_fail_team = "Seulement les policiers peuvent prendre des armes dans ce casier.",
-	pwl_fail_damage = "Vous ne pouvez pas prendre cette arme car vous avez causé des blessures à un autre officier.",
+	pwl_fail_damage = "Vous ne pouvez pas prendre d'armes car vous avez causé des blessures à un autre officier.",
 	pwl_fail_already = "Vous avez déjà pris cette arme.",
 	pwl_fail_taken = "Cette arme a déjà été prise par un autre officier.",
 	pwl_fail_limit = "Vous avez atteint le nombre d'armes maximal que vous pouvez avoir sur vous.",
@@ -979,8 +979,8 @@ local french = {
 
 	-- Taxi
 	taxi_nomoney = "Vous n'avez plus assez d'argent pour payer le chauffeur !",
-	taxi_paid = "%d€ payés pour avoir fait une course",
-	taxi_payment = "%d€ reçus pour avoir fait",
+	taxi_paid = "Vous avez payé %d€ pour avoir fait une course",
+	taxi_payment = "Vous avez reçu %d€ pour avoir fait une course",
 	taxi_setprice_fail = "Vous ne pouvez pas changer le prix du taxi par kilomètre lorsque vous conduisez !",
 	taxi_setprice_ok = "Le prix de %d€ par kilomètre a été fixé",
 	taxi_nocar = "Vous devez posséder un taxi !",
@@ -1099,7 +1099,7 @@ local french = {
 	gang_not_created = "Le gang n'a pas été créé",
 	gang_invites_sent = "L'invitation a été envoyée",
 	gang_upgrade_bought = "Le chef du groupe a acheté l'amélioration %s",
-	gang_invite_text = "Aimerait que vous rejoigniez le gang %s (boss: %s)?",
+	gang_invite_text = "Aimerait que vous rejoigniez le gang %s (boss: %s)",
 	gang_invite_msg = " vous a invité à rejoindre ",
 	gang_kicked_you = " vous a exclu du gang ",
 	gang_kicked = " a été exclu du gang",
@@ -1121,14 +1121,14 @@ local french = {
 
 	-- Permaupgrades
 	up_flashlight = "Lampe torche",
-	up_flashlight_desc = "Appuyer sur F (impulse 100), pour utiliser la lampe torche.",
-	up_door_upgrade = "Portes renforcées",
+	up_flashlight_desc = "Débloque la lampe torche, appuyez sur F, pour l'utiliser.",
+	up_door_upgrade = "Portes améliorées",
 	up_door_upgrade_desc = "Toutes les portes que vous possédez accèdent à un écran tactile de verrouillage/déverrouillage.",
 	up_parkour = "Parcours",
-	up_parkour_desc = "1 niveau: pouvoir esquiver un mur.\n2 niveau: pouvoir saisir des corniches",
+	up_parkour_desc = "Premier niveau: vous pouvez grimper aux murs.\nDeuxième niveau: vous pouvez vous accrocher aux corniches",
 	up_level = " (niveau ",
 	up_bought = "Acheté",
-	up_already = "Vous avez déjà cette amélioration",
+	up_already = "Vous possédez déjà cette amélioration",
 	up_bought_msg = "Acheté ",
 	up_nomoney = "Fonds insuffisants",
 
@@ -1188,7 +1188,7 @@ local french = {
 
 	quota = "Quota: %d%% des joueurs connectés",
 	no_quota = "Pas de quota",
-	quota_notice = "Les limitations des métiers est basée sur le nombre de joueurs. Plus de joueurs - plus de places pour les métiers.\nLes joueurs avec abonnement Premium peuvent contourner les limites.",
+	quota_notice = "Les limitations des métiers sont basées sur le nombre de joueurs. Plus de joueurs - plus de places pour les métiers.\nLes joueurs avec abonnement Premium peuvent contourner les limites.",
 
 	enemy = "Enemmi",
 	neutral = "Neutre",
@@ -1197,7 +1197,7 @@ local french = {
 	turret_friends = "Amis:",
 	steam_friends = "Amis Steam",
 	gang_or_police = "gang / police",
-	cant_pack_turret = "Ne peut emballer la tourelle cassée",
+	cant_pack_turret = "Vous ne pouvez pas emballer une tourelle cassée",
 	turret_already_repair = "La tourelle est déjà en train de se faire réparer",
 	turret_repairing = "Réparation de la tourelle...",
 	turret_attacked = "La tourelle se fait attaquer !",
@@ -1243,15 +1243,15 @@ local french = {
 	medcenter_mode_heal = "Soins simples",
 	medcenter_mode_bones = "Rayons X",
 	medcenter_mode_desease = "Analyse simple",
-	medcenter_skel_health = "Santé des os",
-	medcenter_skel_scanning = "Scanning",
+	medcenter_skel_health = "État des os",
+	medcenter_skel_scanning = "Analyse",
 	medcenter_health = "Santé",
 	medcenter_ready = "Prêt",
 
 	police_is_near = "La police est proche",
 
 	heatmap = "Carte de chaleur",
-	heatmap_desc = "Afficher la chaleur, produise par les imprimantes à argent, les micro-ondes et autres objets sur la carte",
+	heatmap_desc = "Afficher la chaleur produite par les imprimantes à argent et d'autres objets sur la carte",
 	heatmap_already = "Vous possédez déjà une carte de chaleur",
 
 	lockdown_timeleft = "Vous avez %d secondes pour rentrer chez vous",
@@ -1266,13 +1266,13 @@ local french = {
 	for_you_in_stock = "\nPour vous en stock: %d/%d\n%s",
 	printerman_gui_title = "Service d'imprimantes",
 
-	sellers_gohere = "Allez au point indiqué pour rencontrer le vendeur",
+	sellers_gohere = "Allez au point indiqué pour y rencontrer le vendeur",
 	sellers_here = "Rencontrez le vendeur là-bas",
 
 	printer_new_way = "Vous ne pouvez plus faire apparaître une imprimante n'importe où.\nVous devez appeler un vendeur spécialisé.\nMaintenez C > Appels d'urgences ou de services > Contacter un vendeur d'imprimante",
 	buyprinter_new_way = "Vous pouvez seulement acheter une imprimante avec un service spécial",
 
-	charger_battery = "Batterie chargée à 100%%",
+	charger_battery = "Batterie chargée à 100%",
 	weapon_vape = "Vaporisateur",
 	repair_verb = "Réparer",
 	door_single = "Porte",
@@ -1292,12 +1292,12 @@ local french = {
 	empty = "VIDE",
 	itemshop_eject = "ÉJECTER",
 	itemshop_price = "PRIX",
-	itemshop_map_spot = "Spot de carte",
+	itemshop_map_spot = "Afficher sur la carte",
 	itemshop_wallpaper = "Fond d'écran",
 	itemshop_eject_money = "Éjecter l'argent",
 	itemshop_settings = "Service",
 	itemshop_on_service = "EN SERVICE",
-	itemshop_put_shipments = "Mettez votre cargaison directement sur l'écran pour l'ajouter",
+	itemshop_put_shipments = "Mettez votre colis directement sur l'écran pour l'ajouter",
 	itemshop_restore = "Restorer",
 	itemshop_rename = "Renommer",
 	itemshop_setprice_title = "Le prix a été fixé à %s",
@@ -1305,11 +1305,11 @@ local french = {
 	itemshop_rename_title = "Changer le nom du distributeur automatique",
 	itemshop_rename_text = "Entrer un nouveau nom",
 
-	disabled_dead = "Les morts sont activées",
-	disabled_arrested = "Les arrestations sont activées",
-	disabled_tased = "Les tazers sont activés",
-	disabled_cuffs = "Le menottage est activé",
-	disabled_car = "Désactivé lorsque vous êtes en voiture",
+	disabled_dead = "Impossible lorsque vous êtes mort",
+	disabled_arrested = "Impossible lorsque vous êtes arrêté",
+	disabled_tased = "Impossible lorque vous êtes tasé",
+	disabled_cuffs = "Impossible lorsque vous êtes menotté",
+	disabled_car = "Impossible lorsque vous êtes en voiture",
 
 	handcuffs = "Menottes",
 	handcuffs_topocket = "Les menottes ont été rangées dans votre poche",
@@ -1327,7 +1327,7 @@ local french = {
 	elevator_button_up = "Appeler l'ascenseur",
 	elevator_button_down = "Appeler l'ascenseur",
 	elevator_button_level = "Étage %d",
-	elevator_display_level = "Sol:",
+	elevator_display_level = "Étage:",
 	-- TOOL:
 	["undone_elevator"] = "Ascenseur retiré",
 	["tool.nx_elevator.name"] = "Ascenseur",
@@ -1356,15 +1356,15 @@ local french = {
 
 	-- teamkill
 	teamkill_kill = "%s a tué son collègue %s.",
-	teamkill_kill_warn = "ATTENTION: Vous avez tué un collègue! Vous allez être banni de la police si vous tuez encore %d agents!",
+	teamkill_kill_warn = "ATTENTION: Vous avez tué un collègue ! Vous allez être banni de la police si vous tuez encore %d agents !",
 	teamkill_hurt = "%s a attaqué son collègue %s.",
-	teamkill_hurt_warn = "ATTENTION: Vous avez attaqué %s, un de vos collègues!",
+	teamkill_hurt_warn = "ATTENTION: Vous avez attaqué %s, un de vos collègues !",
 
 	-- lives
-	lives_died = "Il vous reste %d vies. Encore %d minutes avant d'en récupérer une autre.",
+	lives_died = "Il vous reste %d vie. Encore %d minute(s) avant d'en récupérer une autre.",
 	lives_died_warn = "Si il ne vous reste plus de vies, vous ne serez plus en mesure d'utiliser des armes.",
 	lives_restored = "Vous venez de récupérer une vie. Nombre de vies: %d",
-	lives_hud1 = "Vies: %d/2",
+	lives_hud1 = "Vie: %d/2",
 	lives_hud2 = "Récupération dans: %s minutes",
 }
 
