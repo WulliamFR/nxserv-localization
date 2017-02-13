@@ -345,6 +345,7 @@ local french = {
 	yes_demote = "Oui, je veux qu'il soit rétrogradé",
 	no_demote = "Non, je ne veux pas qu'il soit rétrogradé ",
 	dont_vote = "Vous n'avez pas voté",
+	demote_rule = [[Votez sagement, ne votez pas aléatoirement en appuyant sur "F5" et "F6" dans les votes. Si vous n'êtes pas sûr - appuyez sur "ne pas voter".]],
 
 	dead_in_jail = "Vous êtes mainteant mort jusqu'à que votre peine de prison soit terminée !",
 	died_in_jail = "%s est mort en prison !",
