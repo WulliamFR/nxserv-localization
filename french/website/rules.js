@@ -61,7 +61,7 @@ module.exports = {
 							<li>Rester devant une voiture en mouvement.
 						</ul>`,
 					`Tout vote de renvoi (Premium seulement) doit avoir une raison appropriée et en accord avec les règles, sans insultes. Vous n'êtes pas autorisés à initier des votes de renvoi s'il n'y a aucune règle qui n'est pas respectée.`,
-					`Vote wisely, don't randomly press "yes" or "no" in votes. If you're unsure - press "not voting".`,
+					`Votez judicieusement, n'appuyez pas aléatoirement sur "oui" ou "non" lors des votes. Si vous êtes incertain - appuyez sur "ne pas voter".`,
 					`Il est strictement interdit d'échanger de l'argent dans le jeu contre de l'argent réel ou ses équivalents.`,
 				]
 			],
