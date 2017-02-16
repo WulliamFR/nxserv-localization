@@ -559,7 +559,7 @@ local french = {
 	-- Printer
 	printer_disabled = "L'imprimante est désactivée. Apportez-la à la broyeuse du poste de police pour obtenir une récompense.",
 	printer_fixed = "Bloc policier retiré. L'imprimante est de nouveau fonctionnelle.",
-	printer_warning = "Attention !\nUne utilisation imprudente peut conduire à une inflammation !",
+	printer_warning = "Attention !\nUn risque d'explosion existe !",
 	printer_error = "L'impression n'est pas possible\nIl n'y pas de place pour l'évacuation de l'argent.",
 	printer_speed = "Vitesse",
 	printer_speed_upgrade = "Amélioration de vitesse",
@@ -844,7 +844,7 @@ local french = {
 
 	charger_medkit_desc = "Les distributeurs de santé sont apparus au poste de police.",
 	charger_suit_desc = "Les distributeurs d'armure sont apparus au poste de police.",
-	door_upgrade_desc = "Les portes du gouverment reçoivent la fonction 'verrouillage/déverrouillage'.",
+	door_upgrade_desc = "Les portes du gouvernement reçoivent la fonction 'verrouillage/déverrouillage'.",
 	police_halo_desc = "Les collègues ont un contour vert à travers les murs. Si un collègue parle à la radio, son profil devient bleu. Si un coéquipier est blessé, son contour devient rouge pendant un moment.",
 	microwave_desc = "Le micro-ondes est apparu au poste de police.",
 	radio_desc = "Tous les membres du gang vont recevoir une radio.",
