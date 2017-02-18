@@ -137,7 +137,7 @@ module.exports = {
 					`Les boutons/keypads doivent être proches de l'objet auquel ils contrôlent et facilement visibles.`,
 					`Les entrées devront être capable de contenir deux joueurs et être en taille entière, ce qui signifie qu'il doit faire la taille d'un joueur qui se tient debout (64 unités), donc les tunnels qui demandent à être accroupis, ou les couloirs qui demandent des esquives/des sauts/des deviations ne sont pas autorisées.`,
 					`Il est interdit d'utiliser, créer et supprimer des fading doors pendant une bataille.`,
-					`Les chambres de tirs doivent mesurer moins de la moitié d'une plaque standard (metal_plate1, 1x1 PHX) en hauteur et en largeur.`,
+					`Les chambres de tirs ne doivent pas mesurer moins de la moitié d'une plaque standard (metal_plate1, 1x1 PHX) en hauteur et en largeur.`,
 					`Les portes, les caméras, les ponts, les boutons et d'autres objets doivent être clairement visibles.`,
 					`Il est interdit d'utiliser un prop qui ressemble à un mur, mais qui agit comme un mur sans collisions et tirer à travers et vice versa.`,
 					`Il est interdit d'utiliser un prop qui n'est transparent que d'un seul côté.`,
