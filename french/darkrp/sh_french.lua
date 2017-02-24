@@ -1065,7 +1065,7 @@ local french = {
 	-- Group
 	gang_creation = "Création du gang",
 	gang_name = "Nom du gang:",
-	gang_info = "Au moins deux personnes doivent rejoindre le gang.",
+	gang_info = "Minimum 2 joueurs.",
 	gang_create = "Créer un gang",
 	gang_poor_name = "Mauvais nom",
 	gang_few_mates = "Pas assez de membres choisis",
@@ -1081,7 +1081,7 @@ local french = {
 	gang_request = "Demander de l'argent aux membres du gang",
 	gang_request_title = "Demander de l'argent aux membres",
 	gang_request_am = "Montant en € (total):",
-	gang_disband = "Dissous",
+	gang_disband = "Dissoudre",
 	gang_disband_title = "Dissoudre",
 	gang_disband_confirm = "Confirmer la dissolution du gang",
 	gang_invite_title = "Inviter au gang",
@@ -1173,7 +1173,7 @@ local french = {
 	elevator_office = "Bureaux",
 
 	deployable_onlylast = "Seulement la dernière personne à avoir transporté cette boîte peut l'ouvrir",
-	deployable_wait = " %d secondes",
+	deployable_wait = " %d seconde(s)",
 
 	--
 	warn_cops = "Avertir la police",
