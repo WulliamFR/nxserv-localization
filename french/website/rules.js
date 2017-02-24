@@ -135,7 +135,7 @@ module.exports = {
 					`Vous n'êtes pas autorisé à utiliser plus de deux couches de portes (les portes usuelles sont aussi prise en compte).<br>
 						Si cette porte est de plus de deux props, il devra y avoir un keypad facilement visible près de la porte, qui ouvre toute l'entrée au même moment.`,
 					`Les boutons/keypads doivent être proches de l'objet qu'ils contrôlent et facilement visibles.`,
-					`Les entrées devront être capable de contenir deux joueurs et être en taille entière, ce qui signifie qu'il doit faire la taille d'un joueur qui se tient debout (64 unités), donc les tunnels qui demandent à être accroupis, ou les couloirs qui demandent des esquives/des sauts/des deviations ne sont pas autorisés.`,
+					`Les entrées devront être capable de contenir deux joueurs et être en taille entière, ce qui signifie qu'elles doivent faire la taille d'un joueur qui se tient debout (64 unités), donc les tunnels qui demandent à être accroupis, ou les couloirs qui demandent des esquives/des sauts/des deviations ne sont pas autorisés.`,
 					`Il est interdit d'utiliser, créer et supprimer des fading doors pendant une bataille.`,
 					`Les chambres de tirs ne doivent pas mesurer moins de la moitié d'une plaque standard (metal_plate1, 1x1 PHX) en hauteur et en largeur.`,
 					`Les portes, les caméras, les ponts, les boutons et d'autres objets doivent être clairement visibles.`,
