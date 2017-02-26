@@ -23,13 +23,13 @@ local french = {
 	loss = "perte",
 
 	-- backwards compatibility
-	deducted_x = "Déduit de %s%d",
+	deducted_x = "Déduit %s%d",
 	need_x = "Besoin de %s%d",
 
 	deducted_money = "Déduit de %s",
 	need_money = "Besoin de %s",
 
-	payday_message = "Jour de paie, vous recevez %s !",
+	payday_message = "Jour de paie ! Vous recevez %s !",
 	payday_unemployed = "Vous n'avez pas reçu de salaire, car vous êtes au chômage !",
 	payday_missed = "Paie non reçue, car vous êtes en prison !",
 
@@ -61,8 +61,8 @@ local french = {
 	warrant_request2 = "Mandat de perquisition envoyé au maire %s !",
 	warrant_approved = "Mandat de perquisition approuvé pour %s !\nRaison: %s\nOrdonné par: %s",
 	warrant_approved2 = "Vous avez maintenant l'autorisation de fouiller la maison de la personne.",
-	warrant_denied = "Le maire %s a refusé votre mandat de perquisition.",
-	warrant_expired = "Le mandat de perquisition sur %s a expiré !",
+	warrant_denied = "Le maire %s a refusé votre avis de recherche.",
+	warrant_expired = "L'avis de recherche sur %s a expiré !",
 	warrant_required = "Vous avez besoin d'un mandat pour pouvoir ouvrir cette porte.",
 	warrant_required_unfreeze = "Vous avez besoin d'un mandat pour dégeler cet objet.",
 	warrant_required_unweld = "Vous avez besoin d'un mandat pour détruire cet objet.",
@@ -80,7 +80,7 @@ local french = {
 	actor_doesnt_exist = "La personne n'existe pas.",
 	get_a_warrant = "Obtenir un mandat",
 	give_warrant = "Donner un mandat",
-	make_someone_wanted = "Émettre un avis de recherche",
+	make_someone_wanted = "Mettre une recherche sur quelqu'un",
 	remove_wanted_status = "Enlever la recherche",
 	already_a_warrant = "Il existe déjà un mandat de perquisition pour cette personne.",
 	already_wanted = "Le suspect est déjà recherché.",
@@ -120,10 +120,10 @@ local french = {
 	-- Teams
 	need_to_be_before = "Vous devez d'abord être %s avant de demander d'être %s",
 	need_to_make_vote = "Vous devez créer un vote pour devenir %s !",
-	team_limit_reached = "Vous ne pouvez pas exercer le métier %s, la limite a été atteinte",
+	team_limit_reached = "Vous ne pouvez pas exercer le métier %s la limite est atteinte",
 	wants_to_be = "%s\nveut être\n%s",
 	has_not_been_made_team = "%s n'est pas devenu %s !",
-	job_has_become = "%s est devenu %s.",
+	job_has_become = "%s est devenu %s !",
 
 	-- Keys, vehicles and doors
 	keys_allowed_to_coown = "Vous n'êtes pas autorisé à être co-propriétaire\n(Appuyez sur F2 pour être co-propriétaire)\n",
@@ -134,7 +134,7 @@ local french = {
 	keys_unowned = "Pas de propriétaire\n(Appuyez sur F2 pour s'approprier cela)",
 	keys_everyone = "(Appuyez sur F2 pour donner les clés à tout le monde)",
 	door_unown_arrested = "Vous ne pouvez pas acheter/vendre des choses lorsque vous êtes arrêté !",
-	door_unownable = "Cette porte ne peut pas être attribuée/désattribuée !",
+	door_unownable = "Cette porte ne peut pas être atribuée/désatribuée !",
 	door_sold = "Vous avez vendu cela pour %s",
 	door_already_owned = "Cette porte appartient déjà à quelqu'un !",
 	door_cannot_afford = "Vous ne pouvez pas offrir cette porte !",
@@ -155,7 +155,7 @@ local french = {
 	door_groups = "Groupe de porte",
 	door_group_doesnt_exist = "Ce groupe de porte n'existe pas !",
 	door_group_set = "Groupe de porte réglé avec succès.",
-	sold_x_doors_for_y = "Vous avez vendu %d porte(s) pour %s%d !", -- backwards compatibility
+	sold_x_doors_for_y = "Vous avez vendu %d portes pour %s%d !", -- backwards compatibility
 	sold_x_doors = "Vous avez vendu %d portes pour %s !",
 
 	-- Entities
@@ -278,7 +278,7 @@ local french = {
 	created_first_jailpos = "Vous avez créé la première position de prison",
 	added_jailpos = "Vous avez ajouté une position de prison supplémentaire !",
 	reset_add_jailpos = "Vous avez supprimé toutes les positions de prison et vous en avez ajouté une nouvelle.",
-	created_spawnpos = "La position d'apparition de %s a été créée.",
+	created_spawnpos = "La position d'appartion de %s a été créée.",
 	updated_spawnpos = "La position d'apparition de %s a été mise à jour.",
 	do_not_own_ent = "Vous ne possédez pas cette entité",
 	cannot_drop_weapon = "Impossible de jeter cette arme",
@@ -345,7 +345,7 @@ local french = {
 	yes_demote = "Oui, je veux qu'il soit rétrogradé",
 	no_demote = "Non, je ne veux pas qu'il soit rétrogradé ",
 	dont_vote = "Vous n'avez pas voté",
-	demote_rule = [[Votez judicieusement, n'appuyez pas aléatoirement sur "oui" ou "non" lors des votes. Si vous êtes incertain - appuyez sur "ne pas voter".]],
+	demote_rule = [[Vote wisely, don't randomly press "yes" or "no" in votes. If you're unsure - press "not voting".]],
 
 	dead_in_jail = "Vous êtes mainteant mort jusqu'à que votre peine de prison soit terminée !",
 	died_in_jail = "%s est mort en prison !",
@@ -354,11 +354,11 @@ local french = {
 	credits_see_console = "Les crédits DarkRP ont été imprimés dans la console.",
 
 	data_not_loaded_one = "Vos données n'ont pas encore été chargées. Veuillez patienter.",
-	data_not_loaded_two = "Si ce problème persiste, essayez de vous reconnecter ou de contacter un administrateur.",
+	data_not_loaded_two = "Si ce problème persiste, essayez de vous reconnecter ou de contacter un admininistrateur.",
 
 	cant_spawn_weapons = "Vous ne pouvez pas faire apparaître d'armes.",
-	drive_disabled = "La conduite est momentanément désactivée.",
-	property_disabled = "Fonctionnalité momentanément désactivée.",
+	drive_disabled = "La conduite est désactivée pour le moment.",
+	property_disabled = "Fonctionnalité désactivée pour le moment.",
 
 	not_allowed_to_purchase = "Vous n'êtes pas autorisé à acheter cet objet.",
 
@@ -458,7 +458,7 @@ local french = {
 	-- Vote Restrictions
 	hobos_no_rights = "Les sans abri n'ont pas le droit de vote",
 	gangsters_cant_vote_for_government = "Les gangsters ne peuvent voter pour des affaires gouvernementales.",
-	government_cant_vote_for_gangsters = "Les fonctionnaires ne peuvent pas voter pour des affaires illégales.",
+	government_cant_vote_for_gangsters = "Les fonctionnaires du gouvernement ne peuvent pas voter pour des affaires illégales.",
 
 	-- VGUI and some more doors/vehicles
 	vote = "Vote",
@@ -475,7 +475,7 @@ local french = {
 
 	x_options = "Options de %s",
 	sell_x = "Ventes %s",
-	set_x_title = "Donner un titre à %s",
+	set_x_title = "Mettre un titre à %s",
 	set_x_title_long = "Donnez un nom à l'objet %s que vous regardez.",
 	jobs = "Métiers",
 	buy_x = "Acheter %s",
@@ -484,6 +484,7 @@ local french = {
 	no_extra_weapons = "Ce métier n'a pas d'armes additionnelles.",
 	become_job = "Choisir ce métier",
 	create_vote_for_job = "Créer un vote",
+	participate_in_elections = "Participer à l'élection",
 	shipments = "Boîtes",
 	F4guns = "Armes",
 	F4entities = "Objets",
@@ -507,12 +508,12 @@ local french = {
 	demote_player_menu = "Rétrograder un joueur",
 
 
-	searchwarrantbutton = "Émettre un avis de recherche",
+	searchwarrantbutton = "Mettre un avis de recherche sur quelqu'un",
 	unwarrantbutton = "Enlever le status de recherche d'une personne",
 	noone_available = "Personne n'est disponible",
 	request_warrant = "Faire un mandat de perquisition",
 	make_wanted = "Mettre un avis de recherche sur quelqu'un",
-	make_unwanted = "Retirer un avis de recherche",
+	make_unwanted = "Enlever l'avis de recherche d'une personne",
 	set_jailpos = "Définir la position de la prison",
 	add_jailpos = "Ajouter une prison",
 
@@ -559,7 +560,7 @@ local french = {
 	-- Printer
 	printer_disabled = "L'imprimante est désactivée. Apportez-la à la broyeuse du poste de police pour obtenir une récompense.",
 	printer_fixed = "Bloc policier retiré. L'imprimante est de nouveau fonctionnelle.",
-	printer_warning = "Attention !\nUn risque d'explosion existe !",
+	printer_warning = "Attention !\nUne utilisation imprudente peut conduire à une inflammation !",
 	printer_error = "L'impression n'est pas possible\nIl n'y pas de place pour l'évacuation de l'argent.",
 	printer_speed = "Vitesse",
 	printer_speed_upgrade = "Amélioration de vitesse",
@@ -716,7 +717,7 @@ local french = {
 	nx_repair = "Clé à molette",
 
 	-- Hints
-	bomb_instructions1 = "Bouton gauche de la souris - Jeter la bombe",
+	bomb_instructions1 = "Bouton gauche de la souris  - Jeter la bombe",
 	bomb_instructions2 = "Bouton droit de la souris - Coller la bombe au mur",
 
 	unpacker_instructions1 = "Placez l'objet: ",
@@ -736,7 +737,7 @@ local french = {
 	nobind = "[PAS DE TOUCHE DÉFINIE]",
 
 	-- Cars
-	car_on_fire = "Votre véhicule est en feu, vous ne pouvez pas le supprimer",
+	car_on_fire = "Votre véhicule est en feu, vous êtes coincé",
 	car_bought = "La voiture a bien été achetée",
 	car_buymsg = "Vous avez acheté %s.\nUtilisez le terminal le plus proche pour la faire apparaître.",
 	car_rentmsg = "Vous avez loué %s.\nUtilisez le terminal le plus proche pour la faire apparaître.",
@@ -844,7 +845,7 @@ local french = {
 
 	charger_medkit_desc = "Les distributeurs de santé sont apparus au poste de police.",
 	charger_suit_desc = "Les distributeurs d'armure sont apparus au poste de police.",
-	door_upgrade_desc = "Les portes du gouvernement reçoivent la fonction 'verrouillage/déverrouillage'.",
+	door_upgrade_desc = "Les portes du gouverment reçoivent la fonction 'verrouillage/déverrouillage'.",
 	police_halo_desc = "Les collègues ont un contour vert à travers les murs. Si un collègue parle à la radio, son profil devient bleu. Si un coéquipier est blessé, son contour devient rouge pendant un moment.",
 	microwave_desc = "Le micro-ondes est apparu au poste de police.",
 	radio_desc = "Tous les membres du gang vont recevoir une radio.",
@@ -1367,6 +1368,19 @@ local french = {
 	lives_restored = "Vous venez de récupérer une vie. Nombre de vies: %d",
 	lives_hud1 = "Vies: %d/2",
 	lives_hud2 = "Récupération dans: %s minute(s)",
+
+	-- election
+	election_start = "Election is starting, accepting candidatures!",
+	election_reg_over = "Candidudature registration is over, vote has started!",
+	election_thanks_for_voting = "Your vote has been registered",
+	election_over = "Election is over. Winner — %s",
+	election_second_tour = "No clear winner. Commencing additional vote tour!",
+	election_wanna = "Do you want to vote on election?",
+	election_results = "Vote results:",
+	election_put_promise = "Enter your pre-election promise:",
+	election_registered = "Your candidature has been registered",
+	election_already = "Your candidature is already registered!",
+	election_too_late = "Registration is closed",
 }
 
 DarkRP.addLanguage("fr", french)
