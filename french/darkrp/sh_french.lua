@@ -1370,17 +1370,17 @@ local french = {
 	lives_hud2 = "Récupération dans: %s minute(s)",
 
 	-- election
-	election_start = "Election is starting, accepting candidatures!",
-	election_reg_over = "Candidudature registration is over, vote has started!",
-	election_thanks_for_voting = "Your vote has been registered",
-	election_over = "Election is over. Winner — %s",
-	election_second_tour = "No clear winner. Commencing additional vote tour!",
-	election_wanna = "Do you want to vote on election?",
-	election_results = "Vote results:",
-	election_put_promise = "Enter your pre-election promise:",
-	election_registered = "Your candidature has been registered",
-	election_already = "Your candidature is already registered!",
-	election_too_late = "Registration is closed",
+	election_start = "Les élections débutent, votez pour votre candidat favori !",
+	election_reg_over = "L'inscription aux élections est terminée, le vote a débuté !",
+	election_thanks_for_voting = "Votre vote a été enregistré",
+	election_over = "Les élections sont terminées. Vainqueur — %s",
+	election_second_tour = "Pas de vainqueur. Début du second tour !",
+	election_wanna = "Souhaitez-vous voter aux élections ?",
+	election_results = "Résultats des votes:",
+	election_put_promise = "Entrez votre promesse de pré-élection:",
+	election_registered = "Votre candidature a bien été enregistrée",
+	election_already = "Votre candidature a déjà été enregistrée !",
+	election_too_late = "L'inscription est terminée",
 }
 
 DarkRP.addLanguage("fr", french)
