@@ -198,9 +198,9 @@ local french = {
 	pocket_no_items = "Votre poche est vide.",
 	drop_item = "Objet lâché",
 
-	pickup_item = "Pick up item",
-	drop_last_item = "Drop last item",
-	invertory = "Invertory",
+	pickup_item = "Ramasser un objet",
+	drop_last_item = "Jeter le dernier objet ramassé",
+	invertory = "Inventaire",
 
 	bonus_destroying_entity = "Destruction de l'objet illégal.",
 
