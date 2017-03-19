@@ -51,8 +51,6 @@ local french = {
 	-- Police
 	Wanted_text = "Recherché !",
 	he_wanted = "Recherché par la police !\nRaison: %s",
-	youre_arrested = "Vous avez été arrêté. Temps restant: %d secondes.",
-	youre_arrested_by = "Vous avez été arrêté par %s.",
 	youre_unarrested_by = "Vous avez été libéré par %s.",
 	hes_arrested = "%s a été arrêté pour %d secondes.",
 	hes_unarrested = "%s a été libéré.",
@@ -105,7 +103,7 @@ local french = {
 	hunger = "Faim: ",
 	starving = "AFFAMÉ",
 	armor = "Armure: ",
-	in_jail = "En prison",
+	in_jail = "En prison%s. Temps restant: %d secondes",
 	with_license = "Avec license",
 	radio_disabled = "La radio est désactivée",
 	wanted = "Recherché: ",
@@ -200,6 +198,10 @@ local french = {
 	pocket_no_items = "Votre poche est vide.",
 	drop_item = "Objet lâché",
 
+	pickup_item = "Pick up item",
+	drop_last_item = "Drop last item",
+	invertory = "Invertory",
+
 	bonus_destroying_entity = "Destruction de l'objet illégal.",
 
 	switched_burst = "Mode rafale activé.",
@@ -244,13 +246,13 @@ local french = {
 	request = "(REQUÊTE)",
 	group = "(groupe)",
 	demote = "(RÉTROGRADER)",
-	ooc = "HRP",
+	ooc = "Ville",
 	radio_x = "Radio %d",
 
 	talk = "dire",
 	speak = "parler",
 
-	speak_in_ooc = "parlez en HRP",
+	speak_in_ooc = "parlez de ville",
 	perform_your_action = "exécutez votre action",
 	talk_to_your_group = "parlez au groupe",
 
@@ -411,6 +413,7 @@ local french = {
 	cheer = "Acclamation",
 	salute = "Saluer",
 	robot = "Robot",
+	animations = "Animations",
 
 	-- AFK
 	afk_mode = "Mode AFK",
