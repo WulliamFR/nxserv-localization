@@ -940,7 +940,7 @@ local french = {
 	pwl_fail_limit = "Vous avez atteint le nombre d'armes maximal que vous pouvez avoir sur vous.",
 	pwl_wait = "Patientez %d secondes.",
 	pwl_success = "Arme prise.",
-	pwl_returned = "Retourner l'arme.",
+	pwl_returned = "Arme retournée.",
 
 	--
 	radar_already = "Vous possédez déjà un radar.",
