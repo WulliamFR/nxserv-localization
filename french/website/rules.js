@@ -49,7 +49,7 @@ module.exports = {
 					`Votre nom roleplay doit être réaliste (et non Chat Miaou, L'Homme Crabe), il ne devra pas contenir de ponctuation et devra suivre les règles générales de capitalisation des mots.`,
 					`Il est interdit d'utiliser le suicide, de se reconnecter, ou de changer de métier pour échapper à situation RP, tel que les poursuites par la police, les braquages, devenir un otage, la faim ou autre.`,
 					`Votre mission n'est pas de vaincre tout le monde, ne tuez pas toutes les personnes que vous voyez sur votre chemin. Tout meurtre devra suivre avec une raison adéquate. (Random DeathMatch, RDM)`,
-					`It is perfectly reasonable to make one revenge kill. However, multiple consequential killings will be deemed as RDM.`,
+					`Il est tout à fait raisonnable de tuer quelqu'un pour se venger. Toutefois, tuer une même personne plusieurs fois sera considéré à du RDM.`,
 					`Tout métier peut avoir une arme pour se défendre, sauf celles interdites par les lois.`,
 					`Les chefs de gangs sont "invisibles" - votre personnage ressemble à un citoyen normal (ce qui signifie, vous ne pouvez pas fouiller un chef de gang, juste parce qu'il est chef).<br>
 						Toutes les autres informations affichées sur l'écran sont aussi vues par votre personnage.`,
@@ -69,7 +69,7 @@ module.exports = {
 			[
 				"Règles du chat",
 				[
-					`N'utilisez pas le Ville chat pour communiquer avec une personne en particulier.<br>
+					`N'utilisez pas le chat de Ville pour communiquer avec une seule personne en particulier.<br>
 						Pour discuter avec quelqu'un en privé utilisez le PM tab dans le chat.`,
 					`Il est interdit de commettre des actions roleplay sexuellement explicites.`,
 					`Il est interdit d'envoyer un message en /advert, qui n'est pas une publicité RP.`,
