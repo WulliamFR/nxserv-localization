@@ -340,13 +340,13 @@ local french = {
 	you_cannot_vote = "Vous ne pouvez pas voter !",
 	x_cancelled_vote = "%s a annulé le dernier vote.",
 	cant_cancel_vote = "Impossible d'annuler le dernier vote car il n'y avait pas de dernier vote !",
-	jail_punishment = "Puntion pour avoir déconnecté ! Vous êtes emprisonné pour %d secondes.",
+	jail_punishment = "Punition pour avoir déconnecté ! Vous êtes emprisonné pour %d secondes.",
 	admin_only = "Administrateur seulement !", -- When doing /addjailpos
 	chief_or = "Chef de ",-- When doing /addjailpos
 	frozen = "Gelé.",
 	yes_demote = "Oui, je veux qu'il soit rétrogradé",
 	no_demote = "Non, je ne veux pas qu'il soit rétrogradé ",
-	dont_vote = "Vous n'avez pas voté",
+	dont_vote = "Ne pas voter",
 	demote_rule = [[Vote wisely, don't randomly press "yes" or "no" in votes. If you're unsure - press "not voting".]],
 
 	dead_in_jail = "Vous êtes mainteant mort jusqu'à que votre peine de prison soit terminée !",
