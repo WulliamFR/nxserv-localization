@@ -33,7 +33,7 @@ module.exports = {
 					"Soyez polis et patient lorsque vous communiquez avec un administrateur.",
 					"Lorsque vous appellez un administrateur, vous devez indiquer le problème et le nom du joueur offensant.",
 					"Ne menacez pas les administrateurs de les faire rétrograder, vous n'avez aucun pouvoir.",
-					"N'ajoutez pas les admins sur Steam ou d'autres moyens pour communiquer. Utilisez le forum, ou Discord.",
+					"N'ajoutez pas les admins sur Steam ou d'autres moyens pour communiquer. Utilisez le forum.",
 					"Les administrateurs travaillent de leur plein gré. Ils ne sont pas obligés de répondre."
 				]
 			]
