@@ -184,9 +184,9 @@ Gameplay:
 		thanks = "Vos fonds ont été ajoutés à votre compte, merci !",
 		buy_for = "Acheter pour ",
 		premium_cars = "Voitures Premium",
-		premium_cars_desc = "Exclusive automobiles from Porsche and Mercedes. Emphasize your high status.\nBought only with real money.\nCar is permanently added to your vehicle list.",
+		premium_cars_desc = "Automobiles exclusives de Porsche à Mercedex. Mettez l'accent sur votre statut élevé.\nAchetables uniquement avec de l'argent réel.\nLa voiture est ajoutée à votre garage de façon permanente.",
 		regular_cars = "Voitures ordinaires",
-		regular_cars_desc = "Automobiles which are available to all. Bought with in-game currency.",
+		regular_cars_desc = "Automobiles qui sont disponibles pour tout le monde. Achetables avec la monnaie du jeu.",
 		slots = "Emplacements :",
 		store = "Magasin :",
 		ui_back = "< Retour",
@@ -198,7 +198,7 @@ Personnage :
 * Le temps de respawn réduit à 10 secondes
 * La barre de faim descend 2 fois moins vite
 * La capacité maximum de l'armure est augmentée à 200%
-* L'icôe Premium dans le TAB vous rend plus perceptible
+* L'icône Premium dans le TAB vous rend plus perceptible
 
 Voitures :
 * Les voitures consomment 50% de carburant en moins
@@ -213,16 +213,16 @@ Gameplay :
 * Les imprimantes à argent et la pêche donnent 50% de revenus en plus]],
 		richbitch_desc = "Seulement pour le DarkRP. Le nombre d'achat est illimité.",
 		richbitch_title = "%s Monnaie Du Jeu",
-		premium_car_desc_1 = [[Premium exclusif de la classe du véhicule, de façon permanente ajoutés à votre liste de véhicule.
+		premium_car_desc_1 = [[Catégorie exclusive de véhicules Premium, ajoutés de façon permanente à votre liste de véhicule.
 	%d siège passager.]],
-		premium_car_desc_2 = [[Premium exclusif de la classe du véhicule, de façon permanente ajoutés à votre liste de véhicule.
+		premium_car_desc_2 = [[Catégorie exclusive de véhicules Premium, ajoutés de façon permanente à votre liste de véhicule.
 	%d sièges passagers.]],
-		rent = "Rent...",
-		rent_x = "Rent ",
-		rent_desc = "First fee: €10,000.\nThen rent payment occurs every game evening in amount of %s.\nIf you are unable to pay rent, it will be cancelled.\nIf in the event of forced cancellation your car is destroyed,\nthen you will be banned from rent on 1 game day and then you will have to pay a €3,000 fine.\nSpendings on car modification are not refunded.",
-		fine = "Fine",
-		fine_desc = "You need to pay a €3,000 fine for destroying your rented car,\nbefore using rent again.\nPay now?",
-		free = "FREE",
+		rent = "Louer...",
+		rent_x = "Louer ",
+		rent_desc = "Premier frais: 10,000€.\nEnsuite, le paiement est effectué chaque soir en jeu d'un montant de %s.\nSi vous ne pouvez pas payer, la location sera annulée. Si vous ne pouvez pas payer la location, elle sera annulée.\nEn cas d'annulation de locatlion forcée, le véhicule est détruit,\nensuite vous serez banni de la location pendant 1 jour en jeu et vous devrez payer une amende de 3,000€.\nLes investissements dans les modifications de véhicules ne sont pas remboursés.",
+		fine = "Amende",
+		fine_desc = "Vous devez payer une amende de 3,000€ pour détruire la voiture louée,\navant d'utiliser la location de nouveau.\nPayer maintenant ?,
+		free = "GRATUIT",
 	},
 }
 
