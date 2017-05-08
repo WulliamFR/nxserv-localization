@@ -32,7 +32,9 @@ nxshop.langs = {
 		thanks = "Your funds have been added to your account, cheers!",
 		buy_for = "Buy for ",
 		premium_cars = "Premium Cars",
+		premium_cars_desc = "Exclusive automobiles from Porsche and Mercedes. Emphasize your high status.\nBought only with real money.\nCar is permanently added to your vehicle list.",
 		regular_cars = "Regular cars",
+		regular_cars_desc = "Automobiles which are available to all. Bought with in-game currency.",
 		slots = "Slots:",
 		store = "Store:",
 		ui_back = "< Back",
@@ -41,7 +43,7 @@ nxshop.langs = {
 With "Premium" you gain money quickier and survive better in the city full of criminality.
 
 Character:
-* Respawn time shortens to 5 seconds
+* Respawn time shortens to 10 seconds
 * Hunger rate is 2 times slower
 * Max armor increases up until 200%
 * You get access to stylish customizable models on jobs like Bartender, City Mayor (Breen), Fishman (Eli), Mob Boss, Medic (Kleiner), Gun Dealer (Father Grigory), Security Guard (Barney), Taxi Driver (Barney)
@@ -64,6 +66,12 @@ Gameplay:
 	%d passenger seat.]],
 		premium_car_desc_2 = [[Exclusive Premium-class vehicle, permanently added to your vehicle list.
 	%d passenger seats.]],
+		rent = "Rent...",
+		rent_x = "Rent ",
+		rent_desc = "First fee: €10,000.\nThen rent payment occurs every game evening in amount of %s.\nIf you are unable to pay rent, it will be cancelled.\nIf in the event of forced cancellation your car is destroyed,\nthen you will be banned from rent on 1 game day and then you will have to pay a €3,000 fine.\nSpendings on car modification are not refunded.",
+		fine = "Fine",
+		fine_desc = "You need to pay a €3,000 fine for destroying your rented car,\nbefore using rent again.\nPay now?",
+		free = "FREE",
 	},
 
 	ru = {
@@ -99,7 +107,9 @@ Gameplay:
 		thanks = "Ваши средства поступили на счёт, счастливых покупок!",
 		buy_for = "Купить за ",
 		premium_cars = "Премиум машины",
+		premium_cars_desc = "Эксклюзивные автомобили от Porsche и Mercedes. Подчеркните ваш высший статус.\nПриобретается только за реальные деньги.\nАвтомобиль добавляется в список машин навсегда.",
 		regular_cars = "Обычные машины",
+		regular_cars_desc = "Автомобили, доступные всем. Приобретаются за внутриигровую валюту.",
 		slots = "Слоты:",
 		store = "Магазин:",
 		ui_back = "< Назад",
@@ -108,7 +118,7 @@ Gameplay:
 С "Премиум" вы зарабатываете быстрее и выживаете чаще в городе с высокой преступностью.
 
 Персонаж:
-* Время ожидания возрождения сокращается до 5 секунд
+* Время ожидания возрождения сокращается до 10 секунд
 * Голод накапливается в 2 раза медленнее
 * Лимит брони увеличивается до 200%
 * Появляется доступ к красивым изменяемым моделям на профессиях Бармен, Глава города (Брин), Рыбак (Илай), Глава банды, Медик (Кляйнер), Продавец оружия (Отец Григорий), Охранник, Таксист
@@ -133,6 +143,12 @@ Gameplay:
 	%d пассажирское сиденья.]],
 		premium_car_desc_3 = [[Эксклюзивный автомобиль Премиум-класса, добавляемый в список купленных машин навсегда.
 	%d пассажирское сиденья.]],
+		rent = "Арендовать...",
+		rent_x = "Аренда ",
+		rent_desc = "Первоначальная комиссия: €10,000.\nЗатем следует списание каждый игровой вечер в размере %s.\nЕсли вы будете неспособны оплатить аренду, то она прекращается.\nЕсли при принудительном прекращении аренды машина будет разрушена,\nто вы будете забанены с аренды на 1 игровой день и будете вынуждены заплатить штраф €3,000.\nЗатраты на модификацию машины не возвращаются.",
+		fine = "Штраф",
+		fine_desc = "Необходимо заплатить штраф за повреждение арендованной машины в размере €3,000,\nпрежде чем снова пользоваться арендой.\nЗаплатить сейчас?",
+		free = "БЕСПЛАТНО",
 	},
 
 	fr = {
@@ -168,20 +184,21 @@ Gameplay:
 		thanks = "Vos fonds ont été ajoutés à votre compte, merci !",
 		buy_for = "Acheter pour ",
 		premium_cars = "Voitures Premium",
+		premium_cars_desc = "Exclusive automobiles from Porsche and Mercedes. Emphasize your high status.\nBought only with real money.\nCar is permanently added to your vehicle list.",
 		regular_cars = "Voitures ordinaires",
+		regular_cars_desc = "Automobiles which are available to all. Bought with in-game currency.",
 		slots = "Emplacements :",
 		store = "Magasin :",
 		ui_back = "< Retour",
 		game_money = "Monnaie du jeu : ",
-		darkrp_premium_desc = [[Le "Premium" vous octroie des avantages supplémentaires dans le jeu sur nos serveurs DarkRP.
-Avec le "Premium", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville surchargée par la criminalité.
+		darkrp_premium_desc = [[Le "Premium" vous donne des avantages supplémentaires dans le jeu sur nos serveurs DarkRP.
+Avec le "Premium", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville pleine de la criminalité.
 
 Personnage :
-* Le temps de respawn réduit à 5 secondes
+* Le temps de respawn réduit à 10 secondes
 * La barre de faim descend 2 fois moins vite
 * La capacité maximum de l'armure est augmentée à 200%
-* Vous obtenez l'accès à d'élégants modèles, sur les métiers comme Barman, Maire (Breen), Pêcheur (Eli), Gangster, Médecin (Kleiner), Vendeur d'armes (Father Grigory), Garde de sécurité (Barney), Chauffeur de taxi (Barney)
-* L'icône Premium dans le TAB vous rend plus visible
+* L'icôe Premium dans le TAB vous rend plus perceptible
 
 Voitures :
 * Les voitures consomment 50% de carburant en moins
@@ -191,16 +208,22 @@ Voitures :
 
 Gameplay :
 * Vous pouvez lancer des votes de licenciement
-* La limite de métiers ne s'applique pas pour vous, vous pouvez jouer n'importe quel métier à n'importe quel moment
+* La limite de métiers n'est pas appliquée à vous, vous pouvez jouer n'importe quel métier à n'importe quel moment
 * En tant que maire, lors du démarrage d'une loterie, vous recevez 10% des gains
 * Les imprimantes à argent et la pêche donnent 50% de revenus en plus]],
-		richbitch_desc = "Seulement pour DarkRP. Le nombre d'achat est illimité.",
-		richbitch_title = "Actuellement connectés %s",
-		premium_car_desc_1 = [[Exclusive Premium-class vehicle, permanently added to your vehicle list.
-	%d passenger seat.]],
-		premium_car_desc_2 = [[Exclusive Premium-class vehicle, permanently added to your vehicle list.
-	%d passenger seats.]],
+		richbitch_desc = "Seulement pour le DarkRP. Le nombre d'achat est illimité.",
+		richbitch_title = "%s Monnaie Du Jeu",
+		premium_car_desc_1 = [[Premium exclusif de la classe du véhicule, de façon permanente ajoutés à votre liste de véhicule.
+	%d siège passager.]],
+		premium_car_desc_2 = [[Premium exclusif de la classe du véhicule, de façon permanente ajoutés à votre liste de véhicule.
+	%d sièges passagers.]],
+		rent = "Rent...",
+		rent_x = "Rent ",
+		rent_desc = "First fee: €10,000.\nThen rent payment occurs every game evening in amount of %s.\nIf you are unable to pay rent, it will be cancelled.\nIf in the event of forced cancellation your car is destroyed,\nthen you will be banned from rent on 1 game day and then you will have to pay a €3,000 fine.\nSpendings on car modification are not refunded.",
+		fine = "Fine",
+		fine_desc = "You need to pay a €3,000 fine for destroying your rented car,\nbefore using rent again.\nPay now?",
+		free = "FREE",
 	},
 }
 
-nxshop.l = nxserv.region_shop == "ru" and nxshop.langs.ru or nxshop.langs.en
+nxshop.l = nxshop.langs[nxserv.region_lang or ""] or nxshop.langs.en
