@@ -221,7 +221,7 @@ Gameplay :
 		rent_x = "Louer ",
 		rent_desc = "Premier frais: 10,000€.\nEnsuite, le paiement est effectué chaque soir en jeu d'un montant de %s.\nSi vous ne pouvez pas payer, la location sera annulée. Si vous ne pouvez pas payer la location, elle sera annulée.\nEn cas d'annulation de locatlion forcée, le véhicule est détruit,\nensuite vous serez banni de la location pendant 1 jour en jeu et vous devrez payer une amende de 3,000€.\nLes investissements dans les modifications de véhicules ne sont pas remboursés.",
 		fine = "Amende",
-		fine_desc = "Vous devez payer une amende de 3,000€ pour détruire la voiture louée,\navant d'utiliser la location de nouveau.\nPayer maintenant ?,
+		fine_desc = "Vous devez payer une amende de 3,000€ pour détruire la voiture louée,\navant d'utiliser la location de nouveau.\nPayer maintenant ?",
 		free = "GRATUIT",
 	},
 }
