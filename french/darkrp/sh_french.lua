@@ -1325,6 +1325,10 @@ local french = {
 	itemshop_setprice_text = "Entrer un nouveau prix",
 	itemshop_rename_title = "Changer le nom du distributeur automatique",
 	itemshop_rename_text = "Entrer un nouveau nom",
+	itemshop_buyhint = "Buy %s for %s",
+	itemshop_increase_count = "Add more",
+	itemshop_decrease_count = "Remove",
+	itemshop_tap = "Tap",
 
 	disabled_dead = "Impossible lorsque vous êtes mort",
 	disabled_arrested = "Impossible lorsque vous êtes arrêté",
