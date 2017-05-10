@@ -583,14 +583,17 @@ local french = {
 
 	citizen = "Citoyen",
 	citizen_desc = [[Le citoyen a un statut social normal. Vous n'avez pas de rôle spécifique dans la vie. Vous pouvez faire le métier que vous souhaitez et faire votre propre entreprise.]],
+
 	hobo = "Sans abri",
 	hobo_desc = [[Le sans abri est la personne la moins importante dans la société. Tout le monde se moque de vous.
 	Vous n'avez pas de maison, vous demandez même de l'argent et de la nourriture aux passants.
 	Construisez votre maison avec des briques et des cartons, pour vous sauver du froid.]],
+
 	fishman = "Pêcheur",
 	fishman_desc = [[Utilisez vos compétences pour pêcher des objets et ensuite les revendre. Acheter des appâts et améliorer votre canne pour obtenir plus de butin.
 
 	Appuyez sur la touche B pour ouvrir le menu du pêcheur.]],
+
 	cp = "Agent de police",
 	cp_desc = [[L'agent de police protége et défend n'importe quel citoyen de la ville.
 	Vous avez le pouvoir d'arrêter les malfrats et de protéger les innocents.
@@ -600,6 +603,7 @@ local french = {
 	Maintenez la touche C pour effectuer certaines tâches.]],
 	cp_msg_pos = "Allez au poste de police pour devenir agent de police.",
 	cp_msg_wanted = "Vous ne pouvez pas devenir agent de la police lorsque vous êtes recherché.",
+
 	chief = "Chef de la police",
 	chief_desc = [[Le chef de la police dirige ses hommes.
 		Coordonnez vos hommes pour faire respecter les lois de la ville.
@@ -607,43 +611,55 @@ local french = {
 	Le bélier peut démolir n'importe quelle porte, avec le mandat correspondant.
 	Le bélier peut aussi démolir les props.
 	Maintenez la touche C pour diriger la police.]],
+
 	mayor = "Maire",
 	mayor_desc = [[Le maire de la ville rédige des lois pour améliorer la vie des citoyens et garantir leur sécurité..
 	Lorsque vous êtes maire, vous pouvez créer et accepter des mandats de perquisition.
 	Maintenez la touche C pour pouvoir exercer votre pouvoir.
 	Lorsqu'un couvre feu est actif, tous les citoyens doivent rester dans leurs maisons ou dans un lieu sécurisé, et les policiers sont tenus de patrouiller dans les rues de la ville pour pouvoir faire respecter le couvre feu.]],
+
 	gangster = "Gangster",
 	gangster_desc = [[Grade le plus bas de la hiérarchie criminelle.
 	Le gangster travaille généralement avec le chef de gang, qui dirige les gangsters.
 	Vous pouvez faire des vols, des hold-up, tuer des citoyens pour de l'argent, mais n'oubliez pas de respecter l'agenda du chef de gang, ou autrement il vous punira, probablement.]],
+
 	mobboss = "Chef de gang",
 	mobboss_desc = [[Le chef de gang est le principal criminel dans la ville.
 	Il dirige ses gangsters et fait des groupes de criminels efficaces.
 	Il est capable de saccager des appartements et de libérer des gens.]],
 	mobboss_msg = "Become a mobster and create your gang through C-Menu to get this job.",
+
 	merc = "Mercenaire",
 	merc_desc = [[Le mercenaire effectue différentes tâches. Il peut faire plein de choses tel que: des assassinats, des hold-up, de la reconnaissance etc. Tout le monde peut profiter de vos services, incluant la police, les citoyens et les gangsters.]],
+
 	medic = "Médecin",
 	medic_desc = [[Le médecin peut soigner les habitants de la ville.
 	Utilisez le kit médical pour soignez vos patients, et vous soigner vous même. Vous pouvez aussi vendre des médicaments à vos patients.]],
+
 	gundealer = "Vendeur d'armes",
 	gundealer_desc = [[Le vendeur d'armes est la seule personne qui peut vendre des armes légalement.
 	Ne vendez pas d'armes illégales sous les yeux des policiers, ou ils pourront vous arrêter !]],
+
 	trader = "Commerçant",
 	trader_desc = [[Le commerçant vend des choses utiles, comme des pieds de biche, des batteries etc.
 	Ouvrez votre commerce et vendez des objets à vos clients.]],
+
 	bar = "Barman",
 	bar_desc = [[Le barman sert de la nourriture et des boissons à vos clients.
 	Ouvrez un bar et servez vos clients. Engagez un agent de sécurité pour faire dégager les personnes ivres.]],
+
 	carmaster = "Mécanicien automobile",
 	carmaster_desc = [[Réparez et ravitaillez les véhicules en essence.]],
+
 	security = "Agent de sécurité",
 	security_desc = [[Devenez un agent de la sécurité d'une boutique locale ou de la banque. Vous pouvez aussi être garde du corps.
 	Vous devez protéger les établissements des intimidateurs et des voleurs.
 	Si la situation s'aggrave: appelez la police.
 	On ne vous donne qu'une matraque par défaut, donc ne prenez pas de risques inutiles.]],
+
 	taxidriver = "Chauffeur de taxi",
 	taxidriver_desc = [[Conduisez des personnes à leur destination et recevez de l'argent.]],
+
 	fireman = "Pompier",
 	fireman_desc = [[Métier responsable et dangeureux. Sans vous notre ville serait brûlée en cendres.
 	Vous recevez de l'argent lorsque vous éteignez des feux.]],
@@ -1384,6 +1400,10 @@ local french = {
 	election_registered = "Votre candidature a bien été enregistrée",
 	election_already = "Votre candidature a déjà été enregistrée !",
 	election_too_late = "L'inscription est terminée",
+
+	-- car trunk
+	trunk_inspect = "Regarder le coffre",
+	trunk_instructions = "Drop an item with Gravity Gun near car trunk to put it into storage",
 }
 
 DarkRP.addLanguage("fr", french)
