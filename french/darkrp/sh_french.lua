@@ -78,7 +78,7 @@ local french = {
 	actor_doesnt_exist = "La personne n'existe pas.",
 	get_a_warrant = "Obtenir un mandat",
 	give_warrant = "Donner un mandat",
-	make_someone_wanted = "Mettre une recherche sur quelqu'un",
+	make_someone_wanted = "Émettre une recherche sur quelqu'un",
 	remove_wanted_status = "Enlever la recherche",
 	already_a_warrant = "Il existe déjà un mandat de perquisition pour cette personne.",
 	already_wanted = "Le suspect est déjà recherché.",
@@ -356,7 +356,7 @@ local french = {
 	credits_see_console = "Les crédits DarkRP ont été imprimés dans la console.",
 
 	data_not_loaded_one = "Vos données n'ont pas encore été chargées. Veuillez patienter.",
-	data_not_loaded_two = "Si ce problème persiste, essayez de vous reconnecter ou de contacter un admininistrateur.",
+	data_not_loaded_two = "Si ce problème persiste, essayez de vous reconnecter ou de contacter un administrateur.",
 
 	cant_spawn_weapons = "Vous ne pouvez pas faire apparaître d'armes.",
 	drive_disabled = "La conduite est désactivée pour le moment.",
@@ -756,7 +756,7 @@ local french = {
 	nobind = "[PAS DE TOUCHE DÉFINIE]",
 
 	-- Cars
-	car_on_fire = "Votre véhicule est en feu, vous êtes coincé",
+	car_on_fire = "Votre véhicule est en feu, vous ne pouvez pas le supprimer",
 	car_bought = "La voiture a bien été achetée",
 	car_buymsg = "Vous avez acheté %s.\nUtilisez le terminal le plus proche pour la faire apparaître.",
 	car_rentmsg = "Vous avez loué %s.\nUtilisez le terminal le plus proche pour la faire apparaître.",
@@ -830,7 +830,7 @@ local french = {
 	cc_upgrades = "Améliorations",
 	cc_points = "Crédits du gouvernement: ",
 	cc_save = "<Enter> - modifications effectuées",
-	cc_lawlength = "La longueur des lois doivent être comprises entre 3 et 1000 caractères",
+	cc_lawlength = "La longueur des lois doit être comprise entre 3 et 1000 caractères",
 	cc_resetlaws = "Restaurer les lois par défaut",
 	cc_clearlaws = "Supprimer toutes les lois",
 	cc_addlaw = "Ajouter une loi",
@@ -846,7 +846,7 @@ local french = {
 	cc_invitetext = "%s vous a invité à rejoindre la police",
 	cc_invited = "Le maire de la ville a invité %s dans la police.",
 	cc_nopoints = "Crédits du gouvernement insuffisants",
-	cc_kicked = "%s de la ville a licencié %s.",
+	cc_kicked = "Le %s de la ville a licencié %s.",
 	cc_chiefassigned = "Le maire a promu %s, et est maintenant chef de la police.",
 	cc_upgradedalready = "Amélioration déjà achetée",
 	cc_upgraded = "Vous avez acheté l'amélioration '%s'",
@@ -938,7 +938,7 @@ local french = {
 	-- weplocker
 	pwl_title = "Casier d'artillerie de la police",
 	pwl_count = "Armes de police prises: ",
-	pwl_warn = "Vous n'êtes plus autorisé à prendre des armes, vous causez des blessures à d'autres policiers.",
+	pwl_warn = "Vous n'êtes plus autorisé à prendre d'armes, vous attaquez vos collègues.",
 	pwl_wep = "Arme",
 	pwl_avail_c = "Disponibilité",
 	pwl_taken = "prise",
@@ -949,7 +949,7 @@ local french = {
 	pwl_return = "Remettre l'arme",
 	pwl_close = "Fermer le casier",
 
-	pwl_fail_team = "Seulement les policiers peuvent prendre des armes dans ce casier.",
+	pwl_fail_team = "Seuls les policiers peuvent prendre des armes dans ce casier.",
 	pwl_fail_damage = "Vous ne pouvez pas prendre d'armes car vous avez causé des blessures à un autre officier.",
 	pwl_fail_already = "Vous avez déjà pris cette arme.",
 	pwl_fail_taken = "Cette arme a déjà été prise par un autre officier.",
@@ -1318,17 +1318,17 @@ local french = {
 	itemshop_eject_money = "Éjecter l'argent",
 	itemshop_settings = "Service",
 	itemshop_on_service = "EN SERVICE",
-	itemshop_put_shipments = "Mettez votre cargaison directement sur l'écran pour l'ajouter",
+	itemshop_put_shipments = "Mettez votre colis directement sur l'écran pour l'ajouter",
 	itemshop_restore = "Restorer",
 	itemshop_rename = "Renommer",
 	itemshop_setprice_title = "Le prix a été fixé à %s",
 	itemshop_setprice_text = "Entrer un nouveau prix",
 	itemshop_rename_title = "Changer le nom du distributeur automatique",
 	itemshop_rename_text = "Entrer un nouveau nom",
-	itemshop_buyhint = "Buy %s for %s",
-	itemshop_increase_count = "Add more",
-	itemshop_decrease_count = "Remove",
-	itemshop_tap = "Tap",
+	itemshop_buyhint = "Acheter %s pour %s",
+	itemshop_increase_count = "Ajouter",
+	itemshop_decrease_count = "Enlever",
+	itemshop_tap = "Tapez",
 
 	disabled_dead = "Impossible lorsque vous êtes mort",
 	disabled_arrested = "Impossible lorsque vous êtes arrêté",
@@ -1393,7 +1393,7 @@ local french = {
 	lives_hud2 = "Récupération dans: %s minute(s)",
 
 	-- election
-	election_start = "Les élections débutent, votez pour votre candidat favori !",
+	election_start = "L'inscription aux élections débutent, envoyez vos candidatures !",
 	election_reg_over = "L'inscription aux élections est terminée, le vote a débuté !",
 	election_thanks_for_voting = "Votre vote a été enregistré",
 	election_over = "Les élections sont terminées. Vainqueur — %s",
@@ -1406,8 +1406,8 @@ local french = {
 	election_too_late = "L'inscription est terminée",
 
 	-- car trunk
-	trunk_inspect = "Regarder le coffre",
-	trunk_instructions = "Drop an item with Gravity Gun near car trunk to put it into storage",
+	trunk_inspect = "Ouvrir le coffre",
+	trunk_instructions = "Lâchez un objet avec le Gravity Gun près du coffre pour le stocker",
 }
 
 DarkRP.addLanguage("fr", french)
