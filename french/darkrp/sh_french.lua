@@ -1408,6 +1408,13 @@ local french = {
 	-- car trunk
 	trunk_inspect = "Ouvrir le coffre",
 	trunk_instructions = "Lâchez un objet avec le Gravity Gun près du coffre pour le stocker",
+
+	-- admin tp prevention and unstuck
+	admin_tp = "You need to be more specific if you want to call an administrator.",
+	cant_unstuck_vehicle = "Can't escape from vehicle or seat.",
+	was_unstuck = " was moved to free spot.",
+	unstuck_wait1 = "Need to wait ",
+	unstuck_wait2 = " seconds before searching for free spot again.",
 }
 
 DarkRP.addLanguage("fr", french)
