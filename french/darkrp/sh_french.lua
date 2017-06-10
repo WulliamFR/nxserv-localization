@@ -1418,12 +1418,12 @@ local french = {
 
 	wire_ranger_restricted = "L'utilisation du Wire Ranger est désactivée dû à des performances ralenties injustifiées côté serveur et client. Utilisez le Wire Trigger à la place. Il peut être utilisé de la même façon que le Ranger.",
 
-	district_main = "Centre-ville",
+	district_main = "Quartier financier",
 	district_second = "Quartier résidentiel",
 	district_industrial = "Quartier industriel",
 	district_elite = "Quartier riche",
 	district_fishing = "Côte",
-	district_rcar = "Périphérie",
+	district_rcar = "Périphérique",
 	district_mountain = "Montagnes",
 }
 
