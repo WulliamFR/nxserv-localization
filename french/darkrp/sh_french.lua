@@ -1415,6 +1415,16 @@ local french = {
 	was_unstuck = " a été déplacé dans un endroit libre.",
 	unstuck_wait1 = "Besoin d'attendre ",
 	unstuck_wait2 = " secondes avant de rechercher un nouvel endroit libre.",
+
+	wire_ranger_restricted = "L'utilisation du Wire Ranger est désactivée dû à des performances ralenties injustifiées côté serveur et client. Utilisez le Wire Trigger à la place. Il peut être utilisé de la même façon que le Ranger.",
+
+	district_main = "Financial district",
+	district_second = "Residential district",
+	district_industrial = "Industrial district",
+	district_elite = "Elite district",
+	district_fishing = "Coastal district",
+	district_rcar = "Circle",
+	district_mountain = "Mountains",
 }
 
 DarkRP.addLanguage("fr", french)
