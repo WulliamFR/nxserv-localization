@@ -1422,7 +1422,7 @@ local french = {
 	district_second = "Quartier résidentiel",
 	district_industrial = "Quartier industriel",
 	district_elite = "Quartier riche",
-	district_fishing = "Côte",
+	district_fishing = "Littoral",
 	district_rcar = "Périphérique",
 	district_mountain = "Montagnes",
 }
