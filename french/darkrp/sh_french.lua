@@ -1418,13 +1418,13 @@ local french = {
 
 	wire_ranger_restricted = "L'utilisation du Wire Ranger est désactivée dû à des performances ralenties injustifiées côté serveur et client. Utilisez le Wire Trigger à la place. Il peut être utilisé de la même façon que le Ranger.",
 
-	district_main = "Financial district",
-	district_second = "Residential district",
-	district_industrial = "Industrial district",
-	district_elite = "Elite district",
-	district_fishing = "Coastal district",
-	district_rcar = "Circle",
-	district_mountain = "Mountains",
+	district_main = "Centre-ville",
+	district_second = "Quartier résidentiel",
+	district_industrial = "Quartier industriel",
+	district_elite = "Quartier riche",
+	district_fishing = "Côte",
+	district_rcar = "Périphérie",
+	district_mountain = "Montagnes",
 }
 
 DarkRP.addLanguage("fr", french)
