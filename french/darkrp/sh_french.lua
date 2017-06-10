@@ -648,7 +648,7 @@ local french = {
 	bar_desc = [[Le barman sert de la nourriture et des boissons à vos clients.
 	Ouvrez un bar et servez vos clients. Engagez un agent de sécurité pour faire dégager les personnes ivres.]],
 
-	carmaster = "Mécanicien automobile",
+	carmaster = "Mécanicien",
 	carmaster_desc = [[Réparez et ravitaillez les véhicules en essence.]],
 
 	security = "Agent de sécurité",
