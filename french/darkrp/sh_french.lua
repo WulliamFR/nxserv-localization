@@ -59,8 +59,8 @@ local french = {
 	warrant_request2 = "Mandat de perquisition envoyé au maire %s !",
 	warrant_approved = "Mandat de perquisition approuvé pour %s !\nRaison: %s\nOrdonné par: %s",
 	warrant_approved2 = "Vous avez maintenant l'autorisation de fouiller la maison de la personne.",
-	warrant_denied = "Le maire %s a refusé votre avis de recherche.",
-	warrant_expired = "L'avis de recherche sur %s a expiré !",
+	warrant_denied = "Le maire %s a refusé votre mandat de perquisition.",
+	warrant_expired = "Le mandat de perquisition pour %s a expiré !",
 	warrant_required = "Vous avez besoin d'un mandat pour pouvoir ouvrir cette porte.",
 	warrant_required_unfreeze = "Vous avez besoin d'un mandat pour dégeler cet objet.",
 	warrant_required_unweld = "Vous avez besoin d'un mandat pour détruire cet objet.",
@@ -78,7 +78,7 @@ local french = {
 	actor_doesnt_exist = "La personne n'existe pas.",
 	get_a_warrant = "Obtenir un mandat",
 	give_warrant = "Donner un mandat",
-	make_someone_wanted = "Émettre une recherche sur quelqu'un",
+	make_someone_wanted = "Émettre une recherche",
 	remove_wanted_status = "Enlever la recherche",
 	already_a_warrant = "Il existe déjà un mandat de perquisition pour cette personne.",
 	already_wanted = "Le suspect est déjà recherché.",
@@ -104,7 +104,7 @@ local french = {
 	starving = "AFFAMÉ",
 	armor = "Armure: ",
 	in_jail = "En prison%s. Temps restant: %d secondes",
-	with_license = "Avec license",
+	with_license = "Avec licence",
 	radio_disabled = "La radio est désactivée",
 	wanted = "Recherché: ",
 
@@ -245,7 +245,7 @@ local french = {
 	radio = "radio",
 	request = "(REQUÊTE)",
 	group = "(groupe)",
-	demote = "(RÉTROGRADER)",
+	demote = "(RÉTROGRADATION)",
 	ooc = "Ville",
 	radio_x = "Radio %d",
 
@@ -256,7 +256,7 @@ local french = {
 	perform_your_action = "exécutez votre action",
 	talk_to_your_group = "parlez au groupe",
 
-	channel_set_to_x = "Chaîne réglée sur %s.",
+	channel_set_to_x = "Canal radio réglé sur %s.",
 
 	-- Notifies
 	disabled = "%s a été désactivé ! %s",
@@ -306,7 +306,7 @@ local french = {
 	player_doesnt_exist = "Ce joueur n'existe pas.",
 	job_doesnt_exist = "Ce métier n'existe pas !",
 	must_be_alive_to_do_x = "Vous devez être en vie pour faire cela %s.",
-	banned_or_demoted = "Banni/rétrogradé",
+	banned_or_demoted = "Vous êtes banni ou rétrogradé de métier",
 	wait_with_that = "Attendez avec ceci.",
 	could_not_find = "Impossible de trouver %s",
 	f3tovote = "Appuyez sur F3 pour voter",
@@ -326,14 +326,14 @@ local french = {
 	tried_to_avoid_demotion = "Vous avez essayé d'éviter la rétrogradation. Vous avez échoué et vous avez été rétrogradé.", -- naughty boy!
 	lockdown_started = "Le maire a lancé un couvre feu, merci de rentrer chez vous !",
 	lockdown_ended = "Le couvre feu est terminé",
-	gunlicense_requested = "%s a demandé à %s une license d'armes",
-	gunlicense_granted = "%s a accordé à %s une license d'armes",
-	gunlicense_denied = "%s a refusé une license d'armes à %s",
-	gunlicense_question_text = "Accorder une license à %s ?",
-	gunlicense_remove_vote_text = "%s a créé un vote pour le retrait de la license d'armes de %s",
-	gunlicense_remove_vote_text2 = "Révoquer la license:\n%s", -- Where %s is the reason
-	gunlicense_removed = "La license de %s a été retirée",
-	gunlicense_not_removed = "La license de %s n'a pas été retirée !",
+	gunlicense_requested = "%s a demandé à %s une licence d'armes",
+	gunlicense_granted = "%s a accordé à %s une licence d'armes",
+	gunlicense_denied = "%s a refusé une licence d'armes à %s",
+	gunlicense_question_text = "Accorder une licence à %s ?",
+	gunlicense_remove_vote_text = "%s a créé un vote pour le retrait de la licence d'armes de %s",
+	gunlicense_remove_vote_text2 = "Révoquer la licence:\n%s", -- Where %s is the reason
+	gunlicense_removed = "La licence de %s a été retirée",
+	gunlicense_not_removed = "La licence de %s n'a pas été retirée !",
 	vote_specify_reason = "Vous devez inscrire une raison !",
 	vote_started = "Le vote a été créé",
 	vote_alone = "Vous avez gagné le vote puisque vous êtes seul sur le serveur.",
@@ -347,12 +347,12 @@ local french = {
 	yes_demote = "Oui, je veux qu'il soit rétrogradé",
 	no_demote = "Non, je ne veux pas qu'il soit rétrogradé ",
 	dont_vote = "Ne pas voter",
-	demote_rule = [[Vote wisely, don't randomly press "yes" or "no" in votes. If you're unsure - press "not voting".]],
+	demote_rule = [[Votez judicieusement, n'appuyez pas aléatoirement sur "oui" ou "non" lors des votes. Si vous êtes incertain - appuyez sur "ne pas voter".]],
 
-	dead_in_jail = "Vous êtes mainteant mort jusqu'à que votre peine de prison soit terminée !",
+	dead_in_jail = "Vous êtes maintenant mort jusqu'à que votre peine de prison soit terminée !",
 	died_in_jail = "%s est mort en prison !",
 
-	credits_for = "CREDITS POUR %s\n",
+	credits_for = "CRÉDITS POUR %s\n",
 	credits_see_console = "Les crédits DarkRP ont été imprimés dans la console.",
 
 	data_not_loaded_one = "Vos données n'ont pas encore été chargées. Veuillez patienter.",
@@ -494,7 +494,7 @@ local french = {
 	F4ammo = "Munitions",
 	F4vehicles = "Véhicules",
 	F4donate = "Dons",
-	F4premium = "Offres Premium",
+	F4premium = "Premium",
 	F4cars = "Voitures",
 	F4hats = "Vêtements",
 	F4attachments = "Extras d'arme",
@@ -507,16 +507,16 @@ local french = {
 	drop_weapon = "Jeter l'arme actuelle",
 	customize_weapon = "Personnaliser cette arme",
 	buy_health = "Achat de santé (%s)",
-	request_gunlicense = "Demander une license d'arme",
+	request_gunlicense = "Demander une licence d'arme",
 	demote_player_menu = "Rétrograder un joueur",
 
 
-	searchwarrantbutton = "Mettre un avis de recherche sur quelqu'un",
-	unwarrantbutton = "Enlever le status de recherche d'une personne",
+	searchwarrantbutton = "Émettre un avis de recherche",
+	unwarrantbutton = "Enlever un status de recherche",
 	noone_available = "Personne n'est disponible",
 	request_warrant = "Faire un mandat de perquisition",
-	make_wanted = "Mettre un avis de recherche sur quelqu'un",
-	make_unwanted = "Enlever l'avis de recherche d'une personne",
+	make_wanted = "Émettre un avis de recherche",
+	make_unwanted = "Retirer un avis de recherche",
 	set_jailpos = "Définir la position de la prison",
 	add_jailpos = "Ajouter une prison",
 
@@ -527,7 +527,7 @@ local french = {
 	initiate_lockdown = "Démarrer un couvre feu",
 	stop_lockdown = "Arrêter le couvre feu",
 	start_lottery = "Commencer une loterie",
-	give_license_lookingat = "Donner une license",
+	give_license_lookingat = "Donner une licence",
 
 	laws_of_the_land = "LOIS DE LA VILLE",
 	law_added = "Loi ajoutée.",
@@ -546,9 +546,9 @@ local french = {
 	buy_a = "Acheter %s: %s",
 
 	-- Licenseweaponstab
-	license_tab = [[Armes à license
+	license_tab = [[Armes à licence
 
-	Cochez les armes qu'il est possible de posséder SANS license
+	Cochez les armes qu'il est possible de posséder SANS licence
 	]],
 	license_tab_other_weapons = "Autres armes:",
 
@@ -682,7 +682,7 @@ local french = {
 	fas2_dv2 = "Couteau de combat DV2",
 	fas2_machete = "Machette",
 	fas2_ots33 = "OTs-33 \"Pernach\"",
-	weapon_rpg = "RPH anti-véhicules",
+	weapon_rpg = "RPG anti-véhicules",
 	fas2_m67 = "Grenade M67",
 	molotov = "Cocktail Molotov",
 
@@ -699,8 +699,8 @@ local french = {
 	pistols = "Pistolets",
 	smg = "Mitraillettes",
 	rifles = "Fusils",
-	sniper_rifles = "Sniper",
-	shotguns = "Fusil à pompe",
+	sniper_rifles = "Snipers",
+	shotguns = "Fusils à pompe",
 
 	-- Attachments
 	sights = "Viseur %s",
@@ -736,7 +736,7 @@ local french = {
 	nx_repair = "Clé à molette",
 
 	-- Hints
-	bomb_instructions1 = "Bouton gauche de la souris  - Jeter la bombe",
+	bomb_instructions1 = "Bouton gauche de la souris - Jeter la bombe",
 	bomb_instructions2 = "Bouton droit de la souris - Coller la bombe au mur",
 
 	unpacker_instructions1 = "Placez l'objet: ",
@@ -809,7 +809,7 @@ local french = {
 	laws_speedlimit = "Limite de vitesse des véhicules: ",
 	laws_kmh = " km/h",
 	laws_legal = "Légal",
-	laws_license = "License requise",
+	laws_license = "Licence requise",
 	laws_illegal = "Illégal",
 	close = "Fermer",
 	apply = "Appliquer",
@@ -864,7 +864,7 @@ local french = {
 
 	charger_medkit_desc = "Les distributeurs de santé sont apparus au poste de police.",
 	charger_suit_desc = "Les distributeurs d'armure sont apparus au poste de police.",
-	door_upgrade_desc = "Les portes du gouverment reçoivent la fonction 'verrouillage/déverrouillage'.",
+	door_upgrade_desc = "Les portes du gouvernement reçoivent la fonction 'verrouillage/déverrouillage'.",
 	police_halo_desc = "Les collègues ont un contour vert à travers les murs. Si un collègue parle à la radio, son profil devient bleu. Si un coéquipier est blessé, son contour devient rouge pendant un moment.",
 	microwave_desc = "Le micro-ondes est apparu au poste de police.",
 	radio_desc = "Tous les membres du gang vont recevoir une radio.",
