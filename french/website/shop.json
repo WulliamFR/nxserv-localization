@@ -25,5 +25,9 @@
 	"proceed_to_payment": "Procéder à la page de paiement",
 	"pp_instructions": "Pour transférer de l'argent en utilisant PayPal, vous devez cliquer sur le bouton <b>Procéder à la page de paiement</b> et compléter.",
 
-	"transaction_times": "Le paiement devrait être géré automatiquement approximativement une minute après la transaction."
+	"transaction_times": "Le paiement devrait être géré automatiquement approximativement une minute après la transaction.",
+
+	"topup": "Recharger",
+	"balance": "Account",
+	"list_desc": "Here is the list of items you can buy in the game."
 }
