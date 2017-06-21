@@ -32,7 +32,7 @@
 
 	"transaction_times": "Le paiement devrait être géré automatiquement approximativement une minute après la transaction.",
 
-	"topup": "Recharger",
-	"balance": "Account",
-	"list_desc": "Here is the list of items you can buy in the game."
+	"topup": "Ajouter des fonds à votre solde",
+	"balance": "Solde",
+	"list_desc": "Liste des articles disponibles à l'achat."
 }
