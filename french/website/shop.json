@@ -14,6 +14,11 @@
 		"— À la vôtre, NxServ."
 	],
 
+	"categories": {
+		"subscriptions": "Abonnements & Offres Spéciales",
+		"hats": "Clothing and Accessories"
+	},
+
 	"choose_your_weapon": "Choisissez votre méthode préférée pour ajouter des fonds sur votre compte en jeu.",
 	"just_do_it": "Transférez nous n'importe quel montant d'argent et cela apparaîtra dans la boutique sur le serveur.",
 	"via_yandex": "Via Yandex.Money",
