@@ -414,7 +414,7 @@ local french = {
 	cheer = "Acclamation",
 	salute = "Saluer",
 	robot = "Robot",
-	animations = "Animations",
+	animations = "Gestes",
 
 	-- AFK
 	afk_mode = "Mode AFK",
@@ -1080,7 +1080,7 @@ local french = {
 
 	--
 	mayor_overthrown = "Le maire a été assassiné !",
-	mayor_danger = "Le maire est en danger ! Si il se fait tuer dans les cinq prochaines minutes, il perdra son métier.",
+	mayor_danger = "Le maire est en danger ! Si il se fait tuer dans les %d prochaines minutes, il perdra son métier.",
 	mayor_nodanger = "Le maire de la ville n'est plus en danger.",
 
 	-- Group
@@ -1426,6 +1426,8 @@ local french = {
 	district_fishing = "Littoral",
 	district_rcar = "Périphérique",
 	district_mountain = "Montagnes",
+
+	can_steal_cars_no = "%s doesn't know how to steal cars. Only %s can do this.",
 }
 
 DarkRP.addLanguage("fr", french)
