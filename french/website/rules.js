@@ -83,7 +83,7 @@ module.exports = {
 				[
 					`Les officiers de police ne sont pas autorisés à arrêter quelqu'un sans raison adéquate (Random Arrest).`,
 					`Utilisez le taser et les menottes uniquement contre les perturbateurs.`,
-					`Toutes les recherches ainsi que les couvre-feux, doivent être suivis par une raison cohérente. Les raisons telles que "lol", "fouille", "ccccccc" sont invalides.`,
+					`Toutes les recherches et les couvre-feux, doivent être suivis par une raison cohérente. Les raisons telles que "lol", "fouille", "ccccccc" sont invalides.`,
 					//`Арест должен производиться только через кнопку "арестовать" в наручниках (а не ведением нарушителя в наручниках пешком до ПУ и удержания там).`,
 					`La police est autorisée à construire des barrières, des points de contrôle, des dos-d'ânes ainsi qu'à bloquer des rues ou des bâtiments. Toutes les barrières qui bloquent quelque chose doivent avoir un entrée crackable.`,
 					`Les fouilles d'armes n'exigent pas de mandat (mais une raison valide est requise).<br>
