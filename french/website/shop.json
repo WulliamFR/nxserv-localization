@@ -2,14 +2,14 @@
 	"title": "Boutique",
 	"h1": "Boutique NxServ",
 
-	"needs_login": "Connectez-vous avec Steam pour ajouter des fonds sur votre compte en jeu",
+	"needs_login": "Connectez-vous avec Steam pour compléter votre solde sur votre compte en jeu",
 
 	"promise": [
-		"Il est totalement gratuit de jouer sur les serveurs NxServ, le seul prérequis est une copie licensée de Garry's Mod, cependant vous pouvez toujours vous faire plaisir avec des objets spéciaux dans notre boutique. Pour quelques modes de jeu comme NxRP (anciennement DarkRP) il est possible d'acheter un abonnement Premium d'un mois. Le Premium rend votre expérience plaisante, facile et confortable.",
+		"Il est totalement gratuit de jouer sur les serveurs NxServ, le seul prérequis est une copie de Garry's Mod, cependant vous pouvez toujours vous faire plaisir avec des objets spéciaux dans notre boutique. Pour quelques modes de jeu comme NxRP (anciennement DarkRP) il est possible d'acheter un abonnement Premium d'un mois. Le Premium rend votre expérience plaisante, facile et confortable.",
 
-		"Nous avons créé d'adorables accessoires pour votre personnage en jeu, que vous pouvez porter sur chacun de nos serveurs. Pour voir la liste complète d'objets, utilisez le \"Shop\" dans le menu Échap.",
+		"Nous avons créé d'adorables accessoires pour votre personnage en jeu, que vous pouvez porter sur chacun de nos serveurs. Pour voir la liste complète d'objets, utilisez la \"Boutique\" dans le menu Échap.",
 
-		"Vous aimez jouer avec nous ? Rendez tout le monde content - achetez les objets de votre choix dans la boutique NxServ.",
+		"Vous aimez jouer avec nous ? Rendez tout le monde heureux - achetez les objets de votre choix dans la boutique NxServ.",
 
 		"— À la vôtre, NxServ."
 	],
@@ -20,10 +20,10 @@
 	},
 
 	"items": {
-		"darkrp_premium": "Le \"Premium\" vous donne des avantages supplémentaires dans le jeu sur nos serveurs DarkRP.\nAvec le \"Premium\", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville pleine de la criminalité.\n\nPersonnage :\n* Le temps de respawn réduit à 10 secondes\n* La barre de faim descend 2 fois moins vite\n* La capacité maximum de l'armure est augmentée à 200%\n* L'icône Premium dans le TAB vous rend plus perceptible\n\nVoitures :\n* Les voitures consomment 50% de carburant en moins\n* 10% de rabais lors de l'achat de voitures\n* La location de voitures est désormais disponible\n* Le tuning sur les véhicules est désormais disponible (spoilers, pare-chocs, jupes, hottes, etc.)\n\nGameplay :\n* Vous pouvez lancer des votes de licenciement\n* La limite de métiers n'est pas appliquée à vous, vous pouvez jouer n'importe quel métier à n'importe quel moment\n* En tant que maire, lors du démarrage d'une loterie, vous recevez 5% des gains\n* Les imprimantes à argent et la pêche donnent 50% de revenus en plus"
+		"darkrp_premium": "Le \"Premium\" vous offre des avantages supplémentaires dans le jeu sur nos serveurs DarkRP.\nAvec le \"Premium\", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville pleine de criminalité.\n\nPersonnage :\n* Le temps de respawn réduit à 10 secondes\n* La barre de faim descend 2 fois moins vite\n* La capacité maximum de l'armure est augmentée à 200%\n* L'icône Premium dans le TAB vous rend plus perceptible\n\nVoitures :\n* Les voitures consomment 50% de carburant en moins\n* 10% de rabais lors de l'achat de voitures\n* La location de voitures est désormais disponible\n* Le tuning sur les véhicules est désormais disponible (spoilers, pare-chocs, jupes, hottes, etc.)\n\nGameplay :\n* Vous pouvez lancer des votes de licenciement\n* La limite de métiers n'est pas appliquée à vous, vous pouvez jouer n'importe quel métier à n'importe quel moment\n* En tant que maire, lors du démarrage d'une loterie, vous recevez 5% des gains\n* Les imprimantes à argent et la pêche donnent 50% de revenus en plus"
 	},
 
-	"choose_your_weapon": "Choisissez votre méthode préférée pour ajouter des fonds sur votre compte en jeu.",
+	"choose_your_weapon": "Choisissez votre méthode préférée pour compléter votre solde sur votre compte en jeu.",
 	"just_do_it": "Transférez nous n'importe quel montant d'argent et cela apparaîtra dans la boutique sur le serveur.",
 	"via_yandex": "Via Yandex.Money",
 	"robot_rock": "Toutes les transactions sont gérées automatiquement.",
@@ -32,14 +32,14 @@
 	"pick_region_desc": "Cliquez sur la carte du serveur pour lequel vous voulez acheter quelque chose.",
 
 	"proceed_to_payment": "Procéder à la page de paiement",
-	"pp_instructions": "Pour transférer de l'argent en utilisant PayPal, vous devez cliquer sur le bouton <b>Procéder à la page de paiement</b> et compléter.",
+	"pp_instructions": "Pour transférer de l'argent en utilisant PayPal, vous devez cliquer sur le bouton <b>Procéder à la page de paiement</b>.",
 
 	"transaction_times": "Le paiement devrait être géré automatiquement approximativement une minute après la transaction.",
 
-	"topup": "Ajouter des fonds à votre solde",
+	"topup": "Compléter votre solde",
 	"balance": "Solde",
 	"list_desc": "Liste des articles disponibles à l'achat.",
 	"buying_period": "Disponible pour {{time}}",
 	"free": "GRATUIT",
-	"slot_item_description": "Clothing item that is worn on '{{slot}}' slot"
+	"slot_item_description": "Accessoire ou vêtement qui est porté dans l'emplacement '{{slot}}'"
 }
