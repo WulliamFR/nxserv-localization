@@ -39,7 +39,7 @@
 	"topup": "Compléter votre solde",
 	"balance": "Solde",
 	"list_desc": "Liste des articles disponibles à l'achat.",
-	"buying_period": "Disponible pour {{time}}",
+	"buying_period": "Valide pendant {{time}}",
 	"free": "GRATUIT",
 	"slot_item_description": "Accessoire ou vêtement qui est porté dans l'emplacement '{{slot}}'"
 }
