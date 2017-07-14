@@ -7,7 +7,7 @@
 	"promise": [
 		"Il est totalement gratuit de jouer sur les serveurs NxServ, le seul prérequis est une copie licensée de Garry's Mod, cependant vous pouvez toujours vous faire plaisir avec des objets spéciaux dans notre boutique. Pour quelques modes de jeu comme NxRP (anciennement DarkRP) il est possible d'acheter un abonnement Premium d'un mois. Le Premium rend votre expérience plaisante, facile et confortable.",
 
-		"Nous avons créé d'adorables accessoires pour votre personnage en jeu, que vous pouvez porter sur chacun de nos serveurs. Pour voir la liste complète d'objets, utilisez le menu F4 (sur DarkRP) our \"Shop\" dans le menu Échap.",
+		"Nous avons créé d'adorables accessoires pour votre personnage en jeu, que vous pouvez porter sur chacun de nos serveurs. Pour voir la liste complète d'objets, utilisez le \"Shop\" dans le menu Échap.",
 
 		"Vous aimez jouer avec nous ? Rendez tout le monde content - achetez les objets de votre choix dans la boutique NxServ.",
 
@@ -17,6 +17,10 @@
 	"categories": {
 		"subscriptions": "Abonnements & Offres Spéciales",
 		"hats": "Clothing and Accessories"
+	},
+
+	"items": {
+		"darkrp_premium": "Le \"Premium\" vous donne des avantages supplémentaires dans le jeu sur nos serveurs DarkRP.\nAvec le \"Premium\", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville pleine de la criminalité.\n\nPersonnage :\n* Le temps de respawn réduit à 10 secondes\n* La barre de faim descend 2 fois moins vite\n* La capacité maximum de l'armure est augmentée à 200%\n* L'icône Premium dans le TAB vous rend plus perceptible\n\nVoitures :\n* Les voitures consomment 50% de carburant en moins\n* 10% de rabais lors de l'achat de voitures\n* La location de voitures est désormais disponible\n* Le tuning sur les véhicules est désormais disponible (spoilers, pare-chocs, jupes, hottes, etc.)\n\nGameplay :\n* Vous pouvez lancer des votes de licenciement\n* La limite de métiers n'est pas appliquée à vous, vous pouvez jouer n'importe quel métier à n'importe quel moment\n* En tant que maire, lors du démarrage d'une loterie, vous recevez 5% des gains\n* Les imprimantes à argent et la pêche donnent 50% de revenus en plus"
 	},
 
 	"choose_your_weapon": "Choisissez votre méthode préférée pour ajouter des fonds sur votre compte en jeu.",
@@ -34,5 +38,8 @@
 
 	"topup": "Ajouter des fonds à votre solde",
 	"balance": "Solde",
-	"list_desc": "Liste des articles disponibles à l'achat."
+	"list_desc": "Liste des articles disponibles à l'achat.",
+	"buying_period": "Disponible pour {{time}}",
+	"free": "GRATUIT",
+	"slot_item_description": "Clothing item that is worn on '{{slot}}' slot"
 }
