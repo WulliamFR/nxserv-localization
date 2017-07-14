@@ -1,0 +1,38 @@
+{
+	"alert_message1": "Unfortunately, you were banned. Right now you can't play on our servers.",
+	"alert_message2": "Reason: {{reason}}, remaining time: {{remaining}}.",
+	"alert_message3": "You can <a class=\"white\" target=\"_blank\" href=\"https://steamcommunity.com/groups/NxServ/discussions/3/\">submit an unban appeal</a>, but it may not be accepted.",
+	"alert_message4": "You can also <a class=\"white\" href=\"/unban/\">purchase an unban</a> and get back to game with no waiting.",
+
+	"fullban_h1": "Your account is banned",
+	"fullban_1": "Unfortunately, you were banned. Right now you can't play on our servers.",
+	"fullban_2": "Reason that was specified by administrator: {{reason}}, remaining time: ",
+	"fullban_3": "You can also purchase an automatic unban right now for <b>{{amount}}</b> {{currency}}.",
+
+	"minorban_h1": "You have some limitations",
+	"minorban_1": "Administration limited you in some actions. You can still play on our servers.",
+	"minorban_type": "Type",
+	"minorban_reason": "Reason",
+	"minorban_remaining": "Remaining",
+	"minorban_price": "Price",
+
+	"forbidden_h1": "Unban is unavailable",
+	"forbidden_1": "Due to serious violations of Terms of Service, unban is not available for you.",
+
+	"nobans_h1": "Your account has no active bans",
+	"nobans_1": "Good job! Follow the rules and respect other players and you will not get banned",
+	"nobans_2": "However, if you get a ban, you can easily buy an automatic unban on this page.",
+
+	"balance": "Currently on your balance: <b>{{amount}}</b> {{currency}}. Information regarding balance top-up can be found <a target=\"_blank\" href=\"/shop/\">there</a>.",
+
+	"buy_unban": "Purchase unban",
+	"eternity": "eternity",
+
+	"ban_not_found": "Ban not found",
+	"not_your_account": "Can't purchase unban for other account",
+	"insufficient_funds": "You have insufficient funds",
+	"transaction_failed": "Transaction failed",
+	"removal_failed": "Ban removal failed",
+	"unban_forbidden": "Unban is unavailable",
+	"": ""
+}
