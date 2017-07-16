@@ -1202,7 +1202,7 @@ local french = {
 	cr_phrase = "Ici se trouve %s, et il est recherché !",
 
 	widget_rules = "Règles",
-	widget_news = "Nouvelles",
+	widget_news = "Nouveautés",
 	widget_info = "Guide",
 	widget_group = "Groupe Steam ",
 
