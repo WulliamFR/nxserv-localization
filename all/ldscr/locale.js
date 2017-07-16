@@ -50,15 +50,15 @@ var langs = {
 		unpacking: "Extraction ",
 		loading: "Téléchargement ",
 		fastdl: "Fichiers FastDL: ",
-		bsp: "Si la barre de chargement peut parfois paraître immobile ou bloquée, c'est tout à fait normal",
+		bsp: "Si la barre de chargement apparaît parfois immobile ou bloquée, ne vous inquiétez pas, tout va bien",
 		resources: "Chargement des ressources",
 		hints: [
 			"Si la vérification des addons du Workshop est trop longue, fermez Garry's Mod et redémarrez Steam.",
-			"Vous n'êtez pas limités aux jobs dans la liste du menu F4, vous pouvez très bien être propriétaire de cinéma ou revendeur de biens.",
-			"Ne vous inquiétez pas en cas de panne de serveur - le serveur se redémarrera en peu de temps et vous aurez tous vos objets, votre emploi et position restaurés automatiquement.",
-			"Assurez-vous de vérifier les règles et guide de jeu. Vous pouvez également lire nos nouvelles - il y a toujours quelque chose d'intéressant au sujet de prochaines mises à jour et plus.",
-			"Il est totalement gratuit de jouer sur les serveurs NxServ, le seul prérequis est une copie licensée de Garry's Mod, cependant vous pouvez toujours vous faire plaisir avec des objets spéciaux dans notre boutique. Pour quelques modes de jeu comme NxRP (anciennement DarkRP) il est possible d'acheter un abonnement Premium d'un mois. Le Premium rend votre expérience plaisante, facile et confortable.",
-			"Nous avons créé d'adorables accessoires pour votre personnage en jeu, que vous pouvez porter sur chacun de nos serveurs. Pour voir la liste complète d'objets, utilisez le menu F4 (sur DarkRP) our \"Shop\" dans le menu Échap.",
+			"Vous n'êtez pas limités aux métiers de la liste du menu F4, vous pouvez très bien être propriétaire de cinéma ou revendeur de biens.",
+			"En cas de panne de serveur, ne vous inquiétez pas - le serveur se redémarrera en peu de temps et vous aurez tous vos objets, votre emploi et position restaurés automatiquement.",
+			"Assurez-vous d'avoir bien lu les règles. Vous pouvez également lire nos nouveautés - il y a toujours quelque chose d'intéressant au sujet de prochaines mises à jour et plus.",
+			"Il est totalement gratuit de jouer sur les serveurs NxServ, le seul prérequis est une copie légale de Garry's Mod, cependant vous pouvez toujours vous faire plaisir avec des objets spéciaux dans notre boutique. Pour quelques modes de jeu comme NxRP (anciennement DarkRP) il est possible d'acheter un abonnement Premium d'un mois. Le Premium rend votre expérience plaisante, facile et confortable.",
+			"Nous avons créé d'adorables accessoires pour votre personnage en jeu, que vous pouvez porter sur chacun de nos serveurs. Pour voir la liste complète d'objets, utilisez le menu F4 (sur DarkRP) ou \"Boutique\" dans le menu Échap.",
 			// "Parlez vous anglais ? Aidez-nous à traduire notre serveur en français. Visitez https://nxserv.eu/fr",
 		]
 	}
