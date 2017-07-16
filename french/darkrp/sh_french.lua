@@ -735,6 +735,7 @@ local french = {
 	nx_speedmeter = "Compteur de vitesse",
 	deployable_tool = "Déballer",
 	nx_repair = "Clé à molette",
+	door_ram = "Door Ram",
 
 	-- Hints
 	bomb_instructions1 = "Bouton gauche de la souris - Jeter la bombe",
@@ -1259,6 +1260,10 @@ local french = {
 	stat_bone_right_ankle = "Cheville droite",
 	stat_bone_right_foot = "Pied droit",
 	stat_bone_right_toe = "Orteil droit",
+
+	stat_wellfed_low = "Well fed",
+	stat_wellfed_med = "Full",
+	stat_wellfed_hi = "Fat",
 
 	nx_medcenter = "Kit de soin",
 	nx_medcenter_energy = "Batteries du kit de soin",
