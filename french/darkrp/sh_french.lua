@@ -858,6 +858,7 @@ local french = {
 	cc_limitschanged = "Le maire a modifié les lois.",
 	cc_invitetext = "%s vous a invité à rejoindre la police",
 	cc_invited = "Le maire de la ville a invité %s dans la police.",
+	cc_invite_fail_ban = "%s is unable to become a police officer.",
 	cc_nopoints = "Crédits du gouvernement insuffisants",
 	cc_kicked = "Le %s de la ville a licencié %s.",
 	cc_chiefassigned = "Le maire a promu %s, et est maintenant chef de la police.",
