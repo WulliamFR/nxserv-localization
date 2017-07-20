@@ -259,6 +259,7 @@ local french = {
 	talk_to_your_group = "parlez au groupe",
 
 	channel_set_to_x = "Canal radio réglé sur %s.",
+	channel_not_set = "Radio channel not set (use C-menu to set).",
 
 	-- Notifies
 	disabled = "%s a été désactivé ! %s",
@@ -573,6 +574,8 @@ local french = {
 	printer_start = "Commencer l'impression",
 	printer_auto = "Répétition automatique",
 	printer_update = "Améliorer pour %s",
+	printer_collect = "Collect money",
+	printer_printed = "Printed: %s",
 
 	-- Jobs
 	citizens = "Citoyens",
@@ -736,6 +739,7 @@ local french = {
 	deployable_tool = "Déballer",
 	nx_repair = "Clé à molette",
 	door_ram = "Bélier",
+	binoculars = "Binoculars",
 
 	-- Hints
 	bomb_instructions1 = "Bouton gauche de la souris - Jeter la bombe",
@@ -803,8 +807,15 @@ local french = {
 	car = "Voiture",
 	car_kick = "Éjecter",
 	previous_owner = "Précédent propriétaire: %s",
-	taxi_popup = "Taxi %d€/km",
+	taxi_popup = "Taxi %s/km",
 	car_retrieval = "Ranger le véhicule",
+
+	car_destroyed_fine = "%s fine for destroying vehicle!",
+	car_rent_stopped = "Insufficient funds to pay for car rent, rent stopped",
+	car_rent_paid = "Car rent paid: %s",
+	car_rent_paid_fine = "Fine has been paid, now you can rent a vehicle again",
+	car_rent_cant_pay_fine = "Insufficient funds to pay for fine",
+	car_rent_banned = "You were banned from rent for %s",
 
 	-- Laws
 	laws_title = "Les lois de la ville",
@@ -981,6 +992,8 @@ local french = {
 	wepcheck_legal = "Légal: ",
 	wepcheck_illegal = "Illégal: ",
 	wepcheck_noweps = " n'a pas d'armes.",
+	wepcheck_report = "Weapons in possession",
+	wepcheck_inbag = "In pocket:",
 	money_printers_genitive = "imprimante à argent",
 	cantpocket_printer = "Vous ne pouvez pas mettre cette imprimante dans votre poche !",
 
@@ -1002,10 +1015,10 @@ local french = {
 
 	-- Taxi
 	taxi_nomoney = "Vous n'avez plus assez d'argent pour payer le chauffeur !",
-	taxi_paid = "Vous avez payé %d€ pour avoir fait une course",
-	taxi_payment = "Vous avez reçu %d€ pour avoir fait une course",
+	taxi_paid = "Vous avez payé %s pour avoir fait une course",
+	taxi_payment = "Vous avez reçu %s pour avoir fait une course",
 	taxi_setprice_fail = "Vous ne pouvez pas changer le prix du taxi par kilomètre lorsque vous conduisez !",
-	taxi_setprice_ok = "Le prix de %d€ par kilomètre a été fixé",
+	taxi_setprice_ok = "Le prix de %s par kilomètre a été fixé",
 	taxi_nocar = "Vous devez posséder un taxi !",
 	call_taxi_fail = "Malheureusement il n'y a pas de chauffeur de taxi actuellement.",
 	call_taxi_alert = "appelle un taxi !",
@@ -1098,11 +1111,11 @@ local french = {
 	gang_give_title = "Donner de l'argent aux membres",
 	gang_split = "Diviser",
 	gang_each = "Chaque",
-	gang_split_am = "Montant en € (partagés):",
-	gang_each_am = "Montant en € (total):",
+	gang_split_am = "Montant en %s (partagés):",
+	gang_each_am = "Montant en %s (total):",
 	gang_request = "Demander de l'argent aux membres du gang",
 	gang_request_title = "Demander de l'argent aux membres",
-	gang_request_am = "Montant en € (total):",
+	gang_request_am = "Montant en %s (total):",
 	gang_disband = "Dissoudre",
 	gang_disband_title = "Dissoudre",
 	gang_disband_confirm = "Confirmer la dissolution du gang",
@@ -1292,6 +1305,8 @@ local french = {
 	restock_in = "Réapprovisionnement dans %s",
 	for_you_in_stock = "\nPour vous en stock: %d/%d\n%s",
 	printerman_gui_title = "Service d'imprimantes",
+	restock_m_s = "%02dm%02ds",
+	restock_s = "%02dm",
 
 	sellers_gohere = "Allez au point indiqué pour y rencontrer le vendeur",
 	sellers_here = "Rencontrez le vendeur là-bas",
