@@ -259,7 +259,7 @@ local french = {
 	talk_to_your_group = "parlez au groupe",
 
 	channel_set_to_x = "Canal radio réglé sur %s.",
-	channel_not_set = "Radio channel not set (use C-menu to set).",
+	channel_not_set = "Aucun canal radio sélectionné (utilisez le menu C pour en sélectionner un).",
 
 	-- Notifies
 	disabled = "%s a été désactivé ! %s",
@@ -565,7 +565,7 @@ local french = {
 	-- Printer
 	printer_disabled = "L'imprimante est désactivée. Apportez-la à la broyeuse du poste de police pour obtenir une récompense.",
 	printer_fixed = "Bloc policier retiré. L'imprimante est de nouveau fonctionnelle.",
-	printer_warning = "Attention !\nUne utilisation imprudente peut conduire à une inflammation !",
+	printer_warning = "Attention !\nUne utilisation imprudente pourrait faire brûler\nl'imprimante !",
 	printer_error = "L'impression n'est pas possible\nIl n'y pas de place pour l'évacuation de l'argent.",
 	printer_speed = "Vitesse",
 	printer_speed_upgrade = "Amélioration de vitesse",
@@ -574,8 +574,8 @@ local french = {
 	printer_start = "Commencer l'impression",
 	printer_auto = "Répétition automatique",
 	printer_update = "Améliorer pour %s",
-	printer_collect = "Collect money",
-	printer_printed = "Printed: %s",
+	printer_collect = "Récupérer l'argent",
+	printer_printed = "Imprimé: %s",
 
 	-- Jobs
 	citizens = "Citoyens",
@@ -739,7 +739,7 @@ local french = {
 	deployable_tool = "Déballer",
 	nx_repair = "Clé à molette",
 	door_ram = "Bélier",
-	binoculars = "Binoculars",
+	binoculars = "Jumelles",
 
 	-- Hints
 	bomb_instructions1 = "Bouton gauche de la souris - Jeter la bombe",
@@ -810,12 +810,12 @@ local french = {
 	taxi_popup = "Taxi %s/km",
 	car_retrieval = "Ranger le véhicule",
 
-	car_destroyed_fine = "%s fine for destroying vehicle!",
-	car_rent_stopped = "Insufficient funds to pay for car rent, rent stopped",
-	car_rent_paid = "Car rent paid: %s",
-	car_rent_paid_fine = "Fine has been paid, now you can rent a vehicle again",
-	car_rent_cant_pay_fine = "Insufficient funds to pay for fine",
-	car_rent_banned = "You were banned from rent for %s",
+	car_destroyed_fine = "%s d'amende pour avoir détruit le véhicule !",
+	car_rent_stopped = "Fonds insuffisants pour régler la location, location annulée",
+	car_rent_paid = "Location du véhicule réglée: %s",
+	car_rent_paid_fine = "L'amende a été réglée, vous pouvez louer un véhicule de nouveau",
+	car_rent_cant_pay_fine = "Fonds insuffisants pour régler l'amende",
+	car_rent_banned = "Vous avez été banni de louer des véhicules pendant %s",
 
 	-- Laws
 	laws_title = "Les lois de la ville",
@@ -858,7 +858,7 @@ local french = {
 	cc_limitschanged = "Le maire a modifié les lois.",
 	cc_invitetext = "%s vous a invité à rejoindre la police",
 	cc_invited = "Le maire de la ville a invité %s dans la police.",
-	cc_invite_fail_ban = "%s is unable to become a police officer.",
+	cc_invite_fail_ban = "%s ne peut pas devenir agent de police.",
 	cc_nopoints = "Crédits du gouvernement insuffisants",
 	cc_kicked = "Le %s de la ville a licencié %s.",
 	cc_chiefassigned = "Le maire a promu %s, et est maintenant chef de la police.",
@@ -993,8 +993,8 @@ local french = {
 	wepcheck_legal = "Légal: ",
 	wepcheck_illegal = "Illégal: ",
 	wepcheck_noweps = " n'a pas d'armes.",
-	wepcheck_report = "Weapons in possession",
-	wepcheck_inbag = "In pocket:",
+	wepcheck_report = "Arme(s) possédée(s)",
+	wepcheck_inbag = "Dans la poche:",
 	money_printers_genitive = "imprimante à argent",
 	cantpocket_printer = "Vous ne pouvez pas mettre cette imprimante dans votre poche !",
 
@@ -1450,8 +1450,8 @@ local french = {
 
 	can_steal_cars_no = "Le %s ne sait pas voler de voitures. Seuls les %s peuvent faire cela.",
 
-	prop_hp = "Strength",
-	prop_stability = "Stability",
+	prop_hp = "Durabilité",
+	prop_stability = "Stabilité",
 }
 
 Blue.addLanguage("fr", french)
