@@ -1307,7 +1307,7 @@ local french = {
 	for_you_in_stock = "\nPour vous en stock: %d/%d\n%s",
 	printerman_gui_title = "Service d'imprimantes",
 	restock_m_s = "%02dm%02ds",
-	restock_s = "%02dm",
+	restock_s = "%02ds",
 
 	sellers_gohere = "Allez au point indiqué pour y rencontrer le vendeur",
 	sellers_here = "Rencontrez le vendeur là-bas",
@@ -1454,4 +1454,4 @@ local french = {
 	prop_stability = "Stability",
 }
 
-DarkRP.addLanguage("fr", french)
+Blue.addLanguage("fr", french)
