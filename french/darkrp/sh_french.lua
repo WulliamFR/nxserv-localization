@@ -935,7 +935,7 @@ local french = {
 	unarrest_player = "Libérer de la prison",
 	split_shipment = "Fractionner la cargaison",
 	make_shipment = "Créer une cargaison",
-	pack = "Pack",
+	pack = "Emballer",
 
 	cmenu_hint = "Maintenez la touche pour voir les actions possibles",
 	hint = "Astuce",
