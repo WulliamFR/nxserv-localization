@@ -565,7 +565,7 @@ local french = {
 	-- Printer
 	printer_disabled = "L'imprimante est désactivée. Apportez-la à la broyeuse du poste de police pour obtenir une récompense.",
 	printer_fixed = "Bloc policier retiré. L'imprimante est de nouveau fonctionnelle.",
-	printer_warning = "Attention !\nImprimante à manier avec précaution !",
+	printer_warning = "Attention !\nUne utilisation imprudente pourrait faire brûler\nl'imprimante !",
 	printer_error = "L'impression n'est pas possible\nIl n'y pas de place pour l'évacuation de l'argent.",
 	printer_speed = "Vitesse",
 	printer_speed_upgrade = "Amélioration de vitesse",
