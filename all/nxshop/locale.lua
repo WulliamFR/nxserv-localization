@@ -1,5 +1,6 @@
 nxshop.langs = {
 	en = {
+		account = "Account: %s%d",
 		subscriptions = "Subscriptions & Specials",
 		weapons = "Weapons",
 		cars = "Cars",
@@ -46,7 +47,6 @@ Character:
 * Respawn time shortens to 10 seconds
 * Hunger rate is 2 times slower
 * Max armor increases up until 200%
-* You get access to stylish customizable models on jobs like Bartender, City Mayor (Breen), Fishman (Eli), Mob Boss, Medic (Kleiner), Gun Dealer (Father Grigory), Security Guard (Barney), Taxi Driver (Barney)
 * Premium icon in scoreboard makes you more noticeable
 
 Cars:
@@ -75,6 +75,7 @@ Gameplay:
 	},
 
 	ru = {
+		account = "На счету: %d %s",
 		subscriptions = "Подписки и Спецпредложения",
 		weapons = "Оружие",
 		cars = "Машины",
@@ -152,6 +153,7 @@ Gameplay:
 	},
 
 	fr = {
+		account = "Account: %s%d",
 		subscriptions = "Abonnements & Offres Spéciales",
 		weapons = "Armes",
 		cars = "Voitures",
