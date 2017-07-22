@@ -394,15 +394,15 @@ local french = {
 	cmd_cant_be_run_server_console = "Cette commande ne peut être exécutée qu'à partir de la console du serveur.",
 
 	-- The lottery
-	lottery_started = "Il y a une loterie ! Participez-y pour %s%d ?", -- backwards compatibility
-	lottery_has_started = "Il y a une loterie ! Participez-y pour %s ?",
+	lottery_started = "Une loterie a débuté ! Souhaitez-vous y participer pour %s%d ?", -- backwards compatibility
+	lottery_has_started = "Une loterie a débuté ! Souhaitez-vous y participer pour %s ?",
 	lottery_entered = "Vous avez participé à la loterie pour %s",
 	lottery_not_entered = "%s n'a pas participé à la loterie",
 	lottery_noone_entered = "Personne n'a participé à la loterie !",
-	lottery_won = "%s a gagné la loterie ! Il a gagné %s",
+	lottery_won = "%s a remporté la loterie ! Il a gagné %s",
 
 	-- Animations
-	custom_animation = "Animation personnalisée",
+	custom_animation = "Gestes",
 	bow = "S'incliner",
 	dance = "Danse 1",
 	follow_me = "Suivez moi !",
