@@ -184,7 +184,7 @@ Gameplay:
 		thanks = "Vos fonds ont été ajoutés à votre compte, merci !",
 		buy_for = "Acheter pour ",
 		premium_cars = "Voitures Premium",
-		premium_cars_desc = "Automobiles exclusives de Porsche à Mercedex. Mettez l'accent sur votre statut élevé.\nAchetables uniquement avec de l'argent réel.\nLa voiture est ajoutée à votre garage de façon permanente.",
+		premium_cars_desc = "Automobiles exclusives de Porsche à Mercedes. Mettez l'accent sur votre statut élevé.\nAchetables uniquement avec de l'argent réel.\nLa voiture est ajoutée à votre garage de façon permanente.",
 		regular_cars = "Voitures ordinaires",
 		regular_cars_desc = "Automobiles qui sont disponibles pour tout le monde. Achetables avec la monnaie du jeu.",
 		slots = "Emplacements :",
@@ -192,7 +192,7 @@ Gameplay:
 		ui_back = "< Retour",
 		game_money = "Monnaie du jeu : ",
 		darkrp_premium_desc = [[Le "Premium" vous donne des avantages supplémentaires dans le jeu sur nos serveurs DarkRP.
-Avec le "Premium", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville pleine de la criminalité.
+Avec le "Premium", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville pleine de criminalité.
 
 Personnage :
 * Le temps de respawn réduit à 10 secondes
@@ -213,9 +213,9 @@ Gameplay :
 * Les imprimantes à argent et la pêche donnent 50% de revenus en plus]],
 		richbitch_desc = "Seulement pour le DarkRP. Le nombre d'achat est illimité.",
 		richbitch_title = "%s Monnaie Du Jeu",
-		premium_car_desc_1 = [[Catégorie exclusive de véhicules Premium, ajoutés de façon permanente à votre liste de véhicule.
+		premium_car_desc_1 = [[Catégorie exclusive de véhicules Premium, ajoutés de façon permanente à votre liste de véhicules.
 	%d siège passager.]],
-		premium_car_desc_2 = [[Catégorie exclusive de véhicules Premium, ajoutés de façon permanente à votre liste de véhicule.
+		premium_car_desc_2 = [[Catégorie exclusive de véhicules Premium, ajoutés de façon permanente à votre liste de véhicules.
 	%d sièges passagers.]],
 		rent = "Louer...",
 		rent_x = "Louer ",
