@@ -1194,7 +1194,7 @@ local french = {
 	ifak_nomoney = "Vous ne receverez pas d'argent à soigner cette personne, car vous l'avez blessée auparavant",
 	dice_roll = "%s a lancé les dés (%d). Le dé est tombé sur le %d.",
 
-	rpname_info = "Réfléchissez bien à votre nom role play.\nIl devra être réaliste (pas de Chat Miaou ou Homme Crabe), il ne devra pas contenir de ponctuation et suivre les règles générales du serveur.",
+	rpname_info = "Réfléchissez bien à votre nom rôleplay.\nIl devra être réaliste (et non Chat Miaou, L'Homme Crabe), il ne devra pas contenir de ponctuation inutile et devra suivre les règles générales de capitalisation des mots (pas de noms tout en majuscules).",
 	rpname_name = "Prénom",
 	rpname_surname = "Nom de famille",
 
