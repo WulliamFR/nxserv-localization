@@ -394,15 +394,15 @@ local french = {
 	cmd_cant_be_run_server_console = "Cette commande ne peut être exécutée qu'à partir de la console du serveur.",
 
 	-- The lottery
-	lottery_started = "Il y a une loterie ! Participez-y pour %s%d ?", -- backwards compatibility
-	lottery_has_started = "Il y a une loterie ! Participez-y pour %s ?",
+	lottery_started = "Une loterie a débuté ! Souhaitez-vous y participer pour %s%d ?", -- backwards compatibility
+	lottery_has_started = "Une loterie a débuté ! Souhaitez-vous y participer pour %s ?",
 	lottery_entered = "Vous avez participé à la loterie pour %s",
 	lottery_not_entered = "%s n'a pas participé à la loterie",
 	lottery_noone_entered = "Personne n'a participé à la loterie !",
-	lottery_won = "%s a gagné la loterie ! Il a gagné %s",
+	lottery_won = "%s a remporté la loterie ! Il a gagné %s",
 
 	-- Animations
-	custom_animation = "Animation personnalisée",
+	custom_animation = "Gestes",
 	bow = "S'incliner",
 	dance = "Danse 1",
 	follow_me = "Suivez moi !",
@@ -935,7 +935,7 @@ local french = {
 	unarrest_player = "Libérer de la prison",
 	split_shipment = "Fractionner la cargaison",
 	make_shipment = "Créer une cargaison",
-	pack = "Pack",
+	pack = "Emballer",
 
 	cmenu_hint = "Maintenez la touche pour voir les actions possibles",
 	hint = "Astuce",
@@ -1195,7 +1195,7 @@ local french = {
 	ifak_nomoney = "Vous ne receverez pas d'argent à soigner cette personne, car vous l'avez blessée auparavant",
 	dice_roll = "%s a lancé les dés (%d). Le dé est tombé sur le %d.",
 
-	rpname_info = "Réfléchissez bien à votre nom role play.\nIl devra être réaliste (pas de Chat Miaou ou Homme Crabe), il ne devra pas contenir de ponctuation et suivre les règles générales du serveur.",
+	rpname_info = "Réfléchissez bien à votre nom rôleplay.\nIl devra être réaliste (et non Chat Miaou, L'Homme Crabe), il ne devra pas contenir de ponctuation inutile et devra suivre les règles générales de capitalisation des mots (pas de noms tout en majuscules).",
 	rpname_name = "Prénom",
 	rpname_surname = "Nom de famille",
 
@@ -1281,7 +1281,7 @@ local french = {
 	stat_wellfed_hi = "Gros",
 
 	nx_medcenter = "Kit de soin",
-	nx_medcenter_energy = "Batteries du kit de soin",
+	nx_medcenter_energy = "Batterie du kit de soin",
 	medcenter_mode_heal = "Soins simples",
 	medcenter_mode_bones = "Rayons X",
 	medcenter_mode_desease = "Analyse simple",
@@ -1316,7 +1316,7 @@ local french = {
 	printer_new_way = "Vous ne pouvez plus faire apparaître une imprimante n'importe où.\nVous devez appeler un vendeur spécialisé.\nMaintenez C > Appels d'urgences ou de services > Contacter un vendeur d'imprimante",
 	buyprinter_new_way = "Vous pouvez seulement acheter une imprimante avec un service spécial",
 
-	charger_battery = "Batterie chargée à 100%%",
+	charger_battery = "Batterie d'armure chargée à 100%%",
 	weapon_vape = "Vaporisateur",
 	repair_verb = "Réparer",
 	door_single = "Porte",
@@ -1341,7 +1341,7 @@ local french = {
 	itemshop_eject_money = "Éjecter l'argent",
 	itemshop_settings = "Service",
 	itemshop_on_service = "EN SERVICE",
-	itemshop_put_shipments = "Mettez votre colis directement sur l'écran pour l'ajouter",
+	itemshop_put_shipments = "Placez votre colis sur l'écran pour approvisionner",
 	itemshop_restore = "Restorer",
 	itemshop_rename = "Renommer",
 	itemshop_setprice_title = "Le prix a été fixé à %s",
