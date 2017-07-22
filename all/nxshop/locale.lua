@@ -153,7 +153,7 @@ Gameplay:
 	},
 
 	fr = {
-		account = "Account: %s%d",
+		account = "Solde: %s%d",
 		subscriptions = "Abonnements & Offres Spéciales",
 		weapons = "Armes",
 		cars = "Voitures",
