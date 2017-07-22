@@ -1280,7 +1280,7 @@ local french = {
 	stat_wellfed_hi = "Gros",
 
 	nx_medcenter = "Kit de soin",
-	nx_medcenter_energy = "Batteries du kit de soin",
+	nx_medcenter_energy = "Batterie du kit de soin",
 	medcenter_mode_heal = "Soins simples",
 	medcenter_mode_bones = "Rayons X",
 	medcenter_mode_desease = "Analyse simple",
@@ -1315,7 +1315,7 @@ local french = {
 	printer_new_way = "Vous ne pouvez plus faire apparaître une imprimante n'importe où.\nVous devez appeler un vendeur spécialisé.\nMaintenez C > Appels d'urgences ou de services > Contacter un vendeur d'imprimante",
 	buyprinter_new_way = "Vous pouvez seulement acheter une imprimante avec un service spécial",
 
-	charger_battery = "Batterie chargée à 100%%",
+	charger_battery = "Batterie d'armure chargée à 100%%",
 	weapon_vape = "Vaporisateur",
 	repair_verb = "Réparer",
 	door_single = "Porte",
