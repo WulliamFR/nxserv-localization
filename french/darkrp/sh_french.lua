@@ -1088,7 +1088,7 @@ local french = {
 	dna_arrest = "l'arrestation a été effectuée grâce aux analyses d'ADN",
 	dna_killer_arrested = "Le tueur a été arrêté par la police",
 	dna_killer_leave = "Le tueur a quitté la ville",
-	dna_killer_cop = "Killed by Police",
+	dna_killer_cop = "Tué par la Police",
 
 	--
 	arrest_question = "Arrêter %s\nOui - spécifier la raison\nNon - relâcher de la prison\nL'accusé sera relâché si aucune raison ne sera spécifiée.",
