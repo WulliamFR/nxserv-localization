@@ -58,7 +58,7 @@ Cars:
 Gameplay:
 * You can initiate demote votes
 * Job limits aren't applied to you, you can get any job at any time
-* When starting (as Mayor) a lottery you get 10% from lottery pool
+* When starting (as Mayor) a lottery you get 5% from lottery pool
 * Money Printers and Fishing give 50% more income]],
 		richbitch_desc = "Only for DarkRP. Number of purchases is unlimited.",
 		richbitch_title = "In-Game Currency %s",
@@ -133,7 +133,7 @@ Gameplay:
 Геймплей:
 * Даётся доступ к голосованиям на увольнение
 * Занимать профессии можно в обход лимитов
-* Когда вы играете за Главу города и проводите лотерею, вы получаете 10% от выигрыша
+* Когда вы играете за Главу города и проводите лотерею, вы получаете 5% от выигрыша
 * Принтеры и рыбалка дают на 50% больше прибыли]],
 		richbitch_desc = "Только для DarkRP. Количество приобретений неограниченно.",
 		richbitch_title = "Игровая валюта %s",
@@ -209,7 +209,7 @@ Voitures :
 Gameplay :
 * Vous pouvez lancer des votes de licenciement
 * La limite de métiers n'est pas appliquée à vous, vous pouvez jouer n'importe quel métier à n'importe quel moment
-* En tant que maire, lors du démarrage d'une loterie, vous recevez 10% des gains
+* En tant que maire, lors du démarrage d'une loterie, vous recevez 5% des gains
 * Les imprimantes à argent et la pêche donnent 50% de revenus en plus]],
 		richbitch_desc = "Seulement pour le DarkRP. Le nombre d'achat est illimité.",
 		richbitch_title = "%s Monnaie Du Jeu",
