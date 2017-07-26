@@ -259,6 +259,7 @@ local french = {
 	talk_to_your_group = "parlez au groupe",
 
 	channel_set_to_x = "Canal radio réglé sur %s.",
+	channel_not_set = "Aucun canal radio sélectionné (utilisez le menu C pour en sélectionner un).",
 
 	-- Notifies
 	disabled = "%s a été désactivé ! %s",
@@ -393,15 +394,15 @@ local french = {
 	cmd_cant_be_run_server_console = "Cette commande ne peut être exécutée qu'à partir de la console du serveur.",
 
 	-- The lottery
-	lottery_started = "Il y a une loterie ! Participez-y pour %s%d ?", -- backwards compatibility
-	lottery_has_started = "Il y a une loterie ! Participez-y pour %s ?",
+	lottery_started = "Une loterie a débuté ! Souhaitez-vous y participer pour %s%d ?", -- backwards compatibility
+	lottery_has_started = "Une loterie a débuté ! Souhaitez-vous y participer pour %s ?",
 	lottery_entered = "Vous avez participé à la loterie pour %s",
 	lottery_not_entered = "%s n'a pas participé à la loterie",
 	lottery_noone_entered = "Personne n'a participé à la loterie !",
-	lottery_won = "%s a gagné la loterie ! Il a gagné %s",
+	lottery_won = "%s a remporté la loterie ! Il a gagné %s",
 
 	-- Animations
-	custom_animation = "Animation personnalisée",
+	custom_animation = "Gestes",
 	bow = "S'incliner",
 	dance = "Danse 1",
 	follow_me = "Suivez moi !",
@@ -496,7 +497,7 @@ local french = {
 	F4vehicles = "Véhicules",
 	F4donate = "Dons",
 	F4premium = "Premium",
-	F4cars = "Voitures",
+	F4cars = "Véhicules",
 	F4hats = "Vêtements",
 	F4attachments = "Extras d'arme",
 
@@ -558,13 +559,13 @@ local french = {
 
 	-- Destroyer
 	destroyer_message = "Broyeuse: jetez ici des imprimantes à argent, des drogues ou des armes pour obtenir une récompense.",
-	destroyer_reward = "Récompense pour avoir broyé un objet illégal: $%d.",
+	destroyer_reward = "Récompense pour avoir broyé un objet illégal: %s.",
 	destroyer_bringthis = "Apportez cela à la broyeuse du poste de police pour obtenir une récompense.",
 
 	-- Printer
 	printer_disabled = "L'imprimante est désactivée. Apportez-la à la broyeuse du poste de police pour obtenir une récompense.",
 	printer_fixed = "Bloc policier retiré. L'imprimante est de nouveau fonctionnelle.",
-	printer_warning = "Attention !\nUne utilisation imprudente peut conduire à une inflammation !",
+	printer_warning = "Attention !\nUne utilisation imprudente pourrait faire brûler\nl'imprimante !",
 	printer_error = "L'impression n'est pas possible\nIl n'y pas de place pour l'évacuation de l'argent.",
 	printer_speed = "Vitesse",
 	printer_speed_upgrade = "Amélioration de vitesse",
@@ -573,6 +574,8 @@ local french = {
 	printer_start = "Commencer l'impression",
 	printer_auto = "Répétition automatique",
 	printer_update = "Améliorer pour %s",
+	printer_collect = "Récupérer l'argent",
+	printer_printed = "Imprimé: %s",
 
 	-- Jobs
 	citizens = "Citoyens",
@@ -713,6 +716,7 @@ local french = {
 
 	-- Entities
 	piano = "Piano",
+	drums = "Batterie",
 	wepdetector = "Détecteur de métaux",
 	turret = "Tourelle",
 	playxradio = "Radio PlayX",
@@ -736,6 +740,7 @@ local french = {
 	deployable_tool = "Déballer",
 	nx_repair = "Clé à molette",
 	door_ram = "Bélier",
+	binoculars = "Jumelles",
 
 	-- Hints
 	bomb_instructions1 = "Bouton gauche de la souris - Jeter la bombe",
@@ -759,31 +764,31 @@ local french = {
 
 	-- Cars
 	car_on_fire = "Votre véhicule est en feu, vous ne pouvez pas le supprimer",
-	car_bought = "La voiture a bien été achetée",
+	car_bought = "Le véhicule a bien été acheté",
 	car_buymsg = "Vous avez acheté %s.\nUtilisez le terminal le plus proche pour la faire apparaître.",
 	car_rentmsg = "Vous avez loué %s.\nUtilisez le terminal le plus proche pour la faire apparaître.",
 	car_nomoney = "Fonds insuffisants",
-	car_modified = "La voiture a été modifiée",
-	car_sold = "La voiture a été vendue",
+	car_modified = "Le véhicule a été modifié",
+	car_sold = "La véhicule a été vendu",
 	car_hobos = "Les clochards n'ont pas de véhicule",
-	car_coplimit = "La limite de voiture de police a été atteinte",
-	car_stolen = "Votre voiture a été volée",
-	car_spawned = "La voiture est apparue",
-	car_removed = "La voiture a été supprimée",
+	car_coplimit = "La limite de véhicules de police a été atteinte",
+	car_stolen = "Votre véhicule a été volé",
+	car_spawned = "Le véhicule est apparu",
+	car_removed = "Le véhicule a été supprimé",
 	car_request = "Est-ce que %s peut monter dans votre véhicule ?",
 	car_request_sent = "Demande envoyée",
 	car_request_sent_already = "Demande déjà envoyée",
 	car_ok_but_distance = "Le conducteur a accepté que vous montiez dans son véhicule, mais vous êtes maintenant trop loin de lui",
 	car_ok_but_distance_owner = "Le passager est maintenant trop loin de vous",
 	car_retrieved = "Le véhicule a été retourné à son propriétaire avec succès",
-	car_alarm = "Alarme de la voiture !",
-	car_lockpick_success = "Voiture volée avec succès !",
+	car_alarm = "Alarme du véhicule !",
+	car_lockpick_success = "Véhicule volé avec succès !",
 	need_warrant = "Mandat requis",
 	car_rent_broken = "Ce véhicule est endommagé, appelez le mécanien automobile pour le réparer",
 	car_rent_end = "Vous ne louez plus ce véhicule",
 	car_rent_premium = "Seuls les Premiums peuvent utiliser un véhicule loué.",
 	car_rent_need_premium = "Seuls les Premiums peuvent louer des véhicules.\nVous pouvez le devenir en appuyant sur TAB.",
-	car_rent_limit = "Vous avez déjà loué cette voiture !",
+	car_rent_limit = "Vous avez déjà loué ce véhicule !",
 	car_rent_start = "Vous pouvez commencer à utiliser votre véhicule loué",
 	car_rent_stop = "Arrêter la location de ce véhicule",
 	car_rent_stop_ask = "Voulez-vous rendre le véhicule au loueur ?",
@@ -800,11 +805,18 @@ local french = {
 	car_apply = "Appliquer: ",
 	car_driver = "Conducteur:",
 	car_passenger = "Passager %d:",
-	car = "Voiture",
+	car = "Véhicule",
 	car_kick = "Éjecter",
 	previous_owner = "Précédent propriétaire: %s",
-	taxi_popup = "Taxi %d€/km",
+	taxi_popup = "Taxi %s/km",
 	car_retrieval = "Ranger le véhicule",
+
+	car_destroyed_fine = "%s d'amende pour avoir détruit le véhicule !",
+	car_rent_stopped = "Fonds insuffisants pour régler la location, location annulée",
+	car_rent_paid = "Location du véhicule réglée: %s",
+	car_rent_paid_fine = "L'amende a été réglée, vous pouvez louer un véhicule de nouveau",
+	car_rent_cant_pay_fine = "Fonds insuffisants pour régler l'amende",
+	car_rent_banned = "Vous avez été banni de louer des véhicules pendant %s",
 
 	-- Laws
 	laws_title = "Les lois de la ville",
@@ -847,6 +859,7 @@ local french = {
 	cc_limitschanged = "Le maire a modifié les lois.",
 	cc_invitetext = "%s vous a invité à rejoindre la police",
 	cc_invited = "Le maire de la ville a invité %s dans la police.",
+	cc_invite_fail_ban = "%s ne peut pas devenir agent de police.",
 	cc_nopoints = "Crédits du gouvernement insuffisants",
 	cc_kicked = "Le %s de la ville a licencié %s.",
 	cc_chiefassigned = "Le maire a promu %s, et est maintenant chef de la police.",
@@ -923,7 +936,7 @@ local french = {
 	unarrest_player = "Libérer de la prison",
 	split_shipment = "Fractionner la cargaison",
 	make_shipment = "Créer une cargaison",
-	pack = "Pack",
+	pack = "Emballer",
 
 	cmenu_hint = "Maintenez la touche pour voir les actions possibles",
 	hint = "Astuce",
@@ -981,6 +994,8 @@ local french = {
 	wepcheck_legal = "Légal: ",
 	wepcheck_illegal = "Illégal: ",
 	wepcheck_noweps = " n'a pas d'armes.",
+	wepcheck_report = "Arme(s) possédée(s)",
+	wepcheck_inbag = "Dans la poche:",
 	money_printers_genitive = "imprimante à argent",
 	cantpocket_printer = "Vous ne pouvez pas mettre cette imprimante dans votre poche !",
 
@@ -1002,10 +1017,10 @@ local french = {
 
 	-- Taxi
 	taxi_nomoney = "Vous n'avez plus assez d'argent pour payer le chauffeur !",
-	taxi_paid = "Vous avez payé %d€ pour avoir fait une course",
-	taxi_payment = "Vous avez reçu %d€ pour avoir fait une course",
+	taxi_paid = "Vous avez payé %s pour avoir fait une course",
+	taxi_payment = "Vous avez reçu %s pour avoir fait une course",
 	taxi_setprice_fail = "Vous ne pouvez pas changer le prix du taxi par kilomètre lorsque vous conduisez !",
-	taxi_setprice_ok = "Le prix de %d€ par kilomètre a été fixé",
+	taxi_setprice_ok = "Le prix de %s par kilomètre a été fixé",
 	taxi_nocar = "Vous devez posséder un taxi !",
 	call_taxi_fail = "Malheureusement il n'y a pas de chauffeur de taxi actuellement.",
 	call_taxi_alert = "appelle un taxi !",
@@ -1050,9 +1065,9 @@ local french = {
 	dna_vehicle = "accident de voiture",
 	dna_unknown = "inconnu",
 	dna_title = "Victime",
-	dna_name = "Le nom de la victime: ",
-	dna_job = "Le métier de la victime: ",
-	dna_time = "L'heure du décès: il y a %d secondes",
+	dna_name = "Nom de la victime: ",
+	dna_job = "Métier de la victime: ",
+	dna_time = "Heure du décès: il y a %d secondes",
 	dna_reason = "Raison de la mort: ",
 	dna_dist = "Distance du tueur: ",
 	dna_weapon = "Arme du crime: ",
@@ -1074,6 +1089,7 @@ local french = {
 	dna_arrest = "l'arrestation a été effectuée grâce aux analyses d'ADN",
 	dna_killer_arrested = "Le tueur a été arrêté par la police",
 	dna_killer_leave = "Le tueur a quitté la ville",
+	dna_killer_cop = "Tué par la Police",
 
 	--
 	arrest_question = "Arrêter %s\nOui - spécifier la raison\nNon - relâcher de la prison\nL'accusé sera relâché si aucune raison ne sera spécifiée.",
@@ -1098,11 +1114,11 @@ local french = {
 	gang_give_title = "Donner de l'argent aux membres",
 	gang_split = "Diviser",
 	gang_each = "Chaque",
-	gang_split_am = "Montant en € (partagés):",
-	gang_each_am = "Montant en € (total):",
+	gang_split_am = "Montant en %s (partagés):",
+	gang_each_am = "Montant en %s (total):",
 	gang_request = "Demander de l'argent aux membres du gang",
 	gang_request_title = "Demander de l'argent aux membres",
-	gang_request_am = "Montant en € (total):",
+	gang_request_am = "Montant en %s (total):",
 	gang_disband = "Dissoudre",
 	gang_disband_title = "Dissoudre",
 	gang_disband_confirm = "Confirmer la dissolution du gang",
@@ -1180,7 +1196,7 @@ local french = {
 	ifak_nomoney = "Vous ne receverez pas d'argent à soigner cette personne, car vous l'avez blessée auparavant",
 	dice_roll = "%s a lancé les dés (%d). Le dé est tombé sur le %d.",
 
-	rpname_info = "Réfléchissez bien à votre nom role play.\nIl devra être réaliste (pas de Chat Miaou ou Homme Crabe), il ne devra pas contenir de ponctuation et suivre les règles générales du serveur.",
+	rpname_info = "Réfléchissez bien à votre nom rôleplay.\nIl devra être réaliste (et non Chat Miaou, L'Homme Crabe), il ne devra pas contenir de ponctuation inutile et devra suivre les règles générales de capitalisation des mots (pas de noms tout en majuscules).",
 	rpname_name = "Prénom",
 	rpname_surname = "Nom de famille",
 
@@ -1202,7 +1218,7 @@ local french = {
 	cr_phrase = "Ici se trouve %s, et il est recherché !",
 
 	widget_rules = "Règles",
-	widget_news = "Nouvelles",
+	widget_news = "Nouveautés",
 	widget_info = "Guide",
 	widget_group = "Groupe Steam ",
 
@@ -1266,7 +1282,7 @@ local french = {
 	stat_wellfed_hi = "Gros",
 
 	nx_medcenter = "Kit de soin",
-	nx_medcenter_energy = "Batteries du kit de soin",
+	nx_medcenter_energy = "Batterie du kit de soin",
 	medcenter_mode_heal = "Soins simples",
 	medcenter_mode_bones = "Rayons X",
 	medcenter_mode_desease = "Analyse simple",
@@ -1286,12 +1302,14 @@ local french = {
 	lockdown_info_timeleft = "Vous avez %d secondes pour rentrer chez vous",
 	lockdown_info_timeout = "Vous pouvez être arrêté pour un non respect d'un couvre feu",
 
-	purchase_placement = "Choisissez où mettre vos achats.\nVous pouvez mettre vos achats dans la voiture la plus proche.\n",
+	purchase_placement = "Choisissez où mettre vos achats.\nVous pouvez mettre vos achats dans le véhicule le plus proche.\n",
 	buy_printer_for = "Acheter une imprimante à argent pour %s",
 	my_pocket = "Ma poche",
 	restock_in = "Réapprovisionnement dans %s",
 	for_you_in_stock = "\nPour vous en stock: %d/%d\n%s",
 	printerman_gui_title = "Service d'imprimantes",
+	restock_m_s = "%02dm%02ds",
+	restock_s = "%02ds",
 
 	sellers_gohere = "Allez au point indiqué pour y rencontrer le vendeur",
 	sellers_here = "Rencontrez le vendeur là-bas",
@@ -1299,7 +1317,7 @@ local french = {
 	printer_new_way = "Vous ne pouvez plus faire apparaître une imprimante n'importe où.\nVous devez appeler un vendeur spécialisé.\nMaintenez C > Appels d'urgences ou de services > Contacter un vendeur d'imprimante",
 	buyprinter_new_way = "Vous pouvez seulement acheter une imprimante avec un service spécial",
 
-	charger_battery = "Batterie chargée à 100%%",
+	charger_battery = "Batterie d'armure chargée à 100%%",
 	weapon_vape = "Vaporisateur",
 	repair_verb = "Réparer",
 	door_single = "Porte",
@@ -1324,7 +1342,7 @@ local french = {
 	itemshop_eject_money = "Éjecter l'argent",
 	itemshop_settings = "Service",
 	itemshop_on_service = "EN SERVICE",
-	itemshop_put_shipments = "Mettez votre colis directement sur l'écran pour l'ajouter",
+	itemshop_put_shipments = "Placez votre colis sur l'écran pour approvisionner",
 	itemshop_restore = "Restorer",
 	itemshop_rename = "Renommer",
 	itemshop_setprice_title = "Le prix a été fixé à %s",
@@ -1432,7 +1450,10 @@ local french = {
 	district_rcar = "Périphérique",
 	district_mountain = "Montagnes",
 
-	can_steal_cars_no = "Le %s ne sait pas voler de voitures. Seuls les %s peuvent faire cela.",
+	can_steal_cars_no = "Le %s ne sait pas voler de véhicule. Seuls les %s peuvent faire cela.",
+
+	prop_hp = "Durabilité",
+	prop_stability = "Stabilité",
 }
 
-DarkRP.addLanguage("fr", french)
+Blue.addLanguage("fr", french)

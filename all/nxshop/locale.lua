@@ -1,5 +1,6 @@
 nxshop.langs = {
 	en = {
+		account = "Account: %s%d",
 		subscriptions = "Subscriptions & Specials",
 		weapons = "Weapons",
 		cars = "Cars",
@@ -46,7 +47,6 @@ Character:
 * Respawn time shortens to 10 seconds
 * Hunger rate is 2 times slower
 * Max armor increases up until 200%
-* You get access to stylish customizable models on jobs like Bartender, City Mayor (Breen), Fishman (Eli), Mob Boss, Medic (Kleiner), Gun Dealer (Father Grigory), Security Guard (Barney), Taxi Driver (Barney)
 * Premium icon in scoreboard makes you more noticeable
 
 Cars:
@@ -58,7 +58,7 @@ Cars:
 Gameplay:
 * You can initiate demote votes
 * Job limits aren't applied to you, you can get any job at any time
-* When starting (as Mayor) a lottery you get 10% from lottery pool
+* When starting (as Mayor) a lottery you get 5% from lottery pool
 * Money Printers and Fishing give 50% more income]],
 		richbitch_desc = "Only for DarkRP. Number of purchases is unlimited.",
 		richbitch_title = "In-Game Currency %s",
@@ -75,6 +75,7 @@ Gameplay:
 	},
 
 	ru = {
+		account = "На счету: %d %s",
 		subscriptions = "Подписки и Спецпредложения",
 		weapons = "Оружие",
 		cars = "Машины",
@@ -133,7 +134,7 @@ Gameplay:
 Геймплей:
 * Даётся доступ к голосованиям на увольнение
 * Занимать профессии можно в обход лимитов
-* Когда вы играете за Главу города и проводите лотерею, вы получаете 10% от выигрыша
+* Когда вы играете за Главу города и проводите лотерею, вы получаете 5% от выигрыша
 * Принтеры и рыбалка дают на 50% больше прибыли]],
 		richbitch_desc = "Только для DarkRP. Количество приобретений неограниченно.",
 		richbitch_title = "Игровая валюта %s",
@@ -152,16 +153,17 @@ Gameplay:
 	},
 
 	fr = {
+		account = "Solde: %s%d",
 		subscriptions = "Abonnements & Offres Spéciales",
 		weapons = "Armes",
-		cars = "Voitures",
+		cars = "Véhicules",
 		hats = "Apparence",
 		bought = "Acheté",
 		buying_period = "Disponible pour %s",
 		expires_in = "Expire dans ",
 		expired = "Expiré !",
 		discount = "%s, %d%% de réduction !",
-		open_in_browser = "Pour obtenir les informations requises, copiez ce lien et ouvrez le dans votre navigateur préféré",
+		open_in_browser = "Pour obtenir les informations requises, copiez ce lien et collez le dans votre navigateur préféré",
 		copy_link = "Copier le lien",
 		nofunds_ask = "Votre compte ne dispose pas de suffisamment de fonds pour acheter ce produit.\nSouhaitez recharger votre solde ?",
 		nofunds = "Fonds insuffisants",
@@ -180,19 +182,19 @@ Gameplay:
 		days = " jours",
 		you_bought = "Vous avez acheté ",
 		you_already_own = "Vous possédez déjà cet élément !",
-		no_item = "Il y a une erreur dans le traitement de votre demande.",
-		thanks = "Vos fonds ont été ajoutés à votre compte, merci !",
+		no_item = "Il y a eu une erreur dans le traitement de votre demande.",
+		thanks = "Les fonds ont été ajoutés à votre solde avec succès, merci !",
 		buy_for = "Acheter pour ",
-		premium_cars = "Voitures Premium",
-		premium_cars_desc = "Automobiles exclusives de Porsche à Mercedex. Mettez l'accent sur votre statut élevé.\nAchetables uniquement avec de l'argent réel.\nLa voiture est ajoutée à votre garage de façon permanente.",
-		regular_cars = "Voitures ordinaires",
+		premium_cars = "Véhicules Premium",
+		premium_cars_desc = "Automobiles exclusives de Porsche à Mercedes. Mettez l'accent sur votre statut élevé.\nAchetables uniquement avec de l'argent réel.\nLes véhicules sont ajoutés à votre garage de façon permanente.",
+		regular_cars = "Véhicules ordinaires",
 		regular_cars_desc = "Automobiles qui sont disponibles pour tout le monde. Achetables avec la monnaie du jeu.",
 		slots = "Emplacements :",
 		store = "Magasin :",
 		ui_back = "< Retour",
 		game_money = "Monnaie du jeu : ",
 		darkrp_premium_desc = [[Le "Premium" vous donne des avantages supplémentaires dans le jeu sur nos serveurs DarkRP.
-Avec le "Premium", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville pleine de la criminalité.
+Avec le "Premium", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville pleine de criminalité.
 
 Personnage :
 * Le temps de respawn réduit à 10 secondes
@@ -200,28 +202,28 @@ Personnage :
 * La capacité maximum de l'armure est augmentée à 200%
 * L'icône Premium dans le TAB vous rend plus perceptible
 
-Voitures :
-* Les voitures consomment 50% de carburant en moins
-* 10% de rabais lors de l'achat de voitures
-* La location de voitures est désormais disponible
+Véhicules :
+* Les véhicules consomment 50% de carburant en moins
+* 10% de rabais lors de l'achat de véhicules
+* La location de véhicules est désormais disponible
 * Le tuning sur les véhicules est désormais disponible (spoilers, pare-chocs, jupes, hottes, etc.)
 
 Gameplay :
 * Vous pouvez lancer des votes de licenciement
 * La limite de métiers n'est pas appliquée à vous, vous pouvez jouer n'importe quel métier à n'importe quel moment
-* En tant que maire, lors du démarrage d'une loterie, vous recevez 10% des gains
+* En tant que maire, lors du démarrage d'une loterie, vous recevez 5% des gains
 * Les imprimantes à argent et la pêche donnent 50% de revenus en plus]],
 		richbitch_desc = "Seulement pour le DarkRP. Le nombre d'achat est illimité.",
 		richbitch_title = "%s Monnaie Du Jeu",
-		premium_car_desc_1 = [[Catégorie exclusive de véhicules Premium, ajoutés de façon permanente à votre liste de véhicule.
+		premium_car_desc_1 = [[Catégorie exclusive de véhicules Premium, ajoutés de façon permanente à votre liste de véhicules.
 	%d siège passager.]],
-		premium_car_desc_2 = [[Catégorie exclusive de véhicules Premium, ajoutés de façon permanente à votre liste de véhicule.
+		premium_car_desc_2 = [[Catégorie exclusive de véhicules Premium, ajoutés de façon permanente à votre liste de véhicules.
 	%d sièges passagers.]],
 		rent = "Louer...",
 		rent_x = "Louer ",
-		rent_desc = "Premier frais: 10,000€.\nEnsuite, le paiement est effectué chaque soir en jeu d'un montant de %s.\nSi vous ne pouvez pas payer, la location sera annulée. Si vous ne pouvez pas payer la location, elle sera annulée.\nEn cas d'annulation de locatlion forcée, le véhicule est détruit,\nensuite vous serez banni de la location pendant 1 jour en jeu et vous devrez payer une amende de 3,000€.\nLes investissements dans les modifications de véhicules ne sont pas remboursés.",
+		rent_desc = "Premier frais: 10,000€.\nEnsuite, le paiement est effectué chaque soir en jeu d'un montant de %s.\nSi vous ne pouvez pas payer, la location sera annulée. Si vous ne pouvez pas payer la location, elle sera annulée.\nEn cas d'annulation de location forcée, le véhicule est détruit,\nensuite vous serez banni de la location pendant 1 jour en jeu et vous devrez payer une amende de 3,000€.\nLes investissements dans les modifications de véhicules ne sont pas remboursés.",
 		fine = "Amende",
-		fine_desc = "Vous devez payer une amende de 3,000€ pour détruire la voiture louée,\navant d'utiliser la location de nouveau.\nPayer maintenant ?",
+		fine_desc = "Vous devez payer une amende de 3,000€ pour détruire le véhicule loué,\navant d'utiliser la location de nouveau.\nPayer maintenant ?",
 		free = "GRATUIT",
 	},
 }

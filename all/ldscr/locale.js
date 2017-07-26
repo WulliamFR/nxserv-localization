@@ -44,7 +44,7 @@ var langs = {
 		init: "Chargement en cours...",
 		mounting: "Addons du Workshop: Chargement",
 		ws_done: "Addons du Workshop: Terminé",
-		sending_info: "Finalisation...",
+		sending_info: "Presque là...",
 		ws_adds: "Addons du Workshop: ",
 		checking: "Vérification ",
 		unpacking: "Extraction ",

@@ -141,7 +141,7 @@ module.exports = {
 					`Il est interdit d'utiliser un prop qui ressemble à un mur, mais qui finalement agit comme un mur sans collision et tirer à travers et vice versa.`,
 					`Il est interdit d'utiliser un prop qui n'est transparent que d'un seul côté.`,
 					`Il est interdit de placer des structures gênantes sur des territoires qui ne vous appartiennent pas, sans le consentement du propriétaire.`,
-					`Vous pouvez déclarer un territoire neutre comme le votre et construire dessus, si vous n'êtes pas dans un territoire public (route, parking, égoûts).`,
+					`Vous pouvez déclarer un territoire neutre comme le votre et construire dessus, si vous n'êtes pas dans un territoire public (route, parking).`,
 					`Il est interdit de faire apparaître des objets précieux (imprimantes, tourelles, etc) et des bases dans des endroits, qui ne sont pas accessibles par des moyens de transports usuels (sans Parkour).<br>
 						Exception: le toit d'un magasin, maximum 4 étages. Vous devez construire une échelle accessible publiquement ou un ascenseur jusqu'à celui-ci. Lorsqu'il n'y a pas de moyen pour y accéder, vous n'êtes pas autorisé à placer des objets précieux et des bases sur ce toit.`,
 					`Si un ascenseur est requis pour accéder à votre structure, contrôler celui-ci devra être possible sans crackage. Il est interdit de limiter l'accès de cet ascenseur. L'ascenseur devra marcher de manière stable. Ce qui veut dire:
