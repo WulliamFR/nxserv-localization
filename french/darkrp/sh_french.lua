@@ -559,7 +559,7 @@ local french = {
 
 	-- Destroyer
 	destroyer_message = "Broyeuse: jetez ici des imprimantes à argent, des drogues ou des armes pour obtenir une récompense.",
-	destroyer_reward = "Récompense pour avoir broyé un objet illégal: $%d.",
+	destroyer_reward = "Récompense pour avoir broyé un objet illégal: %s.",
 	destroyer_bringthis = "Apportez cela à la broyeuse du poste de police pour obtenir une récompense.",
 
 	-- Printer
@@ -716,6 +716,7 @@ local french = {
 
 	-- Entities
 	piano = "Piano",
+	drums = "Drums",
 	wepdetector = "Détecteur de métaux",
 	turret = "Tourelle",
 	playxradio = "Radio PlayX",
