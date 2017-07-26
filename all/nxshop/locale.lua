@@ -202,10 +202,10 @@ Personnage :
 * La capacité maximum de l'armure est augmentée à 200%
 * L'icône Premium dans le TAB vous rend plus perceptible
 
-Voitures :
-* Les voitures consomment 50% de carburant en moins
-* 10% de rabais lors de l'achat de voitures
-* La location de voitures est désormais disponible
+Véhicules :
+* Les véhicules consomment 50% de carburant en moins
+* 10% de rabais lors de l'achat de véhicules
+* La location de véhicules est désormais disponible
 * Le tuning sur les véhicules est désormais disponible (spoilers, pare-chocs, jupes, hottes, etc.)
 
 Gameplay :
@@ -223,7 +223,7 @@ Gameplay :
 		rent_x = "Louer ",
 		rent_desc = "Premier frais: 10,000€.\nEnsuite, le paiement est effectué chaque soir en jeu d'un montant de %s.\nSi vous ne pouvez pas payer, la location sera annulée. Si vous ne pouvez pas payer la location, elle sera annulée.\nEn cas d'annulation de location forcée, le véhicule est détruit,\nensuite vous serez banni de la location pendant 1 jour en jeu et vous devrez payer une amende de 3,000€.\nLes investissements dans les modifications de véhicules ne sont pas remboursés.",
 		fine = "Amende",
-		fine_desc = "Vous devez payer une amende de 3,000€ pour détruire la voiture louée,\navant d'utiliser la location de nouveau.\nPayer maintenant ?",
+		fine_desc = "Vous devez payer une amende de 3,000€ pour détruire le véhicule loué,\navant d'utiliser la location de nouveau.\nPayer maintenant ?",
 		free = "GRATUIT",
 	},
 }
