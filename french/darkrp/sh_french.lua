@@ -716,7 +716,7 @@ local french = {
 
 	-- Entities
 	piano = "Piano",
-	drums = "Drums",
+	drums = "Batterie",
 	wepdetector = "Détecteur de métaux",
 	turret = "Tourelle",
 	playxradio = "Radio PlayX",
