@@ -153,17 +153,17 @@ Gameplay:
 	},
 
 	fr = {
-		account = "Account: %s%d",
+		account = "Solde: %s%d",
 		subscriptions = "Abonnements & Offres Spéciales",
 		weapons = "Armes",
-		cars = "Voitures",
+		cars = "Véhicules",
 		hats = "Apparence",
 		bought = "Acheté",
 		buying_period = "Disponible pour %s",
 		expires_in = "Expire dans ",
 		expired = "Expiré !",
 		discount = "%s, %d%% de réduction !",
-		open_in_browser = "Pour obtenir les informations requises, copiez ce lien et ouvrez le dans votre navigateur préféré",
+		open_in_browser = "Pour obtenir les informations requises, copiez ce lien et collez le dans votre navigateur préféré",
 		copy_link = "Copier le lien",
 		nofunds_ask = "Votre compte ne dispose pas de suffisamment de fonds pour acheter ce produit.\nSouhaitez recharger votre solde ?",
 		nofunds = "Fonds insuffisants",
@@ -182,12 +182,12 @@ Gameplay:
 		days = " jours",
 		you_bought = "Vous avez acheté ",
 		you_already_own = "Vous possédez déjà cet élément !",
-		no_item = "Il y a une erreur dans le traitement de votre demande.",
-		thanks = "Vos fonds ont été ajoutés à votre compte, merci !",
+		no_item = "Il y a eu une erreur dans le traitement de votre demande.",
+		thanks = "Les fonds ont été ajoutés à votre solde avec succès, merci !",
 		buy_for = "Acheter pour ",
-		premium_cars = "Voitures Premium",
-		premium_cars_desc = "Automobiles exclusives de Porsche à Mercedes. Mettez l'accent sur votre statut élevé.\nAchetables uniquement avec de l'argent réel.\nLa voiture est ajoutée à votre garage de façon permanente.",
-		regular_cars = "Voitures ordinaires",
+		premium_cars = "Véhicules Premium",
+		premium_cars_desc = "Automobiles exclusives de Porsche à Mercedes. Mettez l'accent sur votre statut élevé.\nAchetables uniquement avec de l'argent réel.\nLes véhicules sont ajoutés à votre garage de façon permanente.",
+		regular_cars = "Véhicules ordinaires",
 		regular_cars_desc = "Automobiles qui sont disponibles pour tout le monde. Achetables avec la monnaie du jeu.",
 		slots = "Emplacements :",
 		store = "Magasin :",
@@ -202,10 +202,10 @@ Personnage :
 * La capacité maximum de l'armure est augmentée à 200%
 * L'icône Premium dans le TAB vous rend plus perceptible
 
-Voitures :
-* Les voitures consomment 50% de carburant en moins
-* 10% de rabais lors de l'achat de voitures
-* La location de voitures est désormais disponible
+Véhicules :
+* Les véhicules consomment 50% de carburant en moins
+* 10% de rabais lors de l'achat de véhicules
+* La location de véhicules est désormais disponible
 * Le tuning sur les véhicules est désormais disponible (spoilers, pare-chocs, jupes, hottes, etc.)
 
 Gameplay :
@@ -223,7 +223,7 @@ Gameplay :
 		rent_x = "Louer ",
 		rent_desc = "Premier frais: 10,000€.\nEnsuite, le paiement est effectué chaque soir en jeu d'un montant de %s.\nSi vous ne pouvez pas payer, la location sera annulée. Si vous ne pouvez pas payer la location, elle sera annulée.\nEn cas d'annulation de location forcée, le véhicule est détruit,\nensuite vous serez banni de la location pendant 1 jour en jeu et vous devrez payer une amende de 3,000€.\nLes investissements dans les modifications de véhicules ne sont pas remboursés.",
 		fine = "Amende",
-		fine_desc = "Vous devez payer une amende de 3,000€ pour détruire la voiture louée,\navant d'utiliser la location de nouveau.\nPayer maintenant ?",
+		fine_desc = "Vous devez payer une amende de 3,000€ pour détruire le véhicule loué,\navant d'utiliser la location de nouveau.\nPayer maintenant ?",
 		free = "GRATUIT",
 	},
 }
