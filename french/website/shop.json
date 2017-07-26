@@ -16,15 +16,15 @@
 
 	"categories": {
 		"subscriptions": "Abonnements & Offres Spéciales",
-		"hats": "Vêtements et Accessoires"
+		"hats": "Vêtements & Accessoires"
 	},
 
 	"items": {
-		"darkrp_premium": "Le \"Premium\" vous offre des avantages supplémentaires dans le jeu sur nos serveurs DarkRP.\nAvec le \"Premium\", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville pleine de criminalité.\n\nPersonnage :\n* Le temps de respawn réduit à 10 secondes\n* La barre de faim descend 2 fois moins vite\n* La capacité maximum de l'armure est augmentée à 200%\n* L'icône Premium dans le TAB vous rend plus perceptible\n\nVoitures :\n* Les voitures consomment 50% de carburant en moins\n* 10% de rabais lors de l'achat de voitures\n* La location de voitures est désormais disponible\n* Le tuning sur les véhicules est désormais disponible (spoilers, pare-chocs, jupes, hottes, etc.)\n\nGameplay :\n* Vous pouvez lancer des votes de licenciement\n* La limite de métiers n'est pas appliquée à vous, vous pouvez jouer n'importe quel métier à n'importe quel moment\n* En tant que maire, lors du démarrage d'une loterie, vous recevez 5% des gains\n* Les imprimantes à argent et la pêche donnent 50% de revenus en plus"
+		"darkrp_premium": "Le \"Premium\" vous offre des avantages supplémentaires dans le jeu sur nos serveurs DarkRP.\nAvec le \"Premium\", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville pleine de criminalité.\n\nPersonnage :\n* Le temps de respawn réduit à 10 secondes\n* La barre de faim descend 2 fois moins vite\n* La capacité maximum de l'armure est augmentée à 200%\n* L'icône Premium dans le TAB vous rend plus perceptible\n\nVéhicules :\n* Les véhicules consomment 50% de carburant en moins\n* 10% de rabais lors de l'achat de véhicules\n* La location de véhicules est désormais disponible\n* Le tuning sur les véhicules est désormais disponible (spoilers, pare-chocs, jupes, hottes, etc.)\n\nGameplay :\n* Vous pouvez lancer des votes de licenciement\n* La limite de métiers n'est pas appliquée à vous, vous pouvez jouer n'importe quel métier à n'importe quel moment\n* En tant que maire, lors du démarrage d'une loterie, vous recevez 5% des gains\n* Les imprimantes à argent et la pêche donnent 50% de revenus en plus"
 	},
 
-	"choose_your_weapon": "Choisissez votre méthode préférée pour compléter votre solde sur votre compte en jeu.",
-	"just_do_it": "Transférez nous n'importe quel montant d'argent et cela apparaîtra dans la boutique sur le serveur.",
+	"choose_your_weapon": "Choisissez votre méthode préférée pour compléter votre solde.",
+	"just_do_it": "Transférez nous n'importe quel montant d'argent et il apparaîtra dans votre solde sur le serveur.",
 	"via_yandex": "Via Yandex.Money",
 	"robot_rock": "Toutes les transactions sont gérées automatiquement.",
 	"problems_officer": "Il y a un problème ?",
