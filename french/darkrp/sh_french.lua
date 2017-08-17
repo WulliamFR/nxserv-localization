@@ -400,7 +400,7 @@ local french = {
 	lottery_not_entered = "%s n'a pas participé à la loterie",
 	lottery_noone_entered = "Personne n'a participé à la loterie !",
 	lottery_won = "%s a remporté la loterie ! Il a gagné %s",
-	lottery_you_won = "You won the lottery!",
+	lottery_you_won = "Vous avez remporté la loterie !",
 
 	-- Animations
 	custom_animation = "Gestes",
@@ -922,7 +922,7 @@ local french = {
 	shop_pos_set = "La position de votre magasin a été mis à jour",
 	microwave_setprice = "Saisir le prix du micro-ondes",
 	taxi_setprice = "Fixer le prix au kilomètre",
-	hitman_setprice = "Fixer le prix au cible",
+	hitman_setprice = "Fixer le prix du meurtre",
 	enter_price = "Saisir le prix",
 	enter_reason = "Saisir la raison",
 	stop_dna_scan = "Arrêter l'analyse ADN",
@@ -1456,8 +1456,8 @@ local french = {
 	prop_hp = "Durabilité",
 	prop_stability = "Stabilité",
 
-	cop_rdm_watch_warning = "Police officer is not allowed to harm unarmed citizens; you will be banned if you continue",
-	cop_rdm_watch_ban_reason = "killing of unarmed citizen",
+	cop_rdm_watch_warning = "L'agent de Police n'est pas autorisé à tuer des citoyens non-armés; vous allez être banni si vous continuez",
+	cop_rdm_watch_ban_reason = "Tue des citoyens non-armés",
 }
 
 Blue.addLanguage("fr", french)
