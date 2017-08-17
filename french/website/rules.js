@@ -48,7 +48,7 @@ module.exports = {
 				[
 					`Votre nom rôleplay doit être réaliste (et non Chat Miaou, L'Homme Crabe), il ne devra pas contenir de ponctuation inutile et devra suivre les règles générales de capitalisation des mots (pas de noms tout en majuscules).`,
 					`Il est interdit de se suicider, de se déconnecter puis se reconnecter, ou bien même de changer de métier pour échapper à une situation RP, comme être poursuivi par la police, être braqué, être pris en otage, avoir faim ou autre.`,
-					`Votre but n'est pas de vaincre tout le monde, ne tuez pas chaque personne que vous voyez sur votre chemin. Tout meurtre devra être suivi d'une raison adéquate. (Random DeathMatch, RDM)`,
+					`Ne tuez pas chaque personne que vous voyez sur votre chemin. Tout meurtre devra être suivi d'une raison adéquate,x s'il est possible d'éviter le meurtre, faites-le (sommations, avertissements) (RandomDeathMatch, RDM).`,
 					`Il est tout à fait raisonnable de tuer quelqu'un pour se venger. Toutefois, tuer une même personne plusieurs fois sera considéré à du RDM.`,
 					`Tout métier peut avoir une arme pour se défendre, sauf celles interdites par les lois.`,
 					`Les gangsters et les chefs de gangs sont "invisibles" - ils ressemblent à des citoyens normaux (ce qui signifie que vous ne pouvez pas fouiller un gangster, juste parce que vous voyez qu'il est gangster).<br>
