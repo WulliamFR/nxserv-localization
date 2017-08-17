@@ -400,6 +400,7 @@ local french = {
 	lottery_not_entered = "%s n'a pas participé à la loterie",
 	lottery_noone_entered = "Personne n'a participé à la loterie !",
 	lottery_won = "%s a remporté la loterie ! Il a gagné %s",
+	lottery_you_won = "You won the lottery!",
 
 	-- Animations
 	custom_animation = "Gestes",
@@ -921,6 +922,7 @@ local french = {
 	shop_pos_set = "La position de votre magasin a été mis à jour",
 	microwave_setprice = "Saisir le prix du micro-ondes",
 	taxi_setprice = "Fixer le prix au kilomètre",
+	hitman_setprice = "Fixer le prix au cible",
 	enter_price = "Saisir le prix",
 	enter_reason = "Saisir la raison",
 	stop_dna_scan = "Arrêter l'analyse ADN",
@@ -1047,7 +1049,6 @@ local french = {
 	he_wants_demote_vgui = "veut rétrograder",
 	he_wants_demote_vgui_res = "pour la raison:",
 	wanna_vote_demote = "%s (%s) veut rétrograder %s (%s):\n%s\nAllez vous voter ?",
-	pm_fail = "Utilisez la commande !pm ou ou l'onglet dans le chat.",
 	precache_panic = "Problème de source moteur, où l'on ne peut rien faire pour,\nle serveur va s'arrêter dans %d secondes ou plus tôt.\nSinon le serveur crasherait.\nLes objets achetés, ainsi que les métiers et les positions seront restaurés automatiquement.",
 	restartstuff_given = "Vous avez reçu %s pour les objets que vous possédiez avant l'arrêt du serveur.",
 	arrest_reason = "La raison de l'arrestation",
@@ -1454,6 +1455,9 @@ local french = {
 
 	prop_hp = "Durabilité",
 	prop_stability = "Stabilité",
+
+	cop_rdm_watch_warning = "Police officer is not allowed to harm unarmed citizens; you will be banned if you continue",
+	cop_rdm_watch_ban_reason = "killing of unarmed citizen",
 }
 
 Blue.addLanguage("fr", french)
