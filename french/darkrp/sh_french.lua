@@ -72,7 +72,7 @@ local french = {
 	wanted_revoked = "%s n'est plus recherché par la police.\nRévoqué par : %s",
 	cant_arrest_other_cp = "Vous ne pouvez pas arrêter d'autres policiers !",
 	must_be_wanted_for_arrest = "La personne doit être recherchée pour pouvoir l'arrêter.",
-	cant_arrest_no_jail_pos = "Vous ne pouvez pas arrêter les gens car il n'y a pas de prison !",
+	cant_arrest_no_jail_pos = "Vous ne pouvez pas arrêter les gens car il n'y a aucune prison !",
 	cant_arrest_spawning_players = "Vous ne pouvez pas arrêter les personnes qui viennent d'apparaître.",
 	escape_from_jail = "échappé de prison",
 
@@ -131,7 +131,7 @@ local french = {
 	keys_allow_ownership = "(Appuyez sur F2 pour activer la possession)",
 	keys_disallow_ownership = "(Appuyez sur F2 pour désactiver la possession)",
 	keys_owned_by = "Propriétaire :",
-	keys_unowned = "Pas de propriétaire\n(Appuyez sur F2 pour s'approprier cela)",
+	keys_unowned = "Aucun propriétaire\n(Appuyez sur F2 pour vous approprier cela)",
 	keys_everyone = "(Appuyez sur F2 pour donner les clés à tout le monde)",
 	door_unown_arrested = "Vous ne pouvez pas acheter/vendre des choses lorsque vous êtes arrêté !",
 	door_unownable = "Cette propriété ne peut être attribuée/désattribuée !",
@@ -761,7 +761,7 @@ local french = {
 
 	rules = "Règles",
 	read_rules = "Pour lire les règles appuyez sur ",
-	nobind = "[PAS DE TOUCHE DÉFINIE]",
+	nobind = "[AUCUNE TOUCHE DÉFINIE]",
 
 	-- Cars
 	car_on_fire = "Votre véhicule est en feu, vous ne pouvez pas le supprimer",
@@ -1024,7 +1024,7 @@ local french = {
 	taxi_setprice_fail = "Vous ne pouvez pas changer le prix du taxi par kilomètre lorsque vous conduisez !",
 	taxi_setprice_ok = "Le prix de %s par kilomètre a été fixé",
 	taxi_nocar = "Vous devez posséder un taxi !",
-	call_taxi_fail = "Malheureusement il n'y a pas de chauffeur de taxi actuellement.",
+	call_taxi_fail = "Malheureusement il n'y a aucun chauffeur de taxi actuellement.",
 	call_taxi_alert = "appelle un taxi !",
 
 	--
@@ -1155,9 +1155,9 @@ local french = {
 
 	-- Markers
 	marker_sent_you = " vous a envoyé sa position",
-	marker_no_police = "Malheureusement il n'y a pas de policier actuellement.",
-	marker_no_fire = "Malheureusement il n'y a pas de pompier actuellement.",
-	marker_no_medic = "Malheureusement il n'y a pas de médecin actuellement.",
+	marker_no_police = "Malheureusement il n'y a aucun policier actuellement.",
+	marker_no_fire = "Malheureusement il n'y a aucun pompier actuellement.",
+	marker_no_medic = "Malheureusement il n'y a aucun médecin actuellement.",
 
 	-- Permaupgrades
 	up_flashlight = "Lampe torche",
@@ -1182,7 +1182,7 @@ local french = {
 	phone_already = "Vous êtes déjà en appel",
 	phone_busy = ": occupé",
 	phone_remote_off = ": le téléphone mobile est éteint, ou hors de portée du réseau",
-	phone_noans = ": pas de réponse",
+	phone_noans = ": aucune réponse",
 
 	radio_title = "Radio: sélectionner la fréquence",
 	radio_group_chan = "Fréquence de groupe",
