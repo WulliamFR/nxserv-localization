@@ -1436,7 +1436,7 @@ local french = {
 
 	-- admin tp prevention and unstuck
 	admin_tp = "Vous devez être plus précis si vous voulez appeler un administrateur.",
-	cant_unstuck_vehicle = "Vous ne pouvez pas sortir du véhicule ou du siège.",
+	cant_unstuck_vehicle = "Impossible de débloquer quelqu'un qui est dans un véhicule ou un siège.",
 	was_unstuck = " a été déplacé dans un endroit libre.",
 	unstuck_wait1 = "Besoin d'attendre ",
 	unstuck_wait2 = " secondes avant de rechercher un nouvel endroit libre.",
