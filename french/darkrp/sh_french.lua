@@ -480,7 +480,7 @@ local french = {
 	confirmed = "Confirmé",
 
 	x_options = "Options de %s",
-	sell_x = "Ventes %s",
+	sell_x = "Vendre %s",
 	set_x_title = "Mettre un titre à %s",
 	set_x_title_long = "Donnez un nom à l'objet %s que vous regardez.",
 	jobs = "Métiers",
