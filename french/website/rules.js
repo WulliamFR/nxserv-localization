@@ -46,6 +46,7 @@ module.exports = {
 			[
 				"Section principale",
 				[
+					`Le Rôle Play — est un jeu de rôles. Cela signifie que vous pouvez jouer différents rôles en jeu. Le RP ne veut pas dire que tout devrait être comme dans la réalité et que chacun devrait avoir peur des uns des autres. S'il vous plaît, soyez conscients que les termes et les concepts tels que NonRP, FearRP, FailRP et autres, n'existent pas sur nos serveurs.`,
 					`Votre nom rôleplay doit être réaliste (et non Chat Miaou, L'Homme Crabe), il ne devra pas contenir de ponctuation inutile et devra suivre les règles générales de capitalisation des mots (pas de noms tout en majuscules).`,
 					`Il est interdit de se suicider, de se déconnecter puis se reconnecter, ou bien même de changer de métier pour échapper à une situation RP, comme être poursuivi par la police, être braqué, être pris en otage, avoir faim ou autre.`,
 					`Ne tuez pas chaque personne que vous voyez sur votre chemin. Tout meurtre devra être suivi d'une raison adéquate, s'il est possible d'éviter le meurtre, faites-le (sommations, avertissements) (RandomDeathMatch, RDM).`,
