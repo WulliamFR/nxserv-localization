@@ -3,7 +3,7 @@ module.exports = {
 		"Règles générales",
 		[
 			[
-				"Section Principale",
+				"Section principale",
 				[
 					"Il est interdit d'utiliser des logiciels ou bugs, qui peuvent procurer un avantage par rapport aux autres joueurs (Cheats, UseBug).",
 					"Il est interdit de perturber le fonctionnement du serveur.",
@@ -30,11 +30,11 @@ module.exports = {
 			[
 				"Communication avec l'administration",
 				[
-					"Soyez polis et patient lorsque vous communiquez avec un administrateur.",
+					"Soyez polis et patient lorsque vous communiquez avec un administrateur. Ne soyez pas arrogant, la seule chose que vous obtiendrez sera un bannissement.",
 					"Lorsque vous appellez un administrateur, vous devez indiquer le problème ainsi que le nom du joueur offensant.",
 					"Ne menacez pas les administrateurs de les faire rétrograder, vous n'avez aucun pouvoir.",
 					"N'ajoutez pas les admins sur Steam ou d'autres moyens pour communiquer. Utilisez le forum.",
-					"Les administrateurs travaillent de leur plein gré. Ils ne sont pas obligés de répondre."
+					"Les administrateurs aident de leur plein gré, ils ne sont pas obligés de vous répondre."
 				]
 			]
 		]
@@ -48,9 +48,9 @@ module.exports = {
 				[
 					`Votre nom rôleplay doit être réaliste (et non Chat Miaou, L'Homme Crabe), il ne devra pas contenir de ponctuation inutile et devra suivre les règles générales de capitalisation des mots (pas de noms tout en majuscules).`,
 					`Il est interdit de se suicider, de se déconnecter puis se reconnecter, ou bien même de changer de métier pour échapper à une situation RP, comme être poursuivi par la police, être braqué, être pris en otage, avoir faim ou autre.`,
-					`Ne tuez pas chaque personne que vous voyez sur votre chemin. Tout meurtre devra être suivi d'une raison adéquate,x s'il est possible d'éviter le meurtre, faites-le (sommations, avertissements) (RandomDeathMatch, RDM).`,
+					`Ne tuez pas chaque personne que vous voyez sur votre chemin. Tout meurtre devra être suivi d'une raison adéquate, s'il est possible d'éviter le meurtre, faites-le (sommations, avertissements) (RandomDeathMatch, RDM).`,
 					`Il est tout à fait raisonnable de tuer quelqu'un pour se venger. Toutefois, tuer une même personne plusieurs fois sera considéré à du RDM.`,
-					`Tout métier peut avoir une arme pour se défendre, sauf celles interdites par les lois.`,
+					`N'importe quel métier peut avoir une arme pour se défendre.`,
 					`Les gangsters et les chefs de gangs sont "invisibles" - ils ressemblent à des citoyens normaux (ce qui signifie que vous ne pouvez pas fouiller un gangster, juste parce que vous voyez qu'il est gangster).<br>
 						Toutes les autres informations affichées sur l'écran sont aussi vues par votre personnage.`,
 					`Ne changez pas de métier dans l'unique but d'aquérir des objets, des armes, des capacités ou n'importe quoi d'autre (JobAbuse).`,
@@ -70,7 +70,7 @@ module.exports = {
 				"Règles du chat",
 				[
 					`N'utilisez pas le chat Ville pour communiquer avec une seule personne en particulier.<br>
-						Pour discuter avec quelqu'un en privé utilisez le PM tab dans le chat.`,
+						Pour discuter avec quelqu'un en privé utilisez l'onglet avec l'enveloppe dans le chat.`,
 					`Il est interdit de commettre des actions rôleplay sexuellement explicites.`,
 					`Il est interdit d'envoyer une publicité en /advert, qui n'est pas une publicité RP.`,
 					`Évitez d'utiliser la radio vocale si vous êtes âgé de moins de 14 ans.`,
@@ -96,16 +96,17 @@ module.exports = {
 			[
 				"Règles des gangs",
 				[
-					`Les gangsters ne sont pas dans la même équipe. Ils peuvent être l'un contre l'autre.`,
+					`Le métier "gangster" ne signifie pas que tous les gangsters sont dans la même équipe. Ils peuvent être l'un contre l'autre.`,
 					`Les gangs seront comptés valides, uniquement s'ils ont été créés à partir du système de gang.`,
 				]
 			],
 			[
-				"Règles des commerçants & des médecins",
+				"Règles des commerçants & des services de la ville",
 				[
-					`Si un de vos clients vous agresse ou vous insulte, perturbe la paix dans votre échoppe ou est recherché par la police, vous pouvez vous réserver le droit de ne pas le servir.<br/>
+					`Les règles suivantes concernent tous les métiers présents dans les onglets "Services de la ville" et "Affaires".`
+					`Si un de vos clients vous agresse ou vous insulte, perturbe la paix dans votre échoppe, est recherché par la police ou ne possède pas une licence ou autre, vous pouvez ne pas le servir.<br/>
 						Dans le cas contraire où le client est pacifique, vous vous devez de le servir.`,
-					`Les vendeurs d'armes, les commerçants, les barmans, les pompiers, les médecins et les policiers ne sont pas autorisés à utiliser leurs capacités à des fins criminelles ou de participer à des activités criminelles.`,
+					`Les pompiers, les médecins, les vendeurs d'armes, les commerçants, les barmans, les mécaniciens, les agents de sécurité et les chauffeurs de taxis ne sont pas autorisés à utiliser leurs capacités à des fins criminelles ou de participer à des activités criminelles.`,
 					`Tous les hommes d'affaires devraient faire des profits sur leurs ventes.`,
 				]
 			],
@@ -125,34 +126,34 @@ module.exports = {
 					`Il est interdit de voler avec la force du physgun (PropSurf).`,
 					`Il est interdit de faire apparaître plein d'objets en un endroit et/ou dans une courte période de temps (PropSpam).`,
 					`Il est interdit de pousser des objets ou des joueurs en utilisant des props (PropPush).`,
-					`Vos constructions doivent être réalistes: elles doivent être plus bas que la skybox, avoir un support (un vrai support, et non un cylindre avec un ascenseur), et ne devront pas changer de couleur rapidement.`,
+					`Vos constructions doivent être réalistes : elles ne doivent pas être dans le ciel, avoir un support (un vrai support, et non un cylindre avec un ascenseur), et devront avoir des matériaux/couleurs réalistes.`,
 					`Il est interdit de bloquer une entrée publique.<br>
-						Si l'entrée est suivie d'un couloir et que les portes vous appartiennent, vous êtes autorisé à la bloquer.`,
-					`Toute construction devra posséder une entrée, publiquement accessible avec un keypad ou un bouton et être crochettable.`,
-					`Toute entrée qui est faite par un mappeur devra être publiquement accessible avec un keypad ou un bouton et être crochettable.`,
-					`Les objets, cachés derrière/dessous/dans un prop, devront être accessibles avec un keypad ou un bouton et être crochettables.`,
+						Si l'entrée est suivie d'un couloir et que les portes vous appartiennent, vous êtes autorisé à la bloquer (avec une fading door, bien évidemment).`,
+					`Toute construction devra posséder une entrée, accessible via fading door, ou par un bouton, ou par un KeyPad (PropBlock).`,
+					`Toute entrée qui est faite par un mappeur devra être accessible via fading door, ou par un bouton, ou par un KeyPad (PropBlock).`,
+					`Les objets, cachés derrière/dessous/dans un prop, devront être accessibles via fading door, ou par un bouton, ou par un KeyPad (PropBlock).`,
 					`Vous n'êtes pas autorisé à utiliser plus de DEUX couches de portes (les portes usuelles sont aussi prises en compte).<br>
-						Si cette porte est de plus de deux props, il devra y avoir un keypad facilement visible près de la porte, qui ouvre toute l'entrée au même moment.`,
+						Si cette porte est de plus de deux props, il devra y avoir un KeyPad facilement visible près de la porte, qui ouvre toute l'entrée au même moment.`,
 					`Les boutons/keypads doivent être proches de l'objet qu'ils contrôlent et facilement visibles.`,
-					`Les entrées devront être capable de contenir deux joueurs et être en taille entière, ce qui signifie qu'elles doivent faire la taille d'un joueur qui se tient debout (64 unités), donc les tunnels qui demandent à être accroupis, ou les couloirs qui demandent des esquives/des sauts/des deviations ne sont pas autorisés.`,
-					`Il est interdit d'utiliser, créer et supprimer des fading doors pendant une bataille.`,
+					`Les entrées, les couloirs, les escaliers, etc, devront être capables de contenir deux joueurs et être en taille entière, ce qui signifie qu'elles doivent faire la taille d'un joueur qui se tient debout (64 unités), donc les tunnels qui demandent à être accroupis, ou les couloirs qui demandent des esquives/des sauts/des deviations ne sont pas autorisés.`,
+					`Il est interdit d'utiliser (ouvrir, fermer), créer ou supprimer des fading doors pendant une bataille.`,
 					`Les chambres de tirs (meurtrières) ne doivent pas mesurer moins de la moitié d'une plaque standard (metal_plate1, 1x1 PHX) en hauteur et en largeur.`,
 					`Les portes, les caméras, les ponts, les boutons et certains autres objets doivent être clairement visibles.`,
 					`Il est interdit d'utiliser un prop qui ressemble à un mur, mais qui finalement agit comme un mur sans collision et tirer à travers et vice versa.`,
 					`Il est interdit d'utiliser un prop qui n'est transparent que d'un seul côté.`,
-					`Il est interdit de placer des structures gênantes sur des territoires qui ne vous appartiennent pas, sans le consentement du propriétaire.`,
-					`Vous pouvez déclarer un territoire neutre comme le votre et construire dessus, si vous n'êtes pas dans un territoire public (route, parking).`,
-					`Il est interdit de faire apparaître des objets précieux (imprimantes, tourelles, etc) et des bases dans des endroits, qui ne sont pas accessibles par des moyens de transports usuels (sans Parkour).<br>
-						Exception: le toit d'un magasin, maximum 4 étages. Vous devez construire une échelle accessible publiquement ou un ascenseur jusqu'à celui-ci. Lorsqu'il n'y a pas de moyen pour y accéder, vous n'êtes pas autorisé à placer des objets précieux et des bases sur ce toit.`,
-					`Si un ascenseur est requis pour accéder à votre structure, contrôler celui-ci devra être possible sans crackage. Il est interdit de limiter l'accès de cet ascenseur. L'ascenseur devra marcher de manière stable. Ce qui veut dire:
+					`Il est interdit de placer des props ou objets sur une propriété qui ne vous appartient pas, sans le consentement du propriétaire.`,
+					`Vous pouvez construire sur un territoire neutre et vous l'approprier, si vous n'êtes pas dans un territoire public (route, parking).`,
+					`Il est interdit de faire apparaître des objets précieux (imprimantes, tourelles, etc) et des props à des endroits inaccessibles normalement (immeubles, etc), sans parkour.<br>
+						Attention : vous pouvez construire sur le toit d'une de vos propriétés, si celle-ci fait moins de 4 étages. Cet endroit devra être accessible publiquement, avec un ascenseur ou une échelle. Lorsqu'il est impossible d'y accéder, vous n'êtes pas autorisé à placer d'objets précieux et des props sur ce toit.`,
+					`Si un ascenseur est requis pour accéder à votre structure, contrôler celui-ci devra être possible sans crackage. Il est interdit de limiter l'accès de cet ascenseur. L'ascenseur devra marcher de manière stable. Ce qui veut dire :
 					<ul>
 						<li>Votre ascenseur devra être construit avec l'outil spécial DarkRP -> Ascenseur.
-						<li>Il ne devra y avoir aucune porte ou mur à l'entrée ou à la sortie.
+						<li>Il ne devra y avoir aucune porte ou mur à l'entrée ou à la sortie (même avec fading door).
 					</ul>`,
-					`Il est interdit de faire des sols, des échelles, des ascenseurs et des plateformes disparaissantes.`,
+					`Il est interdit de faire des sols, des échelles, des ascenseurs et des plateformes disparaissantes (via fading door).`,
 					`Il est interdit de faire apparaître des prisons pour les joueurs/objets en utilisant le duplicateur sur des joueurs/objets, ou mettre des props sur des joueurs/objets avec le physgun.`,
 					`Il est interdit d'utiliser le wiremod pour rechercher des joueurs ou des objets précieux à l'extérieur de votre territoire.`,
-					`Vous n'êtes pas autorisé à construire durant un combat ou d'autres formes de confrontation.`,
+					`Il est interdit de construire durant un combat ou d'autres formes de confrontation.`,
 				]
 			],
 		],
