@@ -251,7 +251,7 @@ local french = {
 	ooc = "Ville",
 	radio_x = "Radio %d",
 
-	talk = "dire",
+	talk = "parler",
 	speak = "parler",
 
 	speak_in_ooc = "parlez de ville",
