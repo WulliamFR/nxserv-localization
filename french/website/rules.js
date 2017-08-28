@@ -143,7 +143,7 @@ module.exports = {
 					`Il est interdit d'utiliser un prop qui n'est transparent que d'un seul côté.`,
 					`Il est interdit de placer des props ou objets sur une propriété qui ne vous appartient pas, sans le consentement du propriétaire.`,
 					`Vous pouvez construire sur un territoire neutre et vous l'approprier, si vous n'êtes pas dans un territoire public (route, parking).`,
-					`Il est interdit de faire apparaître des objets précieux (imprimantes, tourelles, etc) et des props à des endroits inaccessibles normalement (immeubles, etc), sans parkour.<br>
+					`Il est interdit de faire apparaître des objets (imprimantes, tourelles, etc) et des props à des endroits inaccessibles normalement (immeubles, etc), sans parkour.<br>
 						Attention : vous pouvez construire sur le toit d'une de vos propriétés, si celle-ci fait moins de 4 étages. Cet endroit devra être accessible publiquement, avec un ascenseur ou une échelle. Lorsqu'il est impossible d'y accéder, vous n'êtes pas autorisé à placer d'objets précieux et des props sur ce toit.`,
 					`Si un ascenseur est requis pour accéder à votre structure, contrôler celui-ci devra être possible sans crackage. Il est interdit de limiter l'accès de cet ascenseur. L'ascenseur devra marcher de manière stable. Ce qui veut dire :
 					<ul>
