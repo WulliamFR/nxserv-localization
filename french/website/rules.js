@@ -104,7 +104,7 @@ module.exports = {
 			[
 				"Règles des commerçants & des services de la ville",
 				[
-					`Les règles suivantes concernent tous les métiers présents dans les onglets "Services de la ville" et "Affaires".`
+					`Les règles suivantes concernent tous les métiers présents dans les onglets "Services de la ville" et "Affaires".`,
 					`Si un de vos clients vous agresse ou vous insulte, perturbe la paix dans votre échoppe, est recherché par la police ou ne possède pas une licence ou autre, vous pouvez ne pas le servir.<br/>
 						Dans le cas contraire où le client est pacifique, vous vous devez de le servir.`,
 					`Les pompiers, les médecins, les vendeurs d'armes, les commerçants, les barmans, les mécaniciens, les agents de sécurité et les chauffeurs de taxis ne sont pas autorisés à utiliser leurs capacités à des fins criminelles ou de participer à des activités criminelles.`,
