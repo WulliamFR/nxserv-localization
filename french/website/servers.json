@@ -1,0 +1,15 @@
+{
+	"fail": "Nous n'avons pas pu obtenir les dernières informations sur les serveurs.",
+
+	"join": "Rejoindre",
+	"players": "{{count}} joueur",
+	"players_plural": "{{count}} joueurs",
+
+	"onmap": "sur {{map}}",
+
+	"gamemode_desc": {
+		"darkrp": "DarkRP &mdash; a game mode for the popular game <a href=\"http://store.steampowered.com/app/4000/Garrys_Mod/\">Garry's Mod</a> with the idea of a simulation of urban life. You could become a gangster and rob people or perhaps become a police officer to protect the town from outlaws. You could open a gun shop or a pizzeria where you sell the most delicious food in town. Or you can become the mayor and manage the city, namely the police, urban economies and licensing people.",
+		"gmstranded": "Stranded is a survival game mode, where you mine resources, craft items, join up in tribes and fight monsters.",
+		"stronghold": "Fight to Survive: Stronghold is a Deathmatch gamemode where you have the ability to construct fortifications/strongholds to defend yourself and your team as you earn money killing the opposing players."
+	}
+}
