@@ -2,10 +2,10 @@
 	"title": "Boutique",
 	"h1": "Boutique NxServ",
 
-	"needs_login": "Connectez-vous avec Steam pour compléter votre solde sur votre compte en jeu",
+	"needs_login": "Connectez-vous avec Steam pour compléter votre solde",
 
 	"promise": [
-		"Il est totalement gratuit de jouer sur les serveurs NxServ, le seul prérequis est une copie légale de Garry's Mod, cependant vous pouvez toujours vous faire plaisir avec des objets spéciaux dans notre boutique. Pour quelques modes de jeu comme NxRP (anciennement DarkRP) il est possible d'acheter un abonnement Premium d'un mois. Le Premium rend votre expérience plaisante, facile et confortable.",
+		"Jouer sur NxServ est totalement gratuit, la seule chose dont vous avez besoin est une copie légale de Garry's Mod. Toutefois vous pouvez toujours vous faire plaisir en achetant les objets spéciaux de notre boutique. Pour le mode de jeu NxRP il est possible d'acheter un abonnement Premium d'un mois. Le Premium rend votre expérience plaisante, facile et confortable.",
 
 		"Nous avons créé d'adorables accessoires pour votre personnage en jeu, que vous pouvez porter sur chacun de nos serveurs. Pour voir la liste complète d'objets, utilisez la \"Boutique\" dans le menu Échap.",
 
@@ -27,9 +27,9 @@
 	"just_do_it": "Transférez nous n'importe quel montant d'argent et il apparaîtra dans votre solde sur le serveur.",
 	"via_yandex": "Via Yandex.Money",
 	"robot_rock": "Toutes les transactions sont gérées automatiquement.",
-	"problems_officer": "Il y a un problème ?",
+	"problems_officer": "Vous rencontrez un problème ?",
 	"pick_region": "Choisissez votre région de jeu",
-	"pick_region_desc": "Cliquez sur la carte du serveur pour lequel vous voulez acheter quelque chose.",
+	"pick_region_desc": "Cliquez sur la carte du serveur pour lequel vous souhaitez acheter quelque chose.",
 
 	"proceed_to_payment": "Procéder à la page de paiement",
 	"pp_instructions": "Pour transférer de l'argent en utilisant PayPal, vous devez cliquer sur le bouton <b>Procéder à la page de paiement</b>.",
