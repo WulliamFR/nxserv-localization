@@ -31,7 +31,8 @@ module.exports = {
 				"Communication avec l'administration",
 				[
 					"Soyez polis et patient lorsque vous communiquez avec un administrateur. Ne soyez pas arrogant, la seule chose que vous obtiendrez sera un bannissement.",
-					"Lorsque vous appellez un administrateur, vous devez indiquer le problème ainsi que le nom du joueur offensant.",
+					`Lorsque vous appellez un administrateur, vous devez indiquer le problème ainsi que le nom du joueur offensant.
+					<br>Vous devrez presser la touche F7 pour contacter un modérateur.`,
 					"Ne menacez pas les administrateurs de les faire rétrograder, vous n'avez aucun pouvoir.",
 					"N'ajoutez pas les admins sur Steam ou d'autres moyens pour communiquer. Utilisez le forum.",
 					"Les administrateurs aident de leur plein gré, ils ne sont pas obligés de vous répondre."
@@ -55,6 +56,7 @@ module.exports = {
 					`Les gangsters et les chefs de gangs sont "invisibles" - ils ressemblent à des citoyens normaux (ce qui signifie que vous ne pouvez pas fouiller un gangster, juste parce que vous voyez qu'il est gangster).<br>
 						Toutes les autres informations affichées sur l'écran sont aussi vues par votre personnage.`,
 					`Ne changez pas de métier dans l'unique but d'aquérir des objets, des armes, des capacités ou n'importe quoi d'autre (JobAbuse).`,
+					`En cas d'attaque terroriste contre le maire, il est formellement interdit de tuer tous les policiers de la ville. Si vous souhaitez vous venger d'un policier qui vous aurait embêté, vengez-vous uniquement sur cette personne, et non sur tous les policiers.`,
 					`Ne faites pas quelque chose d'impossible qu'une personne réelle ne ferait pas, c'est-à-dire:
 						<ul>
 							<li>Faire apparaître 1 000 000 affiches qui disent "zone de kill".
@@ -83,6 +85,7 @@ module.exports = {
 				"Règles des forces de l'ordre",
 				[
 					`Les officiers de police ne sont pas autorisés à arrêter quelqu'un sans raison adéquate (Random Arrest).`,
+					`Les policiers ne doivent utiliser leurs armes létales uniquement si la vie d'autrui ou leur propre vie est mise en danger (personne armée en face, réparation de tourelle, C4, etc.)`,
 					`Utilisez le taser et les menottes uniquement contre les perturbateurs.`,
 					`Toutes les recherches et les couvre-feux, doivent être suivis par une raison cohérente. Les raisons telles que "lol", "fouille", "ccccccc" sont invalides.`,
 					//`Арест должен производиться только через кнопку "арестовать" в наручниках (а не ведением нарушителя в наручниках пешком до ПУ и удержания там).`,
@@ -91,7 +94,8 @@ module.exports = {
 						Vous POUVEZ fouiller les maisons sans raison.`,
 					`Les policiers corrompus ne peuvent pas agir contre les forces de l'ordre. Par exemple, les policiers corrompus peuvent "ne pas prendre en compte" certains crimes ou "accidentellement" oublier de fermer la porte de la prison; mais ils ne peuvent pas attaquer un autre policer.`,
 					`Le maire n'est pas autorisé à faire des lois qui ne respectent pas les règles du serveur.`,
-					`La torture des prisonniers est régie par le maire ou le chef de la police.`,
+					`La torture des prisonniers est régie par le maire ou le chef de la police.<br>
+						Une torture ne peut pas mener au décès de la personne torturée.`
 				]
 			],
 			[
@@ -150,11 +154,12 @@ module.exports = {
 					<ul>
 						<li>Votre ascenseur devra être construit avec l'outil spécial DarkRP -> Ascenseur.
 						<li>Il ne devra y avoir aucune porte ou mur à l'entrée ou à la sortie (même avec fading door).
+						<li>Il est interdit d'utiliser l'outil ascenseur pour reproduire un mur ou autre. Cet outil doit servir uniquement d'ascenseur.
 					</ul>`,
 					`Il est interdit de faire des sols, des échelles, des ascenseurs et des plateformes disparaissantes (via fading door).`,
 					`Il est interdit de faire apparaître des prisons pour les joueurs/objets en utilisant le duplicateur sur des joueurs/objets, ou mettre des props sur des joueurs/objets avec le physgun.`,
 					`Il est interdit d'utiliser le wiremod pour rechercher des joueurs ou des objets précieux à l'extérieur de votre territoire.`,
-					`Il est interdit de construire durant un combat ou d'autres formes de confrontation.`,
+					`Il est interdit de construire durant un combat ou d'autres formes de confrontation. Dès qu'une attaque est totalement terminée, vous avez l'autorisation de reconstruire.`,
 				]
 			],
 		],
