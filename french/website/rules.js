@@ -162,6 +162,17 @@ module.exports = {
 					`Il est interdit de construire durant un combat ou d'autres formes de confrontation. Dès qu'une attaque est totalement terminée, vous avez l'autorisation de reconstruire.`,
 				]
 			],
+			[
+				"Questions & Réponses (facultatif)",
+				[
+					`Puis-je utiliser des imprimantes à argent en citoyen ? → Oui, mais préférable en gangster.`,
+					`Puis-je utiliser des imprimantes à argent en vendeur d'armes, commerçant ou en barman ? → Oui, mais vous devez continuer à faire du commerce et ne pas être en alliance avec des gangsters.`,
+					`Puis-je licencier qui je souhaite en tant que Maire et Chef de police, avec le menu correspondant ? → Oui.`,
+					`Puis-je me déconnecter si quelqu'un me donne une somme d'argent, et qu'il attend quelque chose en échange ? → Non.`,
+					`Ai-je le droit de faire les mêmes actes qu'un gangster en SDF, Mercenaire ou Citoyen ? → Oui, mais préférable en gangster.`,
+					`Les policiers ont-ils le droit d'arrêter les SDF pour la raison "couvre feu" ? → Oui.`,
+				]
+			],
 		],
 	]
 }
