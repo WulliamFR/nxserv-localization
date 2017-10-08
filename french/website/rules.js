@@ -171,6 +171,7 @@ module.exports = {
 					`Puis-je me déconnecter si quelqu'un me donne une somme d'argent, et qu'il attend quelque chose en échange ? → Non.`,
 					`Ai-je le droit de faire les mêmes actes qu'un gangster en SDF, Mercenaire ou Citoyen ? → Oui, mais préférable en gangster.`,
 					`Les policiers ont-ils le droit d'arrêter les SDF pour la raison "couvre feu" ? → Oui.`,
+					`Puis-je détruire/voler un distributeur en policier sans raison ? → Non.`,
 				]
 			],
 		],
