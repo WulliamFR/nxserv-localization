@@ -167,14 +167,20 @@ module.exports = {
 				[
 					`Puis-je utiliser des imprimantes à argent en citoyen ? → Oui, mais préférable en gangster.`,
 					`Puis-je utiliser des imprimantes à argent en vendeur d'armes, commerçant ou en barman ? → Oui, mais vous devez continuer à faire du commerce et ne pas être en alliance avec des gangsters.`,
-					`Puis-je licencier qui je souhaite en tant que Maire et Chef de police (vote non-Premium), avec le menu correspondant ? → Oui.`,
+					`Puis-je licencier qui je souhaite en tant que Maire et chef de police (vote non-Premium), avec le menu correspondant ? → Oui.`,
 					`Puis-je me déconnecter si quelqu'un me donne une somme d'argent, et qu'il attend quelque chose en échange ? → Non.`,
-					`Ai-je le droit de faire les mêmes actes qu'un gangster en SDF, Mercenaire ou Citoyen ? → Oui, mais préférable en gangster.`,
-					`Les policiers ont-ils le droit d'arrêter les SDF pour la raison "couvre feu" ? → Oui.`,
+					`Ai-je le droit de faire les mêmes actes qu'un gangster en mercenaire ? → Oui, mais préférable en gangster.`,
+					`Ai-je le droit de braquer des joueurs en citoyen ? → Non. Seuls les gangsters et mercenaires peuvent le faire.`,
+					`Les policiers ont-ils le droit d'arrêter les sans-abris pour la raison "couvre feu" ? → Oui.`,
 					`Puis-je détruire/voler un distributeur en policier sans raison ? → Non.`,
 					`Puis-je uniquement créer une fading door sans mettre de keypad ni de bouton ? → Oui.`
-					`Les policiers peuvent-ils être en alliance avec les gangsters ? → Non.`
-					`Les gangsters peuvent-ils être en alliance avec les policiers ? → Oui, ils peuvent les aider.`
+					`Les policiers peuvent-ils être en alliance avec les gangsters ? → Non.`,
+					`Les gangsters peuvent-ils être en alliance avec les policiers ? → Oui, ils peuvent les aider.`,
+					`Puis-je poser une tourelle en extérieur ? → Non, les tourelles doivent être placées dans des endroits clos.`,
+					`Puis-je bloquer l'accès à un quartier/immeuble entier si je possède tous les bâtiments compris dans ce dernier ? → Oui.`,
+					`Puis-je me venger de quelqu'un qui m'a tué/braqué il y a plus d'une heure ? → Non.`,
+					`Ai-je le droit de détruire tous les props d'une base d'autrui pour l'acquérir ? → Non.`,
+					
 				]
 			],
 		],
