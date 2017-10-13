@@ -57,6 +57,7 @@ module.exports = {
 						Toutes les autres informations affichées sur l'écran sont aussi vues par votre personnage.`,
 					`Ne changez pas de métier dans l'unique but d'aquérir des objets, des armes, des capacités ou n'importe quoi d'autre (JobAbuse).`,
 					`En cas d'attaque terroriste contre le maire, il est formellement interdit de tuer tous les policiers de la ville. Si vous souhaitez vous venger d'un policier qui vous aurait embêté, vengez-vous uniquement sur cette personne, et non sur tous les policiers.`,
+					`Seuls les gangsters, sans-abris et mercenaires peuvent commettre des actes sévèrement illégaux, comme des braquages, attentats contre le maire, etc.`,
 					`Ne faites pas quelque chose d'impossible qu'une personne réelle ne ferait pas, c'est-à-dire:
 						<ul>
 							<li>Faire apparaître 1 000 000 affiches qui disent "zone de kill".
@@ -91,11 +92,11 @@ module.exports = {
 					//`Арест должен производиться только через кнопку "арестовать" в наручниках (а не ведением нарушителя в наручниках пешком до ПУ и удержания там).`,
 					`La police est autorisée à construire des barrières, des points de contrôle, des dos-d'ânes ainsi qu'à bloquer des rues ou des bâtiments. Toutes les barrières qui bloquent quelque chose doivent avoir un entrée crackable.`,
 					`Les fouilles d'armes n'exigent pas de mandat (mais une raison valide est requise).<br>
-						Vous POUVEZ fouiller les maisons sans raison.`,
+						Vous POUVEZ fouiller les maisons sans raison. N'importe quelle raison de mandat est valide (sauf insultes).`,
 					`Les policiers corrompus ne peuvent pas agir contre les forces de l'ordre. Par exemple, les policiers corrompus peuvent "ne pas prendre en compte" certains crimes ou "accidentellement" oublier de fermer la porte de la prison; mais ils ne peuvent pas attaquer un autre policer.`,
 					`Le maire n'est pas autorisé à faire des lois qui ne respectent pas les règles du serveur.`,
 					`La torture des prisonniers est régie par le maire ou le chef de la police.<br>
-						Une torture ne peut pas mener au décès de la personne torturée.`
+						Une torture ne peut pas mener au décès de la personne torturée.`,
 				]
 			],
 			[
@@ -132,8 +133,7 @@ module.exports = {
 					`Il est interdit de faire apparaître plein d'objets en un endroit et/ou dans une courte période de temps (PropSpam).`,
 					`Il est interdit de pousser des objets ou des joueurs en utilisant des props (PropPush).`,
 					`Vos constructions doivent être réalistes : elles ne doivent pas être dans le ciel, avoir un support (un vrai support, et non un cylindre avec un ascenseur), et devront avoir des matériaux/couleurs réalistes.`,
-					`Il est interdit de bloquer une entrée publique.<br>
-						Si l'entrée est suivie d'un couloir et que les portes vous appartiennent, vous êtes autorisé à la bloquer (avec une fading door, bien évidemment).`,
+					`Il est interdit de bloquer une entrée publique.`,
 					`Toute construction devra posséder une entrée, accessible via fading door, ou par un bouton, ou par un KeyPad (PropBlock).`,
 					`Toute entrée qui est faite par un mappeur devra être accessible via fading door, ou par un bouton, ou par un KeyPad (PropBlock).`,
 					`Les objets, cachés derrière/dessous/dans un prop, devront être accessibles via fading door, ou par un bouton, ou par un KeyPad (PropBlock).`,
@@ -149,7 +149,7 @@ module.exports = {
 					`Il est interdit de placer des props ou objets sur une propriété qui ne vous appartient pas, sans le consentement du propriétaire.`,
 					`Vous pouvez construire sur un territoire neutre et vous l'approprier, si vous n'êtes pas dans un territoire public (route, parking).`,
 					`Il est interdit de faire apparaître des objets (imprimantes, tourelles, etc) et des props à des endroits inaccessibles normalement (immeubles, etc), sans parkour.<br>
-						Attention : vous pouvez construire sur le toit d'une de vos propriétés, si celle-ci fait moins de 4 étages. Cet endroit devra être accessible publiquement, avec un ascenseur ou une échelle. Lorsqu'il est impossible d'y accéder, vous n'êtes pas autorisé à placer d'objets précieux et des props sur ce toit.`,
+						Attention : vous pouvez construire sur le toit d'une de vos propriétés. Cet endroit devra être accessible publiquement, avec un ascenseur ou une échelle. Lorsqu'il est impossible d'y accéder, vous n'êtes pas autorisé à placer d'objets précieux et des props sur celui-ci.`,
 					`Si un ascenseur est requis pour accéder à votre structure, contrôler celui-ci devra être possible sans crackage. Il est interdit de limiter l'accès de cet ascenseur. L'ascenseur devra marcher de manière stable. Ce qui veut dire :
 					<ul>
 						<li>Votre ascenseur devra être construit avec l'outil spécial DarkRP -> Ascenseur.
@@ -159,7 +159,8 @@ module.exports = {
 					`Il est interdit de faire des sols, des échelles, des ascenseurs et des plateformes disparaissantes (via fading door).`,
 					`Il est interdit de faire apparaître des prisons pour les joueurs/objets en utilisant le duplicateur sur des joueurs/objets, ou mettre des props sur des joueurs/objets avec le physgun.`,
 					`Il est interdit d'utiliser le wiremod pour rechercher des joueurs ou des objets précieux à l'extérieur de votre territoire.`,
-					`Il est interdit de construire durant un combat ou d'autres formes de confrontation. Dès qu'une attaque est totalement terminée, vous avez l'autorisation de reconstruire.`,
+					`Il est interdit de construire durant un combat ou d'autres formes de confrontation.<br>
+						Dès qu'une attaque est totalement terminée, vous avez l'autorisation de reconstruire.`,
 				]
 			],
 			[
@@ -170,8 +171,7 @@ module.exports = {
 					`Puis-je licencier qui je souhaite en tant que Maire et chef de police (vote non-Premium), avec le menu correspondant ? → Oui.`,
 					`Puis-je me déconnecter si quelqu'un me donne une somme d'argent, et qu'il attend quelque chose en échange ? → Non.`,
 					`Ai-je le droit de faire les mêmes actes qu'un gangster en mercenaire ? → Oui, mais préférable en gangster.`,
-					`Ai-je le droit de braquer des joueurs en citoyen ? → Non. Seuls les gangsters et mercenaires peuvent le faire.`,
-					`Les policiers ont-ils le droit d'arrêter les sans-abris pour la raison "couvre feu" ? → Oui.`,
+					`Les policiers ont-ils le droit d'arrêter les sans-abris pour la raison "couvre-feu" ? → Oui.`,
 					`Puis-je détruire/voler un distributeur en policier sans raison ? → Non.`,
 					`Puis-je uniquement créer une fading door sans mettre de keypad ni de bouton ? → Oui.`
 					`Les policiers peuvent-ils être en alliance avec les gangsters ? → Non.`,
@@ -179,8 +179,10 @@ module.exports = {
 					`Puis-je poser une tourelle en extérieur ? → Non, les tourelles doivent être placées dans des endroits clos.`,
 					`Puis-je bloquer l'accès à un quartier/immeuble entier si je possède tous les bâtiments compris dans ce dernier ? → Oui.`,
 					`Puis-je me venger de quelqu'un qui m'a tué/braqué il y a plus d'une heure ? → Non.`,
-					`Ai-je le droit de détruire tous les props d'une base d'autrui pour l'acquérir ? → Non.`,
-					
+					`Ai-je le droit de détruire tous les props d'une base d'autrui afin de pouvoir m'approprier les lieux ? → Non.`,
+					`Lors d'un couvre-feu, un policier a t-il le droit de m'arrêter quand bien même que je suis dans un bâtiment, même s'il ne m'appartient pas ? → Non.`,
+					`Ai-je le droit, en tant que maire de rester sur un immeuble avec mon hélicoptère et faire des loteries ? → Oui.`,
+					`Ai-je le droit, en tant que maire d'initier des couvre-feux interminables, avec une raison valide ? → Oui.`,
 				]
 			],
 		],
