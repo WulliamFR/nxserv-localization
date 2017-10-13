@@ -134,9 +134,9 @@ module.exports = {
 					`Il est interdit de pousser des objets ou des joueurs en utilisant des props (PropPush).`,
 					`Vos constructions doivent être réalistes : elles ne doivent pas être dans le ciel, avoir un support (un vrai support, et non un cylindre avec un ascenseur), et devront avoir des matériaux/couleurs réalistes.`,
 					`Il est interdit de bloquer une entrée publique.`,
-					`Toute construction devra posséder une entrée, accessible via fading door, ou par un bouton, ou par un KeyPad (PropBlock).`,
-					`Toute entrée qui est faite par un mappeur devra être accessible via fading door, ou par un bouton, ou par un KeyPad (PropBlock).`,
-					`Les objets, cachés derrière/dessous/dans un prop, devront être accessibles via fading door, ou par un bouton, ou par un KeyPad (PropBlock).`,
+					`Toute construction devra posséder une entrée, accessible via fading door (les boutons ou KeyPad reliés à celle-ci ne sont pas obligatoires) (PropBlock).`,
+					`Toute entrée qui est faite par un mappeur devra être accessible via fading door (les boutons ou KeyPad reliés à celle-ci ne sont pas obligatoires) (PropBlock).`,
+					`Les objets, cachés derrière/dessous/dans un prop, devront être accessibles via fading door (les boutons ou KeyPad reliés à celle-ci ne sont pas obligatoires) (PropBlock).`,
 					`Vous n'êtes pas autorisé à utiliser plus de DEUX couches de portes (les portes usuelles sont aussi prises en compte).<br>
 						Si cette porte est de plus de deux props, il devra y avoir un KeyPad facilement visible près de la porte, qui ouvre toute l'entrée au même moment.`,
 					`Les boutons/keypads doivent être proches de l'objet qu'ils contrôlent et facilement visibles.`,
