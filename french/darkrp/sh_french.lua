@@ -113,7 +113,7 @@ local french = {
 	-- Cars
 	path = "Course: ",
 	m = "%d m",
-	km = "%d km",
+	km = "%.1f km",
 	speed = "Vitesse: ",
 	kmh = "%d km/h",
 
@@ -325,6 +325,7 @@ local french = {
 	demote_vote_text = "Rétrogradation:\n%s", -- '%s' is the reason here
 	cant_demote_self = "Vous ne pouvez pas vous rétrograder vous même.",
 	i_want_to_demote_you = "Je veux vous rétrograder. Raison: %s",
+	x_wants_to_demote_you_for_x = "veux vous rétrograder pour",
 	tried_to_avoid_demotion = "Vous avez essayé d'éviter la rétrogradation. Vous avez échoué et vous avez été rétrogradé.", -- naughty boy!
 	lockdown_started = "Le maire a lancé un couvre feu, merci de rentrer chez vous !",
 	lockdown_ended = "Le couvre feu est terminé",
@@ -1416,6 +1417,7 @@ local french = {
 	lives_restored = "Vous venez de récupérer une vie. Nombre de vies: %d",
 	lives_hud1 = "Vies: %d/2",
 	lives_hud2 = "Récupération dans: %s minute(s)",
+	lives_hud = "Vies: ",
 
 	-- election
 	election_start = "L'inscription aux élections débutent, envoyez vos candidatures !",
