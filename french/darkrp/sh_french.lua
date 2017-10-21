@@ -114,7 +114,7 @@ local french = {
 	path = "Course : ",
 	m = "%d m",
 	km = "%.1f km",
-	speed = "Vitesse: ",
+	speed = "Vitesse : ",
 	kmh = "%d km/h",
 
 	-- Teams
