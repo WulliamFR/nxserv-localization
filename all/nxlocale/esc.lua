@@ -1,4 +1,4 @@
-local locales = {
+return {
 	en = {
 		resume = "Resume Game",
 		shop = "Shop",
@@ -56,5 +56,3 @@ local locales = {
 		join = "Rejoindre",
 	},
 }
-
-return locales[string.lower(GetConVarString("gmod_language") or "")] or locales.en

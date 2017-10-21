@@ -1,12 +1,12 @@
 {
 	"alert_message1": "Malheureusement, vous avez été banni. Vous ne pouvez plus jouer sur nos serveurs.",
-	"alert_message2": "Raison: {{reason}}, temps restant: {{remaining}}.",
+	"alert_message2": "Raison : {{reason}}, temps restant : {{remaining}}.",
 	"alert_message3": "Vous pouvez <a class=\"white\" target=\"_blank\" href=\"https://steamcommunity.com/groups/NxServ/discussions/7/\">envoyer une demande de débannissement</a>, mais elle peut être refusée.",
 	"alert_message4": "Vous pouvez aussi <a class=\"white\" href=\"/unban/\">payer un débannissement</a> et retourner en jeu sans délai.",
 
 	"fullban_h1": "Votre compte est banni",
 	"fullban_1": "Malheureusement, vous avez été banni. Vous ne pouvez plus jouer sur nos serveurs.",
-	"fullban_2": "Raison indiquée par l'administrateur: {{reason}}, temps restant: ",
+	"fullban_2": "Raison indiquée par l'administrateur : {{reason}}, temps restant : ",
 	"fullban_3": "Vous pouvez aussi payer un débannissement automatique maintenant pour <b>{{amount}}</b> {{currency}}.",
 
 	"minorban_h1": "Vous avez quelques restrictions",
@@ -20,12 +20,12 @@
 	"forbidden_1": "En raison de multiples violations des Conditions d'Utilisation, le débannissement n'est pas disponible pour vous.",
 
 	"nobans_h1": "Votre compte n'a pas de bannissement actif",
-	"nobans_1": "Bravo ! Respectez les règles ainsi que les autres joueurs et vous ne serez pas banni",
-	"nobans_2": "Toutefois, si vous vous faites bannir, vous pouvez facilement payer un débannissement automatique sur cette page.",
+	"nobans_1": "Bravo ! Respectez les règles ainsi que les autres joueurs et vous ne serez pas banni.",
+	"nobans_2": "Toutefois, si vous vous faites bannir, vous pourrez facilement payer un débannissement automatique sur cette page.",
 
-	"balance": "Actuellement dans votre solde: <b>{{amount}}</b> {{currency}}. Les informations pour compléter votre solde peuvent se trouver <a target=\"_blank\" href=\"/shop/\">ici</a>.",
+	"balance": "Actuellement dans votre solde : <b>{{amount}}</b> {{currency}}. Les informations pour compléter votre solde peuvent se trouver <a target=\"_blank\" href=\"/shop/\">ici</a>.",
 
-	"buy_unban": "Acheter un débannissement",
+	"buy_unban": "Payer un débannissement",
 	"eternity": "éternité",
 
 	"ban_not_found": "Le bannissement n'a pas été trouvé",
