@@ -68,6 +68,8 @@ module.exports = {
 					`Tout vote de renvoi (Premium seulement) doit avoir une raison appropriée et être en accord avec les règles, sans insultes. Vous n'êtes pas autorisé à initier des votes de renvoi si aucune règle n'est enfreinte.`,
 					`Votez judicieusement, n'appuyez pas aléatoirement sur "oui" ou "non" lors des votes. Si vous êtes incertain - appuyez sur "ne pas voter".`,
 					`Il est strictement interdit d'échanger de l'argent dans le jeu contre de l'argent réel ou ses équivalents.`,
+					`Le maire ne peut être abattu que 10 minutes après son élection, au quel cas ce meurtre sera considéré à du RDM.<br>
+						Il peut néanmoins être abattu pour n'importe quelle raison après ces 10 minutes.`,
 				]
 			],
 			[
@@ -97,6 +99,8 @@ module.exports = {
 					`Le maire n'est pas autorisé à faire des lois qui ne respectent pas les règles du serveur.`,
 					`La torture des prisonniers est régie par le maire ou le chef de la police.<br>
 						Une torture ne peut pas mener au décès de la personne torturée.`,
+					`Le maire n'est pas autorisé à pratiquer des activités illégales et criminelles.<br>
+						Il ne peut par exemple pas s'allier à un groupe de gangster et utiliser des imprimantes avec eux.`,
 				]
 			],
 			[
@@ -137,10 +141,9 @@ module.exports = {
 					`Toute construction devra posséder une entrée, accessible via fading door (les boutons ou KeyPad reliés à celle-ci ne sont pas obligatoires) (PropBlock).`,
 					`Toute entrée qui est faite par un mappeur devra être accessible via fading door (les boutons ou KeyPad reliés à celle-ci ne sont pas obligatoires) (PropBlock).`,
 					`Les objets, cachés derrière/dessous/dans un prop, devront être accessibles via fading door (les boutons ou KeyPad reliés à celle-ci ne sont pas obligatoires) (PropBlock).`,
-					`Vous n'êtes pas autorisé à utiliser plus de DEUX couches de portes (les portes usuelles sont aussi prises en compte).<br>
-						Si cette porte est de plus de deux props, il devra y avoir un KeyPad facilement visible près de la porte, qui ouvre toute l'entrée au même moment.`,
+					`Vous n'êtes pas autorisé à utiliser plus de DEUX couches de props à un même endroit.`,
 					`Les boutons/keypads doivent être proches de l'objet qu'ils contrôlent et facilement visibles.`,
-					`Les entrées, les couloirs, les escaliers, etc, devront être capables de contenir deux joueurs et être en taille entière, ce qui signifie qu'elles doivent faire la taille d'un joueur qui se tient debout (64 unités), donc les tunnels qui demandent à être accroupis, ou les couloirs qui demandent des esquives/des sauts/des deviations ne sont pas autorisés.`,
+					`Les entrées, les couloirs, les escaliers, etc, devront être capables de contenir deux joueurs, ce qui signifie qu'elles doivent faire la taille d'un joueur qui se tient debout (64 unités), donc les tunnels qui demandent à être accroupis, ou les couloirs qui demandent des esquives/des sauts/des deviations ne sont pas autorisés.`,
 					`Il est interdit d'utiliser (ouvrir, fermer), créer ou supprimer des fading doors pendant une bataille.`,
 					`Les chambres de tirs (meurtrières) ne doivent pas mesurer moins de la moitié d'une plaque standard (metal_plate1, 1x1 PHX) en hauteur et en largeur.`,
 					`Les portes, les caméras, les ponts, les boutons et certains autres objets doivent être clairement visibles.`,
