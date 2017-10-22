@@ -68,8 +68,6 @@ module.exports = {
 					`Tout vote de renvoi (Premium seulement) doit avoir une raison appropriée et être en accord avec les règles, sans insultes. Vous n'êtes pas autorisé à initier des votes de renvoi si aucune règle n'est enfreinte.`,
 					`Votez judicieusement, n'appuyez pas aléatoirement sur "oui" ou "non" lors des votes. Si vous êtes incertain - appuyez sur "ne pas voter".`,
 					`Il est strictement interdit d'échanger de l'argent dans le jeu contre de l'argent réel ou ses équivalents.`,
-					`Le maire ne peut être abattu que 10 minutes après son élection, au quel cas ce meurtre sera considéré à du RDM.<br>
-						Il peut néanmoins être abattu pour n'importe quelle raison après ces 10 minutes.`,
 				]
 			],
 			[
