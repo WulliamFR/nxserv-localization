@@ -174,7 +174,7 @@ module.exports = {
 					`Ai-je le droit de faire les mêmes actes qu'un gangster en mercenaire ? → Oui, mais préférable en gangster.`,
 					`Les policiers ont-ils le droit d'arrêter les sans-abris pour la raison "couvre-feu" ? → Oui.`,
 					`Puis-je détruire/voler un distributeur en policier sans raison ? → Non.`,
-					`Puis-je uniquement créer une fading door sans mettre de keypad ni de bouton ? → Oui.`
+					`Puis-je uniquement créer une fading door sans mettre de keypad ni de bouton ? → Oui.`,
 					`Les policiers peuvent-ils être en alliance avec les gangsters ? → Non.`,
 					`Les gangsters peuvent-ils être en alliance avec les policiers ? → Oui, ils peuvent les aider.`,
 					`Puis-je poser une tourelle en extérieur ? → Non, les tourelles doivent être placées dans des endroits clos.`,
