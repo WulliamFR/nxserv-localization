@@ -34,10 +34,7 @@ var langs = {
 		bsp: "Loading bar can stand still or reset - don't worry, it is fine",
 		resources: "Loading resources",
 		hints: [
-			"If Workshop addons check goes too long, then close your GMod and restart Steam.",
-			"Possible jobs aren't limited by list in F4 menu. As Citizen, you may think of your own occupation. Say, cinema owner or goods reseller.",
-			"Don't worry about server crashes - it will reload in short time and you'll get all of your items, your job and location restored automatically.",
-			"Be sure to check the rules and game guide. You can also read our news - there's always something interesting about upcoming updates and more.",
+			"Our American server is pretty new. Please invite your friends and have fun!"
 		]
 	},
 	fr: {
