@@ -8,8 +8,8 @@
 	"onmap": "sur {{map}}",
 
 	"gamemode_desc": {
-		"darkrp": "DarkRP &mdash; a game mode for the popular game <a href=\"http://store.steampowered.com/app/4000/Garrys_Mod/\">Garry's Mod</a> with the idea of a simulation of urban life. You could become a gangster and rob people or perhaps become a police officer to protect the town from outlaws. You could open a gun shop or a pizzeria where you sell the most delicious food in town. Or you can become the mayor and manage the city, namely the police, urban economies and licensing people.",
-		"gmstranded": "Stranded is a survival game mode, where you mine resources, craft items, join up in tribes and fight monsters.",
-		"stronghold": "Fight to Survive: Stronghold is a Deathmatch gamemode where you have the ability to construct fortifications/strongholds to defend yourself and your team as you earn money killing the opposing players."
+		"darkrp": "DarkRP &mdash; un mode de jeu du jeu populaire <a href=\"http://store.steampowered.com/app/4000/Garrys_Mod/\">Garry's Mod</a> avec comme idée de base, la simulation de la vie urbaine. Vous pouvez devenir un gangster et voler les gens, ou l'inverse, c'est-à-dire devenir un agent de police afin de protéger la ville des hors-la-loi. Vous pouvez ouvrir votre magasin d'armes, votre pizzeria où vous vendrez la nourriture la plus délicieuse en ville. Ou encore, vous pourrez devenir le maire et gérer la ville, à savoir la police, l'économie de la ville et les licences d'armes des citoyens.",
+		"gmstranded": "Stranded est un mode de jeu de survie, où vous minez des ressources, fabriquez des objets, rejoignez des tribus et combattez des monstres.",
+		"stronghold": "Fight to Survive : Stronghold est un mode de jeu de match à mort où vous avez la possibilité de construire des fortifications/forteresses afin de défendre votre équipe et vous, pour remporter de l'argent en tuant vos ennemis."
 	}
 }
