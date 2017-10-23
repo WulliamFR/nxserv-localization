@@ -13,8 +13,8 @@ local french = {
 	f1Search = "Recherche...",
 
 	-- Money things:
-	price = "Prix: %s%d",
-	priceTag = "Prix: %s",
+	price = "Prix : %s%d",
+	priceTag = "Prix : %s",
 	reset_money = "%s a remis à zéro l'argent de tout le monde.",
 	has_given = "%s vous a donné %s",
 	you_gave = "Vous avez donné à %s %s",
@@ -40,8 +40,8 @@ local french = {
 	found_cheque = "Vous avez trouvé %s%s d'un chèque à votre nom, de la part de %s.",
 	cheque_details = "Ce chèque est à l'ordre de %s.",
 	cheque_torn = "Vous avez déchiré le chèque.",
-	cheque_pay = "Montant: %s",
-	signed = "Signé par: %s",
+	cheque_pay = "Montant : %s",
+	signed = "Signé par : %s",
 
 	found_cash = "Vous avez trouvé %s%d !", -- backwards compatibility
 	found_money = "Vous avez trouvé %s !",
@@ -50,29 +50,29 @@ local french = {
 
 	-- Police
 	Wanted_text = "Recherché !",
-	he_wanted = "Recherché par la police !\nRaison: %s",
+	he_wanted = "Recherché par la police !\nRaison : %s",
 	youre_unarrested_by = "Vous avez été libéré par %s.",
 	hes_arrested = "%s a été arrêté pour %d secondes.",
 	hes_unarrested = "%s a été libéré.",
-	warrant_ordered = "%s a demandé un mandat de perquisition pour %s. Raison: %s",
-	warrant_request = "%s a demandé un mandat de perquisition pour %s\nRaison: %s",
+	warrant_ordered = "%s a demandé un mandat de perquisition pour %s. Raison : %s",
+	warrant_request = "%s a demandé un mandat de perquisition pour %s\nRaison : %s",
 	warrant_request2 = "Mandat de perquisition envoyé au maire %s !",
-	warrant_approved = "Mandat de perquisition approuvé pour %s !\nRaison: %s\nOrdonné par: %s",
+	warrant_approved = "Mandat de perquisition approuvé pour %s !\nRaison : %s\nOrdonné par : %s",
 	warrant_approved2 = "Vous avez maintenant l'autorisation de fouiller la maison de la personne.",
 	warrant_denied = "Le maire %s a refusé votre mandat de perquisition.",
 	warrant_expired = "Le mandat de perquisition pour %s a expiré !",
 	warrant_required = "Vous avez besoin d'un mandat pour pouvoir ouvrir cette porte.",
 	warrant_required_unfreeze = "Vous avez besoin d'un mandat pour dégeler cet objet.",
 	warrant_required_unweld = "Vous avez besoin d'un mandat pour détruire cet objet.",
-	wanted_by_police = "%s est recherché par la police !\nRaison: %s\nOrdonné par: %s",
-	wanted_by_police_print = "%s a émis un avis de recherche sur %s, raison: %s",
-	wanted_by_police_noactor = "%s est recherché par la police !\nRaison: %s",
-	wanted_by_police_print_noactor = "%s est recherché par la police, raison: %s",
+	wanted_by_police = "%s est recherché par la police !\nRaison : %s\nOrdonné par : %s",
+	wanted_by_police_print = "%s a émis un avis de recherche sur %s, raison : %s",
+	wanted_by_police_noactor = "%s est recherché par la police !\nRaison : %s",
+	wanted_by_police_print_noactor = "%s est recherché par la police, raison : %s",
 	wanted_expired = "%s n'est plus recherché.",
-	wanted_revoked = "%s n'est plus recherché par la police.\nRévoqué par: %s",
+	wanted_revoked = "%s n'est plus recherché par la police.\nRévoqué par : %s",
 	cant_arrest_other_cp = "Vous ne pouvez pas arrêter d'autres policiers !",
 	must_be_wanted_for_arrest = "La personne doit être recherchée pour pouvoir l'arrêter.",
-	cant_arrest_no_jail_pos = "Vous ne pouvez pas arrêter les gens car il n'y a pas de prison !",
+	cant_arrest_no_jail_pos = "Vous ne pouvez pas arrêter les gens car il n'y a aucune prison !",
 	cant_arrest_spawning_players = "Vous ne pouvez pas arrêter les personnes qui viennent d'apparaître.",
 	escape_from_jail = "échappé de prison",
 
@@ -90,31 +90,31 @@ local french = {
 	suspect_already_arrested = "Le suspect est déjà en prison.",
 
 	-- Mayor
-	curfew = "Le maire a lancé un couvre feu: ",
+	curfew = "Le maire a lancé un couvre feu : ",
 
 	-- Players
-	health = "Santé: %s",
-	job = "Métier: %s",
-	salary = "Salaire: %s%s",
-	wallet = "Portefeuille: %s%s",
-	weapon = "Arme: %s",
-	kills = "Tués: %s",
-	deaths = "Morts: %s",
+	health = "Santé : %s",
+	job = "Métier : %s",
+	salary = "Salaire : %s%s",
+	wallet = "Portefeuille : %s%s",
+	weapon = "Arme : %s",
+	kills = "Tués : %s",
+	deaths = "Morts : %s",
 	rpname_changed = "%s a changé son nom RP, il se nomme désormais : %s",
 	disconnected_player = "Joueur déconnecté",
-	hunger = "Faim: ",
+	hunger = "Faim : ",
 	starving = "AFFAMÉ",
-	armor = "Armure: ",
-	in_jail = "En prison%s. Temps restant: %d secondes",
+	armor = "Armure : ",
+	in_jail = "En prison%s. Temps restant : %d secondes",
 	with_license = "Avec licence",
 	radio_disabled = "La radio est désactivée",
-	wanted = "Recherché: ",
+	wanted = "Recherché : ",
 
 	-- Cars
-	path = "Course: ",
+	path = "Course : ",
 	m = "%d m",
 	km = "%.1f km",
-	speed = "Vitesse: ",
+	speed = "Vitesse : ",
 	kmh = "%d km/h",
 
 	-- Teams
@@ -127,11 +127,11 @@ local french = {
 
 	-- Keys, vehicles and doors
 	keys_allowed_to_coown = "Vous n'êtes pas autorisé à être co-propriétaire\n(Appuyez sur F2 pour être co-propriétaire)\n",
-	keys_other_allowed = "Autre(s) personne(s) possédant les clés:",
+	keys_other_allowed = "Autre(s) personne(s) possédant les clés :",
 	keys_allow_ownership = "(Appuyez sur F2 pour activer la possession)",
 	keys_disallow_ownership = "(Appuyez sur F2 pour désactiver la possession)",
-	keys_owned_by = "Propriétaire:",
-	keys_unowned = "Pas de propriétaire\n(Appuyez sur F2 pour s'approprier cela)",
+	keys_owned_by = "Propriétaire :",
+	keys_unowned = "Aucun propriétaire\n(Appuyez sur F2 pour vous approprier cela)",
 	keys_everyone = "(Appuyez sur F2 pour donner les clés à tout le monde)",
 	door_unown_arrested = "Vous ne pouvez pas acheter/vendre des choses lorsque vous êtes arrêté !",
 	door_unownable = "Cette propriété ne peut être attribuée/désattribuée !",
@@ -181,7 +181,7 @@ local french = {
 	money_printer_exploded = "Votre imprimante à argent a explosé !",
 	money_printer_overheating = "Votre imprimante à argent est en surchauffe !",
 
-	previous_owner_nof = "Précédent: ",
+	previous_owner_nof = "Précédent : ",
 	microwave_steal = "Appuyez ici pour voler",
 	microwave_hacking = "Piratage...",
 	microwave_alreadyown = "Vous possedez déjà ce micro-ondes !",
@@ -189,8 +189,8 @@ local french = {
 
 	camera_destroyed = "Votre caméra a été détruite !",
 
-	contents = "Contenu: ",
-	amount = "Montant: ",
+	contents = "Contenu : ",
+	amount = "Montant : ",
 
 	picking_lock = "Crochettage",
 
@@ -198,7 +198,7 @@ local french = {
 	object_too_heavy = "Cet objet est trop lourd.",
 	pocket_full = "Votre poche est pleine !",
 	pocket_no_items = "Votre poche est vide.",
-	drop_item = "Objet lâché",
+	drop_item = "Inventaire",
 
 	pickup_item = "Ramasser un objet",
 	drop_last_item = "Jeter le dernier objet ramassé",
@@ -225,11 +225,11 @@ local french = {
 	keypad_off = "OFF",
 	seconds = "secondes",
 
-	persons_weapons = "Les armes illégales que possède %s:",
+	persons_weapons = "Les armes illégales que possède %s :",
 	returned_persons_weapons = "%s a rendu les armes confisquées.",
 	no_weapons_confiscated = "%s n'a pas d'armes confisquées !",
 	no_illegal_weapons = "%s n'avait pas d'armes illégales.",
-	confiscated_these_weapons = "Confiscation de ces armes:",
+	confiscated_these_weapons = "Confiscation de ces armes :",
 	checking_weapons = "Vérification des armes",
 
 	shipment_antispam_wait = "Merci d'attendre avant l'apparition d'une prochaine cargaison.",
@@ -238,7 +238,7 @@ local french = {
 	-- Talking
 	hear_noone = "Personne ne peut vous entendre %s !",
 	hear_everyone = "Tout le monde peut vous entendre !",
-	hear_certain_persons = "Les personnes qui peuvent vous entendre %s: ",
+	hear_certain_persons = "Les personnes qui peuvent vous entendre %s : ",
 
 	whisper = "chuchoter",
 	yell = "hurler",
@@ -251,7 +251,7 @@ local french = {
 	ooc = "Ville",
 	radio_x = "Radio %d",
 
-	talk = "dire",
+	talk = "parler",
 	speak = "parler",
 
 	speak_in_ooc = "parlez de ville",
@@ -300,7 +300,7 @@ local french = {
 	door = "porte",
 	vehicle = "véhicule",
 	door_or_vehicle = "porte/véhicule",
-	name = "Nom: %s",
+	name = "Nom : %s",
 	lock = "Fermer",
 	locked = "Verrouillé",
 	unlock = "Ouvrir",
@@ -312,8 +312,8 @@ local french = {
 	wait_with_that = "Attendez avec ceci.",
 	could_not_find = "Impossible de trouver %s",
 	f3tovote = "Appuyez sur F3 pour voter",
-	listen_up = "Écoutez:", -- In rp_tell or rp_tellall
-	nlr = "New Life Rule: ne pas vous venger, tuer/arrêter.",
+	listen_up = "Écoutez :", -- In rp_tell or rp_tellall
+	nlr = "New Life Rule : ne pas vous venger, tuer/arrêter.",
 	reset_settings = "Vous devez remettre à zéro tous les paramètres !",
 	must_be_x = "Vous devez être %s afin de pouvoir %s.",
 	agenda_updated = "L'agenda a été mis à jour",
@@ -322,10 +322,10 @@ local french = {
 	demoted_not = "%s n'a pas été rétrogradé",
 	demoted_not_quorum = "%s n'a pas été rétrogradé (pas de quorum)",
 	demote_vote_started = "%s a créé un vote pour la rétrogradation de %s",
-	demote_vote_text = "Rétrogradation:\n%s", -- '%s' is the reason here
+	demote_vote_text = "Rétrogradation :\n%s", -- '%s' is the reason here
 	cant_demote_self = "Vous ne pouvez pas vous rétrograder vous même.",
-	i_want_to_demote_you = "Je veux vous rétrograder. Raison: %s",
-	x_wants_to_demote_you_for_x = "veux vous rétrograder pour",
+	i_want_to_demote_you = "Je veux vous rétrograder. Raison : %s",
+	x_wants_to_demote_you_for_x = "veut vous rétrograder pour",
 	tried_to_avoid_demotion = "Vous avez essayé d'éviter la rétrogradation. Vous avez échoué et vous avez été rétrogradé.", -- naughty boy!
 	lockdown_started = "Le maire a lancé un couvre feu, merci de rentrer chez vous !",
 	lockdown_ended = "Le couvre feu est terminé",
@@ -401,7 +401,7 @@ local french = {
 	lottery_not_entered = "%s n'a pas participé à la loterie",
 	lottery_noone_entered = "Personne n'a participé à la loterie !",
 	lottery_won = "%s a remporté la loterie ! Il a gagné %s",
-	lottery_you_won = "You won the lottery!",
+	lottery_you_won = "Vous avez remporté la loterie !",
 
 	-- Animations
 	custom_animation = "Gestes",
@@ -433,7 +433,7 @@ local french = {
 	-- Hitmenu
 	hit = "cible",
 	hitman = "Mercenaire",
-	current_hit = "Cible: %s",
+	current_hit = "Cible : %s",
 	cannot_request_hit = "Impossible de demander un assassinat ! %s",
 	hitmenu_request = "Requête",
 	player_not_hitman = "Cette personne n'est pas un mercenaire !",
@@ -469,7 +469,7 @@ local french = {
 
 	-- VGUI and some more doors/vehicles
 	vote = "Vote",
-	time = "Heure: %d",
+	time = "Heure : %d",
 	yes = "Oui",
 	no = "Non",
 	ok = "Ok",
@@ -481,7 +481,7 @@ local french = {
 	confirmed = "Confirmé",
 
 	x_options = "Options de %s",
-	sell_x = "Ventes %s",
+	sell_x = "Vendre %s",
 	set_x_title = "Mettre un titre à %s",
 	set_x_title_long = "Donnez un nom à l'objet %s que vous regardez.",
 	jobs = "Métiers",
@@ -542,26 +542,26 @@ local french = {
 	default_law_change_denied = "Vous n'êtes pas autorisé à modifier les lois par défaut.",
 
 	-- Second tab
-	job_name = "Nom: ",
-	job_description = "Description: ",
-	job_weapons = "Armes: ",
+	job_name = "Nom : ",
+	job_description = "Description : ",
+	job_weapons = "Armes : ",
 
 	-- Entities tab
-	buy_a = "Acheter %s: %s",
+	buy_a = "Acheter %s : %s",
 
 	-- Licenseweaponstab
 	license_tab = [[Armes à licence
 
 	Cochez les armes qu'il est possible de posséder SANS licence
 	]],
-	license_tab_other_weapons = "Autres armes:",
+	license_tab_other_weapons = "Autres armes :",
 
 	-- Car Terminal
 	car_terminal = "Terminal",
 
 	-- Destroyer
-	destroyer_message = "Broyeuse: jetez ici des imprimantes à argent, des drogues ou des armes pour obtenir une récompense.",
-	destroyer_reward = "Récompense pour avoir broyé un objet illégal: %s.",
+	destroyer_message = "Broyeuse : jetez ici des imprimantes à argent, des drogues ou des armes pour obtenir une récompense.",
+	destroyer_reward = "Récompense pour avoir broyé un objet illégal : %s.",
 	destroyer_bringthis = "Apportez cela à la broyeuse du poste de police pour obtenir une récompense.",
 
 	-- Printer
@@ -577,7 +577,7 @@ local french = {
 	printer_auto = "Répétition automatique",
 	printer_update = "Améliorer pour %s",
 	printer_collect = "Récupérer l'argent",
-	printer_printed = "Imprimé: %s",
+	printer_printed = "Imprimé : %s",
 
 	-- Jobs
 	citizens = "Citoyens",
@@ -591,17 +591,17 @@ local french = {
 	citizen_desc = [[Le citoyen a un statut social normal. Vous n'avez pas de rôle spécifique dans la vie. Vous pouvez faire le métier que vous souhaitez et faire votre propre entreprise.]],
 
 	hobo = "Sans abri",
-	hobo_desc = [[Le sans abri est la personne la moins importante dans la société. Tout le monde se moque de vous.
+	hobo_desc = [[Le sans abri est la personne la moins importante de la société. Tout le monde se moque de vous.
 	Vous n'avez pas de maison, vous demandez même de l'argent et de la nourriture aux passants.
 	Construisez votre maison avec des briques et des cartons, pour vous sauver du froid.]],
 
 	fishman = "Pêcheur",
-	fishman_desc = [[Utilisez vos compétences pour pêcher des objets et ensuite les revendre. Acheter des appâts et améliorer votre canne pour obtenir plus de butin.
+	fishman_desc = [[Utilisez vos compétences pour pêcher des objets et ensuite les revendre. Achetez des appâts et améliorez votre canne pour obtenir plus de butin.
 
 	Appuyez sur la touche B pour ouvrir le menu du pêcheur.]],
 
 	cp = "Agent de police",
-	cp_desc = [[L'agent de police protége et défend n'importe quel citoyen de la ville.
+	cp_desc = [[L'agent de police protège et défend n'importe quel citoyen de la ville.
 	Vous avez le pouvoir d'arrêter les malfrats et de protéger les innocents.
 	Utilisez votre matraque pour montrer votre autorité.
 	Le bélier peut démolir n'importe quelle porte, avec le mandat correspondant.
@@ -611,7 +611,7 @@ local french = {
 	cp_msg_wanted = "Vous ne pouvez pas devenir agent de la police lorsque vous êtes recherché.",
 
 	chief = "Chef de la police",
-	chief_desc = [[Le chef de la police dirige ses hommes.
+	chief_desc = [[Le Chef de la police dirige ses hommes.
 		Coordonnez vos hommes pour faire respecter les lois de la ville.
 		Utilisez votre matraque pour montrer votre autorité et votre importance dans la police.
 	Le bélier peut démolir n'importe quelle porte, avec le mandat correspondant.
@@ -619,7 +619,7 @@ local french = {
 	Maintenez la touche C pour diriger la police.]],
 
 	mayor = "Maire",
-	mayor_desc = [[Le maire de la ville rédige des lois pour améliorer la vie des citoyens et garantir leur sécurité..
+	mayor_desc = [[Le maire de la ville rédige des lois pour améliorer la vie des citoyens et garantir leur sécurité.
 	Lorsque vous êtes maire, vous pouvez créer et accepter des mandats de perquisition.
 	Maintenez la touche C pour pouvoir exercer votre pouvoir.
 	Lorsqu'un couvre feu est actif, tous les citoyens doivent rester dans leurs maisons ou dans un lieu sécurisé, et les policiers sont tenus de patrouiller dans les rues de la ville pour pouvoir faire respecter le couvre feu.]],
@@ -627,20 +627,20 @@ local french = {
 	gangster = "Gangster",
 	gangster_desc = [[Grade le plus bas de la hiérarchie criminelle.
 	Le gangster travaille généralement avec le chef de gang, qui dirige les gangsters.
-	Vous pouvez faire des vols, des hold-up, tuer des citoyens pour de l'argent, mais n'oubliez pas de respecter l'agenda du chef de gang, ou autrement il vous punira, probablement.]],
+	Vous pouvez faire des vols, des hold-up, tuer des citoyens pour de l'argent, mais n'oubliez pas de respecter votre chef de gang, ou autrement il vous punira, probablement.]],
 
 	mobboss = "Chef de gang",
 	mobboss_desc = [[Le chef de gang est le principal criminel dans la ville.
 	Il dirige ses gangsters et fait des groupes de criminels efficaces.
 	Il est capable de saccager des appartements et de libérer des gens.]],
-	mobboss_msg = "Become a mobster and create your gang through C-Menu to get this job.",
+	mobboss_msg = "Devenez un chef de gang et créez votre gang via le menu C.",
 
 	merc = "Mercenaire",
-	merc_desc = [[Le mercenaire effectue différentes tâches. Il peut faire plein de choses tel que: des assassinats, des hold-up, de la reconnaissance etc. Tout le monde peut profiter de vos services, incluant la police, les citoyens et les gangsters.]],
+	merc_desc = [[Le mercenaire effectue différentes tâches. Il peut faire plein de choses tel que : des assassinats, des hold-up, de la reconnaissance etc. Tout le monde peut profiter de vos services, incluant la police, les citoyens et les gangsters.]],
 
 	medic = "Médecin",
 	medic_desc = [[Le médecin peut soigner les habitants de la ville.
-	Utilisez le kit médical pour soignez vos patients, et vous soigner vous même. Vous pouvez aussi vendre des médicaments à vos patients.]],
+	Utilisez le kit de soin pour soigner vos patients, et vous soigner vous même. Vous pouvez aussi vendre des kits de soin à vos patients.]],
 
 	gundealer = "Vendeur d'armes",
 	gundealer_desc = [[Le vendeur d'armes est la seule personne qui peut vendre des armes légalement.
@@ -655,19 +655,19 @@ local french = {
 	Ouvrez un bar et servez vos clients. Engagez un agent de sécurité pour faire dégager les personnes ivres.]],
 
 	carmaster = "Mécanicien",
-	carmaster_desc = [[Réparez et ravitaillez les véhicules en essence.]],
+	carmaster_desc = [[Réparez et ravitaillez les véhicules d'essence.]],
 
 	security = "Agent de sécurité",
 	security_desc = [[Devenez un agent de la sécurité d'une boutique locale ou de la banque. Vous pouvez aussi être garde du corps.
 	Vous devez protéger les établissements des intimidateurs et des voleurs.
-	Si la situation s'aggrave: appelez la police.
+	Si la situation s'aggrave : appelez la police.
 	On ne vous donne qu'une matraque par défaut, donc ne prenez pas de risques inutiles.]],
 
 	taxidriver = "Chauffeur de taxi",
 	taxidriver_desc = [[Conduisez des personnes à leur destination et recevez de l'argent.]],
 
 	fireman = "Pompier",
-	fireman_desc = [[Métier responsable et dangeureux. Sans vous notre ville serait brûlée en cendres.
+	fireman_desc = [[Métier responsable et dangereux. Sans vous notre ville serait brûlée en cendres.
 	Vous recevez de l'argent lorsque vous éteignez des feux.]],
 
 	extinguish_fire = "Vous avez reçu %s pour avoir éteint un feu !",
@@ -748,9 +748,9 @@ local french = {
 	bomb_instructions1 = "Bouton gauche de la souris - Jeter la bombe",
 	bomb_instructions2 = "Bouton droit de la souris - Coller la bombe au mur",
 
-	unpacker_instructions1 = "Placez l'objet: ",
-	unpacker_instructions2 = "Faites pivoter l'objet: ",
-	unpacker_instructions3 = "Annuler: ",
+	unpacker_instructions1 = "Placez l'objet : ",
+	unpacker_instructions2 = "Faites pivoter l'objet : ",
+	unpacker_instructions3 = "Annuler : ",
 	unpacker_instructions4 = "Restez appuyé sur %s après le déballage",
 	unpacker_instructions5 = "pour réemballer l'objet",
 
@@ -762,7 +762,7 @@ local french = {
 
 	rules = "Règles",
 	read_rules = "Pour lire les règles appuyez sur ",
-	nobind = "[PAS DE TOUCHE DÉFINIE]",
+	nobind = "[AUCUNE TOUCHE DÉFINIE]",
 
 	-- Cars
 	car_on_fire = "Votre véhicule est en feu, vous ne pouvez pas le supprimer",
@@ -799,30 +799,30 @@ local french = {
 	buy = "Acheter",
 	car_spawn = "Faire apparaître",
 	car_modify = "Modifier",
-	car_sell_for = "Vendre: ",
+	car_sell_for = "Vendre : ",
 	sell_x_for_x = "Vendre %s pour %s ?",
 	modify_x_for_x = "Modifier %s pour %s ? ",
 	car_sell = "Vendre le véhicule",
 	car_modification = "Modifier le véhicule",
-	car_apply = "Appliquer: ",
-	car_driver = "Conducteur:",
-	car_passenger = "Passager %d:",
+	car_apply = "Appliquer : ",
+	car_driver = "Conducteur :",
+	car_passenger = "Passager %d :",
 	car = "Véhicule",
 	car_kick = "Éjecter",
-	previous_owner = "Précédent propriétaire: %s",
+	previous_owner = "Précédent propriétaire : %s",
 	taxi_popup = "Taxi %s/km",
 	car_retrieval = "Ranger le véhicule",
 
 	car_destroyed_fine = "%s d'amende pour avoir détruit le véhicule !",
 	car_rent_stopped = "Fonds insuffisants pour régler la location, location annulée",
-	car_rent_paid = "Location du véhicule réglée: %s",
+	car_rent_paid = "Location du véhicule réglée : %s",
 	car_rent_paid_fine = "L'amende a été réglée, vous pouvez louer un véhicule de nouveau",
 	car_rent_cant_pay_fine = "Fonds insuffisants pour régler l'amende",
 	car_rent_banned = "Vous avez été banni de louer des véhicules pendant %s",
 
 	-- Laws
-	laws_title = "Les lois de la ville",
-	laws_speedlimit = "Limite de vitesse des véhicules: ",
+	laws_title = "Lois de la ville",
+	laws_speedlimit = "Limite de vitesse des véhicules : ",
 	laws_kmh = " km/h",
 	laws_legal = "Légal",
 	laws_license = "Licence requise",
@@ -844,7 +844,7 @@ local french = {
 	cc_limits = "Restrictions",
 	cc_orders = "Ordres",
 	cc_upgrades = "Améliorations",
-	cc_points = "Crédits du gouvernement: ",
+	cc_points = "Crédits du gouvernement : ",
 	cc_save = "<Enter> - modifications effectuées",
 	cc_lawlength = "La longueur des lois doit être comprise entre 3 et 1000 caractères",
 	cc_resetlaws = "Restaurer les lois par défaut",
@@ -871,7 +871,7 @@ local french = {
 	cc_helicopter_spawned = "Hélicoptère livré à l'héliport",
 	cc_helicopter_obstructed = "L'héliport est obstrué !",
 
-	lockdown_reason = "Raison: %s",
+	lockdown_reason = "Raison : %s",
 	door_cp = "Forces de l'ordre",
 	agenda_cp = "Agenda de la police",
 
@@ -913,7 +913,7 @@ local french = {
 	upgrades = "Améliorations",
 	roll_the_dice = "Lancer les dés",
 	roll_sides = "Nombre de faces",
-	demote_warn = "Utilisez la rétrogradation seulement si vous êtes sûr de vous.\nL'abus de la rétrogradation sera sanctionné.\n\nEntrer la raison:",
+	demote_warn = "Utilisez la rétrogradation seulement si vous êtes sûr de vous.\nL'abus de la rétrogradation sera sanctionné.\n\nEntrer la raison :",
 	sell_all_doors = "Vendre toutes les portes",
 	enter_new_title = "Saisir un nouveau titre",
 	edit_model = "Choisissez votre apparence",
@@ -923,7 +923,7 @@ local french = {
 	shop_pos_set = "La position de votre magasin a été mis à jour",
 	microwave_setprice = "Saisir le prix du micro-ondes",
 	taxi_setprice = "Fixer le prix au kilomètre",
-	hitman_setprice = "Fixer le prix au cible",
+	hitman_setprice = "Fixer le prix au meurtre",
 	enter_price = "Saisir le prix",
 	enter_reason = "Saisir la raison",
 	stop_dna_scan = "Arrêter l'analyse ADN",
@@ -945,8 +945,8 @@ local french = {
 	hint = "Astuce",
 
 	-- bomb
-	bomb_code = "Code:",
-	timer_until = "Chronomètre (secondes):",
+	bomb_code = "Code :",
+	timer_until = "Chronomètre (secondes) :",
 	start_timer = "Démarrer le chronomètre",
 	take_bomb = "Prendre la bombe",
 	stop_timer = "Arrêter le chronomètre",
@@ -955,7 +955,7 @@ local french = {
 
 	-- weplocker
 	pwl_title = "Casier d'artillerie de la police",
-	pwl_count = "Armes de police prises: ",
+	pwl_count = "Armes de police prises : ",
 	pwl_warn = "Vous n'êtes plus autorisé à prendre d'armes, vous attaquez vos collègues.",
 	pwl_wep = "Arme",
 	pwl_avail_c = "Disponibilité",
@@ -963,7 +963,7 @@ local french = {
 	pwl_avail = "disponible",
 	pwl_unavail = "indisponible",
 	pwl_giveme = "Prendre l'arme sélectionnée",
-	pwl_timer = "Délai avant la prochaine arme: ",
+	pwl_timer = "Délai avant la prochaine arme : ",
 	pwl_return = "Remettre l'arme",
 	pwl_close = "Fermer le casier",
 
@@ -987,18 +987,18 @@ local french = {
 	radio_instructions2 = "Sélectionnez la radio et ne faites rien",
 	radio_instructions3 = "sa seule utilitée est de la mettre par terre",
 
-	repair_paid = "Coût des réparations: ",
+	repair_paid = "Coût des réparations : ",
 
 	speedmeter_instructions = "Bouton gauche de la souris - ordonner au conducteur de s'arrêter",
 	speedmeter_stopnow = "Le policier vous demande de vous arrêter",
 	speedmeter_ordered_x = "Le conducteur de %s est ordonné de s'arrêter",
 	speedmeter_ordered = "Vous avez demandé au conducteur de s'arrêter",
 
-	wepcheck_legal = "Légal: ",
-	wepcheck_illegal = "Illégal: ",
+	wepcheck_legal = "Légal : ",
+	wepcheck_illegal = "Illégal : ",
 	wepcheck_noweps = " n'a pas d'armes.",
 	wepcheck_report = "Arme(s) possédée(s)",
-	wepcheck_inbag = "Dans la poche:",
+	wepcheck_inbag = "Dans la poche :",
 	money_printers_genitive = "imprimante à argent",
 	cantpocket_printer = "Vous ne pouvez pas mettre cette imprimante dans votre poche !",
 
@@ -1025,7 +1025,7 @@ local french = {
 	taxi_setprice_fail = "Vous ne pouvez pas changer le prix du taxi par kilomètre lorsque vous conduisez !",
 	taxi_setprice_ok = "Le prix de %s par kilomètre a été fixé",
 	taxi_nocar = "Vous devez posséder un taxi !",
-	call_taxi_fail = "Malheureusement il n'y a pas de chauffeur de taxi actuellement.",
+	call_taxi_fail = "Malheureusement il n'y a aucun chauffeur de taxi actuellement.",
 	call_taxi_alert = "appelle un taxi !",
 
 	--
@@ -1036,7 +1036,7 @@ local french = {
 
 	--
 	coolmodel_enabled = "Remplacer l'apparence par défaut",
-	coolmodel_skin = "Skin:",
+	coolmodel_skin = "Skin :",
 	coolmodel_respawn = "Les changements seront effectués après votre réapparition",
 	coolmodel_nopremium = "Vous n'êtes pas Premium, vous ne pouvez donc pas faire cela.",
 	coolmodel_none = "Aucun",
@@ -1046,10 +1046,10 @@ local french = {
 
 	--
 	rpname_fail = "2 parties (prénom et nom de famille) requises",
-	he_wants_demote = "%s (%s) veut rétrograder %s (%s):\n%s",
+	he_wants_demote = "%s (%s) veut rétrograder %s (%s) :\n%s",
 	he_wants_demote_vgui = "veut rétrograder",
-	he_wants_demote_vgui_res = "pour la raison:",
-	wanna_vote_demote = "%s (%s) veut rétrograder %s (%s):\n%s\nAllez vous voter ?",
+	he_wants_demote_vgui_res = "pour la raison :",
+	wanna_vote_demote = "%s (%s) veut rétrograder %s (%s) :\n%s\nAllez vous voter ?",
 	precache_panic = "Problème de source moteur, où l'on ne peut rien faire pour,\nle serveur va s'arrêter dans %d secondes ou plus tôt.\nSinon le serveur crasherait.\nLes objets achetés, ainsi que les métiers et les positions seront restaurés automatiquement.",
 	restartstuff_given = "Vous avez reçu %s pour les objets que vous possédiez avant l'arrêt du serveur.",
 	arrest_reason = "La raison de l'arrestation",
@@ -1067,12 +1067,12 @@ local french = {
 	dna_vehicle = "accident de voiture",
 	dna_unknown = "inconnu",
 	dna_title = "Victime",
-	dna_name = "Nom de la victime: ",
-	dna_job = "Métier de la victime: ",
-	dna_time = "Heure du décès: il y a %d secondes",
-	dna_reason = "Raison de la mort: ",
-	dna_dist = "Distance du tueur: ",
-	dna_weapon = "Arme du crime: ",
+	dna_name = "Nom de la victime : ",
+	dna_job = "Métier de la victime : ",
+	dna_time = "Heure du décès : il y a %d secondes",
+	dna_reason = "Raison de la mort : ",
+	dna_dist = "Distance du tueur : ",
+	dna_weapon = "Arme du crime : ",
 	dna_nopoint = "Le tueur est déjà arrêté ou mort",
 	dna_destroyed = "L'ADN a été détruit par de récents tests",
 	dna_start = "Commencer l'analyse ADN du tueur",
@@ -1082,9 +1082,9 @@ local french = {
 	dna_call_done = "La police a été appelée",
 	dna_cr = "Ici se trouve le corps de %s !",
 	dna_scanner = "Analyse d'ADN",
-	dna_scan_name = "Victime: ",
+	dna_scan_name = "Victime : ",
 	dna_searching = "Tueur en recherche",
-	dna_next = "Temps avant la prochaine analyse: ",
+	dna_next = "Temps avant la prochaine analyse : ",
 	dna_decoy_time = "L'ADN s'effacera dans ",
 	dna_killer = "Tueur de %s",
 	dna_killer_dead = "Le tueur est mort",
@@ -1104,7 +1104,7 @@ local french = {
 
 	-- Group
 	gang_creation = "Création du gang",
-	gang_name = "Nom du gang:",
+	gang_name = "Nom du gang :",
 	gang_info = "Minimum 2 joueurs.",
 	gang_create = "Créer un gang",
 	gang_poor_name = "Mauvais nom",
@@ -1116,11 +1116,11 @@ local french = {
 	gang_give_title = "Donner de l'argent aux membres",
 	gang_split = "Diviser",
 	gang_each = "Chaque",
-	gang_split_am = "Montant en %s (partagés):",
-	gang_each_am = "Montant en %s (total):",
+	gang_split_am = "Montant en %s (partagés) :",
+	gang_each_am = "Montant en %s (total) :",
 	gang_request = "Demander de l'argent aux membres du gang",
 	gang_request_title = "Demander de l'argent aux membres",
-	gang_request_am = "Montant en %s (total):",
+	gang_request_am = "Montant en %s (total) :",
 	gang_disband = "Dissoudre",
 	gang_disband_title = "Dissoudre",
 	gang_disband_confirm = "Confirmer la dissolution du gang",
@@ -1128,7 +1128,7 @@ local french = {
 	gang_send_invites = "Envoyer des invitations",
 
 	-- Gang SV
-	gang_disbanded = "Le gang %s (chef: %s) a été dissous",
+	gang_disbanded = "Le gang %s (chef : %s) a été dissous",
 	gang_job_leaderonly = "Seul le chef du gang peut modifier cela",
 	gang_job_nocopy = "Cela ne devrait pas contenir le nom d'un gang existant",
 	gang_name_copy = "Un gang nommé pareillement existe déjà",
@@ -1140,7 +1140,7 @@ local french = {
 	gang_not_created = "Le gang n'a pas été créé",
 	gang_invites_sent = "L'invitation a été envoyée",
 	gang_upgrade_bought = "Le chef du groupe a acheté l'amélioration %s",
-	gang_invite_text = "Aimerait que vous rejoigniez le gang %s (boss: %s)",
+	gang_invite_text = "Aimerait que vous rejoigniez le gang %s (boss : %s)",
 	gang_invite_msg = " vous a invité à rejoindre ",
 	gang_kicked_you = " vous a exclu du gang ",
 	gang_kicked = " a été exclu du gang",
@@ -1156,9 +1156,9 @@ local french = {
 
 	-- Markers
 	marker_sent_you = " vous a envoyé sa position",
-	marker_no_police = "Malheureusement il n'y a pas de policier actuellement.",
-	marker_no_fire = "Malheureusement il n'y a pas de pompier actuellement.",
-	marker_no_medic = "Malheureusement il n'y a pas de médecin actuellement.",
+	marker_no_police = "Malheureusement il n'y a aucun policier actuellement.",
+	marker_no_fire = "Malheureusement il n'y a aucun pompier actuellement.",
+	marker_no_medic = "Malheureusement il n'y a aucun médecin actuellement.",
 
 	-- Permaupgrades
 	up_flashlight = "Lampe torche",
@@ -1166,7 +1166,7 @@ local french = {
 	up_door_upgrade = "Portes améliorées",
 	up_door_upgrade_desc = "Toutes les portes que vous possédez accèdent à un écran tactile de verrouillage/déverrouillage.",
 	up_parkour = "Parcours",
-	up_parkour_desc = "Premier niveau: vous pouvez grimper aux murs.\nDeuxième niveau: vous pouvez vous accrocher aux corniches",
+	up_parkour_desc = "Premier niveau : vous pouvez grimper aux murs.\nDeuxième niveau : vous pouvez vous accrocher aux corniches",
 	up_level = " (niveau ",
 	up_bought = "Acheté",
 	up_already = "Vous possédez déjà cette amélioration",
@@ -1183,12 +1183,12 @@ local french = {
 	phone_already = "Vous êtes déjà en appel",
 	phone_busy = ": occupé",
 	phone_remote_off = ": le téléphone mobile est éteint, ou hors de portée du réseau",
-	phone_noans = ": pas de réponse",
+	phone_noans = ": aucune réponse",
 
 	radio_title = "Radio: sélectionner la fréquence",
 	radio_group_chan = "Fréquence de groupe",
 	radio_group_chan_ok = "Fréquence de groupe sélectionnée",
-	radio_chan = "Fréquence (1-999):",
+	radio_chan = "Fréquence (1-999) :",
 	radio_chan_ok = "Fréquence sélectionnée ",
 	radio_chan_fail = "La fréquence radio doit être comprise entre 1 et 999.",
 
@@ -1227,24 +1227,24 @@ local french = {
 	-- elections
 	elections_timer = "L'élection de %d est dans %s",
 
-	quota = "Quota: %d%% des joueurs connectés",
+	quota = "Quota : %d%% des joueurs connectés",
 	no_quota = "Pas de quota",
 	quota_notice = "Les limitations des métiers sont basées sur le nombre de joueurs. Plus de joueurs - plus de places pour les métiers.\nLes joueurs avec abonnement Premium peuvent contourner les limites.",
 
 	enemy = "Enemmi",
 	neutral = "Neutre",
 	friend = "Ami",
-	turret_default = "Par défaut:",
-	turret_friends = "Amis:",
+	turret_default = "Par défaut :",
+	turret_friends = "Amis :",
 	steam_friends = "Amis Steam",
-	gang_or_police = "gang / police",
+	gang_or_police = "gang/police",
 	cant_pack_turret = "Vous ne pouvez pas emballer une tourelle cassée",
 	turret_already_repair = "La tourelle est déjà en train de se faire réparer",
 	turret_repairing = "Réparation de la tourelle...",
 	turret_attacked = "La tourelle se fait attaquer !",
 	turret_lockpicker = "Crochetteur !",
-	turret_owner = "Propriétaire: ",
-	turret_state = "Santé: ",
+	turret_owner = "Propriétaire : ",
+	turret_state = "Santé : ",
 
 	-- Player stats
 	stat_stamina_low = "Épuisé",
@@ -1308,7 +1308,7 @@ local french = {
 	buy_printer_for = "Acheter une imprimante à argent pour %s",
 	my_pocket = "Ma poche",
 	restock_in = "Réapprovisionnement dans %s",
-	for_you_in_stock = "\nPour vous en stock: %d/%d\n%s",
+	for_you_in_stock = "\nPour vous en stock : %d/%d\n%s",
 	printerman_gui_title = "Service d'imprimantes",
 	restock_m_s = "%02dm%02ds",
 	restock_s = "%02ds",
@@ -1370,7 +1370,7 @@ local french = {
 	handcuffs_makefollow = "le faire vous suivre",
 	handcuffs_makestop = "stop",
 	handcuffs_incuffs = "Menotté",
-	handcuffs_escape_progress = "S'échapper:",
+	handcuffs_escape_progress = "S'échapper :",
 	handcuffs_escape = "s'échapper",
 	handcuffs_emenynearby = "ennemi proche de vous",
 
@@ -1378,13 +1378,13 @@ local french = {
 	elevator_button_up = "Appeler l'ascenseur",
 	elevator_button_down = "Appeler l'ascenseur",
 	elevator_button_level = "Étage %d",
-	elevator_display_level = "Étage:",
+	elevator_display_level = "Étage :",
 	-- TOOL:
 	["undone_elevator"] = "Ascenseur retiré",
 	["tool.nx_elevator.name"] = "Ascenseur",
 	["tool.nx_elevator.desc"] = "Utiliser l'outil de création d'ascenseur",
-	["tool.nx_elevator.material"] = "Matériau:",
-	["tool.nx_elevator.model"] = "Modèle:",
+	["tool.nx_elevator.material"] = "Matériau :",
+	["tool.nx_elevator.model"] = "Modèle :",
 	["tool.nx_elevator.dupehint"] = "Pour utiliser l'outil duplicateur avec l'ascenseur vous devez créer un ascenseur",
 	["tool.nx_elevator.1_left"] = "Cliquez n'importe où pour créer un ascenseur ou cliquez sur un ascenseur existant pour le modifier",
 	["tool.nx_elevator.2_left"] = "Ajouter un étage",
@@ -1407,17 +1407,17 @@ local french = {
 
 	-- teamkill
 	teamkill_kill = "%s a tué son collègue %s.",
-	teamkill_kill_warn = "ATTENTION: Vous avez tué un collègue ! Vous allez être banni de la police si vous tuez encore %d agents !",
+	teamkill_kill_warn = "ATTENTION : Vous avez tué un collègue ! Vous allez être banni de la police si vous tuez encore %d agents !",
 	teamkill_hurt = "%s a attaqué son collègue %s.",
-	teamkill_hurt_warn = "ATTENTION: Vous avez attaqué %s, un de vos collègues !",
+	teamkill_hurt_warn = "ATTENTION : Vous avez attaqué %s, un de vos collègues !",
 
 	-- lives
 	lives_died = "Il vous reste %d vie(s). Encore %d minute(s) avant d'en récupérer une autre.",
 	lives_died_warn = "Si il ne vous reste plus de vies, vous ne serez plus en mesure d'utiliser des armes.",
-	lives_restored = "Vous venez de récupérer une vie. Nombre de vies: %d",
-	lives_hud1 = "Vies: %d/2",
-	lives_hud2 = "Récupération dans: %s minute(s)",
-	lives_hud = "Vies: ",
+	lives_restored = "Vous venez de récupérer une vie. Nombre de vies : %d",
+	lives_hud1 = "Vies : %d/2",
+	lives_hud2 = "Récupération dans : %s minute(s)",
+	lives_hud = "Vies : ",
 
 	-- election
 	election_start = "L'inscription aux élections débutent, envoyez vos candidatures !",
@@ -1426,8 +1426,8 @@ local french = {
 	election_over = "Les élections sont terminées. Vainqueur — %s",
 	election_second_tour = "Pas de vainqueur. Début du second tour !",
 	election_wanna = "Souhaitez-vous voter aux élections ?",
-	election_results = "Résultats des votes:",
-	election_put_promise = "Entrez votre promesse de pré-élection:",
+	election_results = "Résultats des votes :",
+	election_put_promise = "Entrez votre promesse de pré-élection :",
 	election_registered = "Votre candidature a bien été enregistrée",
 	election_already = "Votre candidature a déjà été enregistrée !",
 	election_too_late = "L'inscription est terminée",
@@ -1438,7 +1438,7 @@ local french = {
 
 	-- admin tp prevention and unstuck
 	admin_tp = "Vous devez être plus précis si vous voulez appeler un administrateur.",
-	cant_unstuck_vehicle = "Vous ne pouvez pas sortir du véhicule ou du siège.",
+	cant_unstuck_vehicle = "Impossible de débloquer quelqu'un qui est dans un véhicule ou un siège.",
 	was_unstuck = " a été déplacé dans un endroit libre.",
 	unstuck_wait1 = "Besoin d'attendre ",
 	unstuck_wait2 = " secondes avant de rechercher un nouvel endroit libre.",
@@ -1458,8 +1458,8 @@ local french = {
 	prop_hp = "Durabilité",
 	prop_stability = "Stabilité",
 
-	cop_rdm_watch_warning = "Police officer is not allowed to harm unarmed citizens; you will be banned if you continue",
-	cop_rdm_watch_ban_reason = "killing of unarmed citizen",
+	cop_rdm_watch_warning = "L'agent de Police n'est pas autorisé à tuer des citoyens non-armés; vous allez être banni si vous continuez",
+	cop_rdm_watch_ban_reason = "Tue des citoyens non-armés",
 }
 
 Blue.addLanguage("fr", french)
