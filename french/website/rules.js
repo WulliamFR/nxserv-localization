@@ -5,7 +5,7 @@ module.exports = {
 			[
 				"Section principale",
 				[
-					"Il est interdit d'utiliser des logiciels ou bugs, qui peuvent procurer un avantage par rapport aux autres joueurs (Cheats, UseBug).",
+					"Il est interdit d'utiliser des logiciels ou bugs, qui peuvent procurer un avantage par rapport aux autres joueurs (Cheats, UseBug, Anti-AFK).",
 					"Il est interdit de perturber le fonctionnement du serveur.",
 					"Il est interdit d'outrepasser le bannissement d'un compte.",
 					`Les joueurs doivent informer l'administration des problèmes majeurs, qui peuvent faire crash le serveur ou désavantager les autres joueurs.
