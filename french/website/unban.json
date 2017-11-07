@@ -1,16 +1,16 @@
 {
-	"alert_message1": "Malheureusement, vous avez été banni. Vous ne pouvez plus jouer sur nos serveurs.",
+	"alert_message1": "Vous avez malheureusement été banni. Vous ne pouvez plus jouer sur nos serveurs.",
 	"alert_message2": "Raison : {{reason}}, temps restant : {{remaining}}.",
 	"alert_message3": "Vous pouvez <a class=\"white\" target=\"_blank\" href=\"https://steamcommunity.com/groups/NxServ/discussions/7/\">envoyer une demande de débannissement</a>, mais elle peut être refusée.",
 	"alert_message4": "Vous pouvez aussi <a class=\"white\" href=\"/unban/\">payer un débannissement</a> et retourner en jeu sans délai.",
 
 	"fullban_h1": "Votre compte est banni",
-	"fullban_1": "Malheureusement, vous avez été banni. Vous ne pouvez plus jouer sur nos serveurs.",
+	"fullban_1": "Vous avez malheureusement été banni. Vous ne pouvez plus jouer sur nos serveurs.",
 	"fullban_2": "Raison indiquée par l'administrateur : {{reason}}, temps restant : ",
 	"fullban_3": "Vous pouvez aussi payer un débannissement automatique maintenant pour <b>{{amount}}</b> {{currency}}.",
 
 	"minorban_h1": "Vous avez quelques restrictions",
-	"minorban_1": "L'administration vous a limité dans quelques actions. Vous pouvez toujours jouer sur nos serveurs.",
+	"minorban_1": "L'administration vous a limité dans certaines actions. Vous pouvez cependant toujours jouer sur nos serveurs.",
 	"minorban_type": "Type",
 	"minorban_reason": "Raison",
 	"minorban_remaining": "Temps restant",
