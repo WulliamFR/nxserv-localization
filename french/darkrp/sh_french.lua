@@ -569,6 +569,7 @@ local french = {
 	printer_rely = "Fiabilité",
 	printer_rely_upgrade = "Amélioration de fiabilité",
 	printer_start = "Commencer l'impression",
+	printer_stop = "Stop printing",
 	printer_auto = "Répétition automatique",
 	printer_update = "Améliorer pour %s",
 	printer_collect = "Récupérer l'argent",
