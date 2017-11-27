@@ -5,12 +5,12 @@ module.exports = {
 			[
 				"Section principale",
 				[
-					"Il est interdit d'utiliser des logiciels ou bugs, qui peuvent procurer un avantage par rapport aux autres joueurs (Cheats, UseBug).",
+					"Il est interdit d'utiliser des logiciels ou bugs, qui peuvent procurer un avantage par rapport aux autres joueurs (Cheats, UseBug, Anti-AFK).",
 					"Il est interdit de perturber le fonctionnement du serveur.",
 					"Il est interdit d'outrepasser le bannissement d'un compte.",
 					`Les joueurs doivent informer l'administration des problèmes majeurs, qui peuvent faire crash le serveur ou désavantager les autres joueurs.
 					<br>Il est punissable de posséder et de cacher de telles informations, ainsi que de les transmettre à d'autres joueurs.`,
-					"Votre nom ne doit pas contenir de lettres provenant de plusieures langues."
+					"Votre nom ne doit pas contenir de lettres provenant de plusieurs langues."
 				]
 			],
 			[
@@ -153,7 +153,7 @@ module.exports = {
 						Attention : vous pouvez construire sur le toit d'une de vos propriétés. Cet endroit devra être accessible publiquement, avec un ascenseur ou une échelle. Lorsqu'il est impossible d'y accéder, vous n'êtes pas autorisé à placer d'objets précieux et des props sur celui-ci.`,
 					`Si un ascenseur est requis pour accéder à votre structure, contrôler celui-ci devra être possible sans crackage. Il est interdit de limiter l'accès de cet ascenseur. L'ascenseur devra marcher de manière stable. Ce qui veut dire :
 					<ul>
-						<li>Votre ascenseur devra être construit avec l'outil spécial NxRP -> Ascenseur.
+						<li>Votre ascenseur devra être construit avec l'outil spécial NxRP → Ascenseur.
 						<li>Il ne devra y avoir aucune porte ou mur à l'entrée ou à la sortie (même avec fading door).
 						<li>Il est interdit d'utiliser l'outil ascenseur pour reproduire un mur ou autre. Cet outil doit servir uniquement d'ascenseur.
 					</ul>`,
@@ -182,7 +182,7 @@ module.exports = {
 					`Puis-je me venger de quelqu'un qui m'a tué/braqué il y a plus d'une heure ? → Non.`,
 					`Ai-je le droit de détruire tous les props d'une base d'autrui afin de pouvoir m'approprier les lieux ? → Non.`,
 					`Lors d'un couvre-feu, un policier a t-il le droit de m'arrêter quand bien même que je suis dans un bâtiment, même s'il ne m'appartient pas ? → Non.`,
-					`Ai-je le droit, en tant que maire de rester sur un immeuble avec mon hélicoptère et faire des loteries ? → Oui.`,
+					`Ai-je le droit, en tant que maire de rester sur un immeuble avec mon hélicoptère et faire des loteries ? → Non.`,
 					`Ai-je le droit, en tant que maire d'initier des couvre-feux interminables, avec une raison valide ? → Oui.`,
 				]
 			],
