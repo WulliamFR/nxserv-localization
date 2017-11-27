@@ -22,4 +22,16 @@ Disable auto-reconnect: Press F1 (press twice to reconnect now)
 Отключить автореконнект: Нажмите F1 (нажмите дважды чтобы переподключиться сейчас)
 ]],
 	},
+	
+	fr = {
+		instructions = [[<color=red><font=DermaLarge>Le serveur a planté, maintenant quoi ?</font></color>
+	- Restez patients et sauvegardez vos constructions le plus souvent possible !
+	- Si le serveur a planté juste après que vous ayez fait quelque chose, signalez-le sur les forums
+	(cela pourrait nous aider, de sorte à que nous corrigions ces plantages avec votre aide)
+	- Patientez le temps que le serveur redémarre (cela prend entre 30 secondes et 3 minutes)
+	- Continuez à jouer !
+
+Désactiver l'auto-reconnexion: Presser F1 (presser deux fois pour se reconnecter maintenant)
+]],
+	},
 }
