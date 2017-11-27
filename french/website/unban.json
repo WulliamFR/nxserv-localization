@@ -1,8 +1,9 @@
 {
 	"alert_message1": "Malheureusement, vous avez été banni. Vous ne pouvez plus jouer sur nos serveurs.",
 	"alert_message2": "Raison : {{reason}}, temps restant : {{remaining}}.",
-	"alert_message3": "Vous pouvez <a class=\"white\" target=\"_blank\" href=\"https://steamcommunity.com/groups/NxServ/discussions/7/\">envoyer une demande de débannissement</a>, mais elle peut être refusée.",
-	"alert_message4": "Vous pouvez aussi <a class=\"white\" href=\"/unban/\">payer un débannissement</a> et retourner en jeu sans délai.",
+	"alert_message3": "Vous pouvez <1>envoyer une demande de débannissement</1>, mais elle peut être refusée.",
+	"alert_message4": "Vous pouvez aussi <1>payer un débannissement</1> et retourner en jeu sans délai.",
+	"alert_url": "https://steamcommunity.com/groups/NxServ/discussions/7/",
 
 	"fullban_h1": "Votre compte est banni",
 	"fullban_1": "Malheureusement, vous avez été banni. Vous ne pouvez plus jouer sur nos serveurs.",

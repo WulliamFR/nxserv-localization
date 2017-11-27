@@ -42,7 +42,7 @@ module.exports = {
 	],
 
 	"darkrp": [
-		"Règles DarkRP",
+		"Règles NxRP",
 		[
 			[
 				"Section principale",
@@ -153,7 +153,7 @@ module.exports = {
 						Attention : vous pouvez construire sur le toit d'une de vos propriétés. Cet endroit devra être accessible publiquement, avec un ascenseur ou une échelle. Lorsqu'il est impossible d'y accéder, vous n'êtes pas autorisé à placer d'objets précieux et des props sur celui-ci.`,
 					`Si un ascenseur est requis pour accéder à votre structure, contrôler celui-ci devra être possible sans crackage. Il est interdit de limiter l'accès de cet ascenseur. L'ascenseur devra marcher de manière stable. Ce qui veut dire :
 					<ul>
-						<li>Votre ascenseur devra être construit avec l'outil spécial DarkRP → Ascenseur.
+						<li>Votre ascenseur devra être construit avec l'outil spécial NxRP → Ascenseur.
 						<li>Il ne devra y avoir aucune porte ou mur à l'entrée ou à la sortie (même avec fading door).
 						<li>Il est interdit d'utiliser l'outil ascenseur pour reproduire un mur ou autre. Cet outil doit servir uniquement d'ascenseur.
 					</ul>`,
