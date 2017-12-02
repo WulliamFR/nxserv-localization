@@ -684,7 +684,7 @@ local french = {
 	fas2_dv2 = "Couteau de combat DV2",
 	fas2_machete = "Machette",
 	fas2_ots33 = "OTs-33 \"Pernach\"",
-	weapon_rpg = "RPG anti-véhicules",
+	weapon_rpg = "RPG",
 	fas2_m67 = "Grenade M67",
 	molotov = "Cocktail Molotov",
 
