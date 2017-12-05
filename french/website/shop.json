@@ -48,6 +48,6 @@
 	"add_sent2": "à mon solde NxServ.",
 	"add_method": "Mode de paiement: ",
 	"add_button": "Payer",
-	"add_error": "An error has occured during payment, please try again.",
-	"add_success": "Thank you! Your payment will be accepted shortly."
+	"add_error": "Une erreur est survenue lors du paiement, veuillez réessayer.",
+	"add_success": "Merci ! Votre paiement sera accepté sous peu."
 }
