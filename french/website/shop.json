@@ -41,5 +41,13 @@
 	"list_desc": "Liste des articles disponibles à l'achat.",
 	"buying_period": "Valide pendant {{time}}",
 	"free": "GRATUIT",
-	"slot_item_description": "Accessoire ou vêtement qui est porté dans l'emplacement '{{slot}}'"
+	"slot_item_description": "Accessoire ou vêtement qui est porté dans l'emplacement '{{slot}}'",
+
+	"add_title": "Recharge de solde NxServ",
+	"add_sent1": "Je veux ajouter",
+	"add_sent2": "à mon solde NxServ.",
+	"add_method": "Mode de paiement: ",
+	"add_button": "Payer",
+	"add_error": "An error has occured during payment, please try again.",
+	"add_success": "Thank you! Your payment will be accepted shortly."
 }
