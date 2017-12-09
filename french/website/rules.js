@@ -183,7 +183,7 @@ module.exports = {
 					`Ai-je le droit de détruire tous les props d'une base d'autrui afin de pouvoir m'approprier les lieux ? → Non.`,
 					`Lors d'un couvre-feu, un policier a t-il le droit de m'arrêter quand bien même que je suis dans un bâtiment, même s'il ne m'appartient pas ? → Non.`,
 					`Ai-je le droit, en tant que maire de rester sur un immeuble avec mon hélicoptère et faire des loteries ? → Non.`,
-					`Ai-je le droit, en tant que maire d'initier des couvre-feux interminables, avec une raison valide ? → Oui.`,
+					`Ai-je le droit, en tant que maire d'initier des couvre-feux interminables, avec une raison valide ? → Non.`,
 				]
 			],
 		],
