@@ -49,6 +49,15 @@ return {
 		gps_button = "Embed current location",
 		sent_gps_button = "LOCATION",
 		gps_marker = "Location from chat",
+
+		chattypes = {
+			group = "group",
+			["local"] = "local",
+			city = "city",
+			advert = "advert",
+			team = "team",
+			all = "all",
+		},
 	},
 
 	ru = {
@@ -101,6 +110,15 @@ return {
 		gps_button = "Вставить текущую локацию",
 		sent_gps_button = "ЛОКАЦИЯ",
 		gps_marker = "Локация из чата",
+
+		chattypes = {
+			group = "группа",
+			["local"] = "поблизости",
+			city = "город",
+			advert = "объявление",
+			team = "команда",
+			all = "всем",
+		},
 	},
 
 	fr = {
@@ -153,5 +171,14 @@ return {
 		gps_button = "Ajoute votre position",
 		sent_gps_button = "POSITION",
 		gps_marker = "Position provenant du chat",
+
+		chattypes = {
+			group = "groupe",
+			["local"] = "proximité",
+			city = "ville",
+			advert = "publicité",
+			team = "groupe",
+			all = "tout",
+		},
 	},
 }
