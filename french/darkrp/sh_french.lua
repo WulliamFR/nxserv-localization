@@ -741,12 +741,12 @@ local french = {
 	binoculars = "Jumelles",
 
 	-- Hints
-	bomb_instructions1 = "Bouton gauche de la souris - Jeter la bombe",
-	bomb_instructions2 = "Bouton droit de la souris - Coller la bombe au mur",
+	bomb_instructions1 = "Jeter la bombe",
+	bomb_instructions2 = "Coller la bombe au mur ou voiture",
 
-	unpacker_instructions1 = "Placez l'objet : ",
-	unpacker_instructions2 = "Faites pivoter l'objet : ",
-	unpacker_instructions3 = "Annuler : ",
+	unpacker_instructions1 = "Placez l'objet",
+	unpacker_instructions2 = "Faites pivoter l'objet",
+	unpacker_instructions3 = "Annuler",
 	unpacker_instructions4 = "Restez appuyé sur %s après le déballage",
 	unpacker_instructions5 = "pour réemballer l'objet",
 
@@ -979,13 +979,13 @@ local french = {
 	unpacker_packed = "Les objets emballés ont été remis dans la boîte",
 	unpacker_toofar = "Vous êtes trop loin de la boîte",
 
-	radio_instructions1 = "Pressez la touche [%s] pour parler dans la radio",
+	radio_instructions1 = "Parler dans la radio",
 	radio_instructions2 = "Sélectionnez la radio et ne faites rien",
 	radio_instructions3 = "sa seule utilitée est de la mettre par terre",
 
 	repair_paid = "Coût des réparations : ",
 
-	speedmeter_instructions = "Bouton gauche de la souris - ordonner au conducteur de s'arrêter",
+	speedmeter_instructions = "Ordonner au conducteur de s'arrêter",
 	speedmeter_stopnow = "Le policier vous demande de vous arrêter",
 	speedmeter_ordered_x = "Le conducteur de %s est ordonné de s'arrêter",
 	speedmeter_ordered = "Vous avez demandé au conducteur de s'arrêter",
@@ -1390,6 +1390,14 @@ local french = {
 	["sboxlimit_elevator_near_level"] = "Vous devez être sur l'étage désiré et rester prêt de la chambre d'ascenseur",
 	["sboxlimit_elevator_blocked"] = "Quelque chose bloque la chambre d'ascenseur",
 	["sboxlimit_elevator_cant_see"] = "Le sol de votre nouvel ascenseur doit être au milieu de votre viseur",
+
+	tool_link_name = "Link",
+	tool_link_desc = "Links objects into a contraption to be saved into Duplicator",
+	tool_link_left = "select one object or contraption",
+	tool_link_left_shift = "+ Shift   select all nearby objects",
+	tool_link_right = "link / unlink",
+	tool_link_reload = "reset selection",
+	tool_link_dist = "Search distance",
 
 	loading_net = "Chargement des données...",
 
