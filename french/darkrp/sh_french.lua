@@ -742,7 +742,7 @@ local french = {
 
 	-- Hints
 	bomb_instructions1 = "Jeter la bombe",
-	bomb_instructions2 = "Coller la bombe au mur ou voiture",
+	bomb_instructions2 = "Coller la bombe au mur ou sur la voiture",
 
 	unpacker_instructions1 = "Placez l'objet",
 	unpacker_instructions2 = "Faites pivoter l'objet",
@@ -1391,13 +1391,15 @@ local french = {
 	["sboxlimit_elevator_blocked"] = "Quelque chose bloque la chambre d'ascenseur",
 	["sboxlimit_elevator_cant_see"] = "Le sol de votre nouvel ascenseur doit être au milieu de votre viseur",
 
-	tool_link_name = "Link",
-	tool_link_desc = "Links objects into a contraption to be saved into Duplicator",
-	tool_link_left = "select one object or contraption",
-	tool_link_left_shift = "+ Shift   select all nearby objects",
-	tool_link_right = "link / unlink",
-	tool_link_reload = "reset selection",
-	tool_link_dist = "Search distance",
+	tool_link_name = "Liaison",
+	tool_link_desc = "Lie des objets dans un ensemble afin de le sauvegarder dans le Duplicateur.",
+	tool_link_left = "sélectionner un objet ou un ensemble de props",
+	tool_link_left_shift = "+ Shift   sélectionner tous les objets à proximité",
+	tool_link_right = "lier / dissocier",
+	tool_link_reload = "annuler la sélection",
+	tool_link_dist = "Distance de recherche",
+	tool_link_screen_separate = "Objets seuls :",
+	tool_link_screen_contraptions = "Ensembles :",
 
 	loading_net = "Chargement des données...",
 
