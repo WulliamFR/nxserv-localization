@@ -223,7 +223,7 @@ local french = {
 	seconds = "secondes",
 
 	persons_weapons = "Les armes illégales que possède %s :",
-	returned_persons_weapons = "%s a rendu les armes confisquées.",
+	returned_persons_weapons = "Les armes confisquées ont été rendues à %s.",
 	no_weapons_confiscated = "%s n'a pas d'armes confisquées !",
 	no_illegal_weapons = "%s n'avait pas d'armes illégales.",
 	confiscated_these_weapons = "Confiscation de ces armes :",
