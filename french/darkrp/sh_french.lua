@@ -744,8 +744,8 @@ local french = {
 	bomb_instructions1 = "Jeter la bombe",
 	bomb_instructions2 = "Coller la bombe au mur ou sur la voiture",
 
-	unpacker_instructions1 = "Placez l'objet",
-	unpacker_instructions2 = "Faites pivoter l'objet",
+	unpacker_instructions1 = "Placer l'objet",
+	unpacker_instructions2 = "Faire pivoter l'objet",
 	unpacker_instructions3 = "Annuler",
 	unpacker_instructions4 = "Restez appuyé sur %s après le déballage",
 	unpacker_instructions5 = "pour réemballer l'objet",
@@ -1350,7 +1350,7 @@ local french = {
 	itemshop_buyhint = "Acheter %s pour %s",
 	itemshop_increase_count = "Ajouter",
 	itemshop_decrease_count = "Enlever",
-	itemshop_tap = "Tapez",
+	itemshop_tap = "Utiliser",
 
 	disabled_dead = "Impossible lorsque vous êtes mort",
 	disabled_arrested = "Impossible lorsque vous êtes arrêté",
