@@ -1,44 +1,44 @@
 const terms = [
-	`It is absolutely free to play on our servers, if you own a Steam account with Garry's Mod license.`,
+	`Il est totalement gratuit de jouer sur nos serveurs si vous possédez une copie légale du jeu Garry's Mod.`,
 
-	`Users can make and publish their content with use of recordings from our servers, and also monetize it. However, we reserve the right to ask you stop doing so.`,
+	`Les utilisateurs peuvent créer et mettre en ligne leur contenu enregistré sur nos serveurs ainsi que de le monétiser. Cependant, nous nous réservons le droit de vous demander d'arrêter ce qui précède.`,
 
-	`You agree that you will not use any software or hardware to gain unfair advantage during game process on our servers. Any ban for such activity can not be disputed.`,
+	`Vous acceptez de ne pas utiliser de logiciel ou périphérique afin d'obtenir un avantage injuste sur nos serveurs. Tout bannissement pour cette infraction ne peut être contesté.`,
 
-	`You agree not to use additional accounts, proxies to bypass bans on our servers. All additional accounts will be blocked.`,
+	`Vous acceptez de ne pas utiliser de comptes additionnels ou de proxy afin de contourner une sanction sur nos serveurs. Tout compte additionnel sera bloqué.`,
 
-	`You agree not to disrupt server operation by any means.`,
+	`Vous acceptez de ne pas perturber le fonctionnement des serveurs par quel moyen que ce soit.`,
 
-	`You agree to tell the administration about all important problems, which may disrupt server operation or gain unfair advantage.
-	It is punishable to own and not disclose such information, as well as transmission of it to other persons.`,
+	`Vous acceptez d'informer l'administration des problèmes majeurs qui perturberaient le fonctionnement des serveurs ou qui permettraient d'obtenir un avantage injuste.
+	Il est sanctionnable de posséder et de ne pas divulguer de telles informations, ainsi que de les transmettre à d'autres personnes.`,
 
-	`You agree not to exchange in-game currency and items to real currency and its equialents, using any forms of interaction besides in-game NxServ Shop and Shop at https://nxserv.eu/.`,
+	`Vous acceptez de ne pas échanger la monnaie du jeu et ses objets contre de la monnaie réelle ou ses équivalents, utilisant d'autres moyens d'intéraction outre la boutique NxShop et la boutique à https://nxserv.eu/.`,
 
-	`You agree not to use resources of NxServ to spread and accquire information, that is prohibited by laws and institutions of Russian Federation, or information that violates privacy of any persons.`,
+	`Vous acceptez de ne pas utiliser les ressources de NxServ pour diffuser et acquérir des informations qui sont interdites par les lois et les institutions de la Fédération Russe, ou des informations qui violent la confidentialité d'autrui.`,
 
-	`You acknowledge and agree that all payments and other expenses related to paid services are paid in advance and <b>they're not eligible for refund in full or partial amounts</b>. <u>You are fully responsible for all expenses, related to your accounts, including <b>ANY</b> unauthorized payments or actions.</u>`,
+	`Vous reconnaissez et acceptez que tous les paiements et autres frais liés aux services payants sont payés en avance et <b>ne sont pas éligibles pour un remboursement qu'il soit total ou partiel</b>. <u>Vous êtes l'unique responsable de toutes les dépenses liées à votre compte, y compris <b>TOUT</b> paiement ou action non autorisé.</u>`,
 
-	`All transactions and purchases are processed automatically in any time of day, with exception for technical downtimes or failures in operations of payment agents.`,
+	`Toutes les transactions et achats sont traités automatiquement à n'importe quelle heure de la jouréne, à l'exception des interruptions techniques ou des défaillances dans les opérations des agents de paiement.`,
 
-	`You acknowledge and agree that purchase of item on NxServ servers means us giving us access to item or service on NxServ resources during item/service lifetime period. Purchase of virtual item/service does not imply transfer of item/service ownership to purchaser. In the event of account block or ToS termination access to items/services will be blocked or lost, compensation will not be done in full or partial manner.`,
+	`Vous reconnaissez et acceptez que l'achat d'un article sur les serveurs NxServ signifie que nous vous donnons accès à un article ou à un service sur les ressources de NxServ pendant la durée de vie de l'article/service. L'achat d'article/service virtuel ne signifie pas que la propriété de l'article/service devient celle de l'acheteur. En cas de blocage de compte ou de résiliation des Conditions d'Utilisation l'accès à l'article/service sera bloqué ou perdu, aucune compensation ne sera effectuée, de manière totale ou partielle.`,
 
-	`You agree not to conduct any suspicious or fraudlent activities related to payment systems. NxServ monitors all operations, and may block your account and contact law enforcement services in the event of problems.`,
+	`Vous acceptez de ne mener aucune activité suspecte ou frauduleuse liée aux systèmes de paiement. NxServ surveille toutes les opérations et peut bloquer votre compte et contacter les services répressifs en cas de problème.`,
 
-	`You agree not to violate NxServ copyright on any content or code.`,
+	`Vous acceptez de ne pas violer les droits d'auteur de NxServ sur tout le contenu ou le code.`,
 
-	`You agree to follow these terms and game rules on servers.`,
+	`Vous acceptez de suivre ces conditions et les règles de jeu de nos serveurs.`,
 
-	`NxServ reserves the right to modify, add or delete virtual items/services at any time.`,
+	`NxServ se réserve le droit de modifier, ajouter ou supprimer un article/service virtuel à tout moment.`,
 
-	`NxServ reserves the right to ban all user's accounts for violation of any part of this agreement, or any part of game rules, or in the event of ToS termination.`,
+	`NxServ se réserve le droit de bannir tous les comptes d'un utilisateur en cas de violation de n'importe quelle partie de ces conditions, ou n'importe quelle partie des règles de nos serveurs, ou en cas de résiliation des Conditions d'Utilisation.`,
 
-	`NxServ reserves the right to scan temporary and permanent memory, devices and network of users during game in order to detect signatures of forbidden software or devices.`,
+	`NxServ se réserve le droit de scanner la mémoire temporaire et permanente, les appareils et le réseau des utilisateurs lors d'une session de jeu afin de détecter la signature de logiciels et appareils interdits.`,
 
-	`NxServ doesn't give any garanties, does not bear responsibility for any damage or other obligations, occured during use of software and/or any other interaction with objects of property of NxServ.`,
+	`NxServ n'offre aucune garantie, ne porte aucune responsabilité pour tout dommage ou autres obligations, survenus lors de l'utilisation de logiciels et/ou n'importe quelle autre intéraction avec les objets de la propriété de NxServ.`,
 
-	`NxServ reserves the right to terminate your agreement with us at any time, for any reason without explanations, notifications or warnings.`,
+	`NxServ se réserve le droit de résilier cet accord avec vous à tout moment, pour n'importe quelle raison, sans explications, notifications ou avertissements.`,
 
-	`NxServ reserves the right to modify this agreement at any time without notification.`,
+	`NxServ se réserve le droit de modifier cet accord à tout moment sans avertissement.`,
 ]
 
 export default terms;
