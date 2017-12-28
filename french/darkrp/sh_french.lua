@@ -666,8 +666,8 @@ local french = {
 	fireman_desc = [[Métier responsable et dangereux. Sans vous notre ville serait brûlée en cendres.
 	Vous recevez de l'argent lorsque vous éteignez des feux.]],
 
-	busdriver = "Bus Driver",
-	busdriver_desc = [[You will be driving a city bus. Pick a route from the list and follow it. Pick people at bus stops. Get rewarded for each completed point.]],
+	busdriver = "Chauffeur de bus",
+	busdriver_desc = [[Vous piloterez un bus de ville. Sélectionnez un itinéraire dans la liste et suivez-le. Récupérez des passagers aux arrêts de bus. Obtenez de l'argent à chaque arrêt effectué.]],
 
 	extinguish_fire = "Vous avez reçu %s pour avoir éteint un feu !",
 	extinguish_prop = "Vous avez reçu %s pour avoir éteint un prop !",
@@ -1470,34 +1470,34 @@ local french = {
 	cop_rdm_watch_warning = "L'agent de Police n'est pas autorisé à tuer des citoyens non-armés; vous allez être banni si vous continuez",
 	cop_rdm_watch_ban_reason = "Tue des citoyens non-armés",
 
-	bus_popup = "Take a bus ride: %s",
-	bus_wait = "Wait %d seconds",
-	bus_reward = "%s for completing a stop",
-	bus_get_back = "Get back to the point!",
+	bus_popup = "Faites un tour de bus : %s",
+	bus_wait = "Patientez %d secondes",
+	bus_reward = "%s pour avoir effectué un arrêt",
+	bus_get_back = "Retournez à l'arrêt !",
 
 	bus_stops = {
-		pier = "Pier",
-		village = "Village",
-		apartments = "Apartments",
-		supermarket = "Supermarket",
-		tavern = "Tavern",
-		factories = "Industrial Zone",
+		pier = "Jetée",
+		village = "Quartier riche",
+		apartments = "Appartements",
+		supermarket = "Supermarché",
+		tavern = "Taverne",
+		factories = "Zone industrielle",
 		club = "Club",
-		theater = "Theater",
-		pd = "Police Department",
-		medcenter = "Medical Center",
-		cobsgm = "Car Showroom",
-		shell = "Gas Station",
+		theater = "Théâtre",
+		pd = "Poste de police",
+		medcenter = "Centre médical",
+		cobsgm = "Concessionnaire",
+		shell = "Station essence",
 	},
 
 	bus_lanes = {
 		perspective = "Perspective",
-		distant = "Distant",
-		ring = "Ring Road",
-		center = "City Center",
+		distant = "Distante",
+		ring = "Périphérique",
+		center = "Centre ville",
 	},
 
-	bus_announcer_next = "Next stop is",
+	bus_announcer_next = "Le prochain arrêt est",
 }
 
 Blue.addLanguage("fr", french)
