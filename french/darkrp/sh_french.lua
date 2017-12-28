@@ -666,6 +666,9 @@ local french = {
 	fireman_desc = [[Métier responsable et dangereux. Sans vous notre ville serait brûlée en cendres.
 	Vous recevez de l'argent lorsque vous éteignez des feux.]],
 
+	busdriver = "Bus Driver",
+	busdriver_desc = [[You will be driving a city bus. Pick a route from the list and follow it. Pick people at bus stops. Get rewarded for each completed point.]],
+
 	extinguish_fire = "Vous avez reçu %s pour avoir éteint un feu !",
 	extinguish_prop = "Vous avez reçu %s pour avoir éteint un prop !",
 	extinguish_player = "Vous avez reçu %s pour avoir éteint un joueur !",
@@ -1466,6 +1469,34 @@ local french = {
 
 	cop_rdm_watch_warning = "L'agent de Police n'est pas autorisé à tuer des citoyens non-armés; vous allez être banni si vous continuez",
 	cop_rdm_watch_ban_reason = "Tue des citoyens non-armés",
+
+	bus_wait = "Wait %d seconds",
+	bus_reward = "%s for completing a stop",
+	bus_get_back = "Get back to the point!",
+
+	bus_stops = {
+		pier = "Pier",
+		village = "Village",
+		apartments = "Apartments",
+		supermarket = "Supermarket",
+		tavern = "Tavern",
+		factories = "Industrial Zone",
+		club = "Club",
+		theater = "Theater",
+		pd = "Police Department",
+		medcenter = "Medical Center",
+		cobsgm = "Car Showroom",
+		shell = "Gas Station",
+	},
+
+	bus_lanes = {
+		perspective = "Perspective",
+		distant = "Distant",
+		ring = "Ring Road",
+		center = "City Center",
+	},
+
+	bus_announcer_next = "Next stop is",
 }
 
 Blue.addLanguage("fr", french)
