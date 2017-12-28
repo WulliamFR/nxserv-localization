@@ -1470,6 +1470,7 @@ local french = {
 	cop_rdm_watch_warning = "L'agent de Police n'est pas autorisé à tuer des citoyens non-armés; vous allez être banni si vous continuez",
 	cop_rdm_watch_ban_reason = "Tue des citoyens non-armés",
 
+	bus_popup = "Take a bus ride: %s",
 	bus_wait = "Wait %d seconds",
 	bus_reward = "%s for completing a stop",
 	bus_get_back = "Get back to the point!",
