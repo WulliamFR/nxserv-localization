@@ -162,7 +162,7 @@ return {
 
 		disconnected_player = "Joueur déconnecté",
 
-		channels_hint = "Psst... Essayez de presser Tab et Ctrl-TAB !",
+		channels_hint = "Psst... Essayez de presser Tab et Ctrl-Tab !",
 		prefixes_hint = {
 			"Nous avons remarqué que vous utilisiez les préfixes du chat. Vous n'en avez pas besoin. Essayez de presser",
 			"pour changer de canal.",
