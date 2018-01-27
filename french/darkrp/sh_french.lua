@@ -1249,7 +1249,7 @@ local french = {
 
 	-- Player stats
 	stat_stamina_low = "Épuisé",
-	stat_stamina_med = "Fatigué",
+	stat_stamina_med = "Essoufflé",
 	stat_stamina_hi = "Fatigué",
 
 	stat_break_low = "Légère fracture",
@@ -1280,7 +1280,7 @@ local french = {
 	stat_bone_right_foot = "Pied droit",
 	stat_bone_right_toe = "Orteil droit",
 
-	stat_wellfed_low = "Bien nourri",
+	stat_wellfed_low = "Rassasié",
 	stat_wellfed_med = "Rempli",
 	stat_wellfed_hi = "Gros",
 
