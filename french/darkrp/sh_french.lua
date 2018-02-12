@@ -367,25 +367,8 @@ local french = {
 	x_teambanned_y = "%s a banni %s du métier %s.",
 	x_teamunbanned_y = "%s a débanni %s du métier %s.",
 
-	-- Backwards compatibility:
-	you_set_x_salary_to_y = "Vous avez fixé le salaire de %s à %s%d.",
-	x_set_your_salary_to_y = "%s a fixé votre salaire à %s%d.",
-	you_set_x_money_to_y = "Vous avez fixé l'argent de %s à %s%d.",
-	x_set_your_money_to_y = "%s a fixé votre argent à %s%d.",
-
-	you_set_x_salary = "Vous avez fixé le salaire de %s à %s.",
-	x_set_your_salary = "%s a fixé votre salaire à %s.",
-	you_set_x_money = "Vous avez fixé l'argent de %s à %s.",
-	x_set_your_money = "%s a fixé votre argent à %s.",
-	you_set_x_name = "Vous avez changé le nom de %s il se nomme maintenant %s",
-	x_set_your_name = "%s a changé votre nom, et vous vous appelez maintenant %s",
-
 	someone_stole_steam_name = "Quelqu'un utilise déjà votre nom Steam pour nom RP, donc nous avons ajouté un '1' après votre nom.", -- Uh oh
 	already_taken = "Déjà pris.",
-
-	job_doesnt_require_vote_currently = "Ce métier ne nécessite pas de vote.",
-
-	x_made_you_a_y = "%s vous a mis en %s !",
 
 	cmd_cant_be_run_server_console = "Cette commande ne peut être exécutée qu'à partir de la console du serveur.",
 
@@ -1131,7 +1114,6 @@ local french = {
 	-- Gang SV
 	gang_disbanded = "Le gang %s (chef : %s) a été dissous",
 	gang_job_leaderonly = "Seul le chef du gang peut modifier cela",
-	gang_job_nocopy = "Cela ne devrait pas contenir le nom d'un gang existant",
 	gang_name_copy = "Un gang nommé pareillement existe déjà",
 	gang_mates_fail = "Les membres n'ont pas été choisis, sont partis du serveur, ou n'existent pas",
 	gang_accepted = " a accepté votre invitation",
@@ -1153,7 +1135,7 @@ local french = {
 	gang_request_text = "Les chefs du gang vous demandent de donner %s",
 	gang_he_gave = " donné ",
 	gang_he_left = " a quitté le gang",
-	gang_boss = "Chef de ",
+	gang_boss = "Chef de",
 
 	-- Markers
 	marker_sent_you = " vous a envoyé sa position",
