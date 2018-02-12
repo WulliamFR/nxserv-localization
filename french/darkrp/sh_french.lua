@@ -914,7 +914,7 @@ local french = {
 	select_radio_channel = "Changer la fréquence radio",
 	radio_off = "Éteindre la radio",
 	radio_on = "Allumer la radio",
-	ballot_reopen = "Open election ballot",
+	ballot_reopen = "Ouvrir un bulletin électoral",
 
 	create_group = "Créer un nouveau gang",
 	manage_group = "Gérer votre gang",
@@ -1356,7 +1356,7 @@ local french = {
 	handcuffs_escape_progress = "S'échapper :",
 	handcuffs_escape = "s'échapper",
 	handcuffs_emenynearby = "ennemi proche de vous",
-	handcuffs_immediate = "This citizen has just been released and can't be cuffed immediately again",
+	handcuffs_immediate = "Ce citoyen vient juste d'être libéré et ne peut être menotté immédiatement de nouveau.",
 
 	-- Entity
 	elevator_button_up = "Appeler l'ascenseur",
