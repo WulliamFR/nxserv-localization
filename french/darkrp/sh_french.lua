@@ -457,6 +457,7 @@ local french = {
 	none = "Personne",
 	none_alt = "personne",
 	confirmed = "Confirmé",
+	v_back = "< Back",
 
 	x_options = "Options de %s",
 	sell_x = "Vendre %s",
@@ -1212,7 +1213,14 @@ local french = {
 
 	quota = "Quota : %d%% des joueurs connectés",
 	no_quota = "Pas de quota",
+	quota_one_man = "One person only",
 	quota_notice = "Les limitations des métiers sont basées sur le nombre de joueurs. Plus de joueurs - plus de places pour les métiers.\nLes joueurs avec abonnement Premium peuvent contourner les limites.",
+	need_to_be_x = "Need to be %s",
+	joining_or = " ou ",
+	job_singleman_occupied = "Job is occupied",
+	job_already = "This is your current job",
+	job_limit_hit_premium = "Reached maximum amount of players on this job\nYou can surpass the limit, using Premium subscription",
+	job_limit_hit_no_premium = "Reached maximum amount of players on this job",
 
 	enemy = "Enemmi",
 	neutral = "Neutre",
