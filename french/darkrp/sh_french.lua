@@ -1213,12 +1213,12 @@ local french = {
 
 	quota = "Quota : %d%% des joueurs connectés",
 	no_quota = "Pas de quota",
-	quota_one_man = "Une seule personne seulement",
+	quota_one_man = "Une seule personne peut occuper ce métier à la fois",
 	quota_notice = "Les limitations des métiers sont basées sur le nombre de joueurs. Plus de joueurs - plus de places pour les métiers.\nLes joueurs avec abonnement Premium peuvent contourner les limites.",
-	need_to_be_x = "Besoin d'être %s",
+	need_to_be_x = "Vous devez d'abord être %s avant d'occuper ce métier",
 	joining_or = " ou ",
 	job_singleman_occupied = "Ce métier est déjà occupé",
-	job_already = "C'est déjà votre métier",
+	job_already = "Vous occupez déjà ce métier",
 	job_limit_hit_premium = "Nombre maximum de joueurs pour ce métier atteint\nVous pouvez contourner cette limite en utilisant l'abonnement Premium",
 	job_limit_hit_no_premium = "Nombre maximum de joueurs pour ce métier atteint",
 
