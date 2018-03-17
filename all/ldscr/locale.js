@@ -51,7 +51,7 @@ var langs = {
 		resources: "Chargement des ressources",
 		hints: [
 			"Si la vérification des addons du Workshop est trop longue, fermez Garry's Mod et redémarrez Steam.",
-			"Vous n'êtez pas limités aux métiers de la liste du menu F4, vous pouvez très bien être propriétaire de cinéma ou revendeur de biens.",
+			"Vous n'êtes pas limités aux métiers de la liste du menu F4, vous pouvez très bien être propriétaire de cinéma ou revendeur de biens.",
 			"En cas de panne de serveur, ne vous inquiétez pas - le serveur se redémarrera en peu de temps et vous aurez tous vos objets, votre emploi et position restaurés automatiquement.",
 			"Assurez-vous d'avoir bien lu les règles. Vous pouvez également lire nos nouveautés - il y a toujours quelque chose d'intéressant au sujet de prochaines mises à jour et plus.",
 			"Jouer sur NxServ est totalement gratuit, la seule chose dont vous avez besoin est une copie légale de Garry's Mod. Toutefois vous pouvez toujours vous faire plaisir en achetant les objets spéciaux de notre boutique. Pour le mode de jeu NxRP il est possible d'acheter un abonnement Premium d'un mois. Le Premium rend votre expérience plaisante, facile et confortable.",
