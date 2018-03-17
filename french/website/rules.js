@@ -90,16 +90,17 @@ module.exports = {
 					`Il est interdit de taser quelqu'un sans raison valide (FreeTase).`,
 					`Il est interdit de menotter quelqu'un sans raison valide (FreeCuff).`,
 					`Toutes les recherches et les couvre-feux, doivent être suivis par une raison cohérente. Les raisons telles que "lol", "fouille", "ccccccc" sont invalides.`,
+					`Curfew may be used only in event of emergency. It is not allowed to have scheduled curfews.`,
 					//`Арест должен производиться только через кнопку "арестовать" в наручниках (а не ведением нарушителя в наручниках пешком до ПУ и удержания там).`,
 					`La police est autorisée à construire des barrières, des points de contrôle, des ralentisseurs ainsi qu'à bloquer des rues ou des bâtiments. Cependant, chaque barrière bloquant quelque chose doit avoir une entrée piratable.`,
 					`Il est interdit de fouiller quelqu'un sans raison.`,
 					`Vous POUVEZ fouiller les maisons sans raison. N'importe quelle raison de mandat est valide (sauf insultes).`,
 					`Les policiers corrompus ne peuvent pas agir contre les forces de l'ordre. Par exemple, les policiers corrompus peuvent "ne pas prendre en compte" certains crimes ou "accidentellement" oublier de fermer la porte de la prison ; mais ils ne peuvent pas attaquer un autre policier.`,
 					`Le maire n'est pas autorisé à faire des lois ne respectant pas les règles du serveur.`,
+					`Mayor isn't allowed to make laws which break server rules.`,
+					`Mayor can not legalize money printers. Money printing is always outlawed.`,
 					`Le maire et le chef de la police ne peuvent pas licencier un policier sans aucune raison.`,
 					`La torture des prisonniers est régie par le maire ou le chef de la police.`,
-					`Le maire et les policiers ne sont pas autorisés à pratiquer des activités illégales et criminelles.<br>
-						Ils ne peuvent par exemple pas s'allier à un groupe de gangsters et utiliser des imprimantes avec eux.`,
 				]
 			],
 			[
