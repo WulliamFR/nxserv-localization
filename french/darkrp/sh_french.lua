@@ -1295,6 +1295,11 @@ local french = {
 	lockdown_info_timeleft = "Vous avez %d secondes pour rentrer chez vous",
 	lockdown_info_timeout = "Vous pouvez être arrêté pour un non respect d'un couvre feu",
 
+	pd_permit_give = "Give/extend PD entrance permit (%d min)",
+	pd_permit_timeleft = "PD entrance permit: %s",
+	pd_permit_given = "Signed PD permit for %s",
+	pd_permit_got = "Got a PD entrance permit",
+
 	purchase_placement = "Choisissez où mettre vos achats.\nVous pouvez mettre vos achats dans le véhicule le plus proche.\n",
 	buy_printer_for = "Acheter une imprimante à argent pour %s",
 	my_pocket = "Ma poche",
