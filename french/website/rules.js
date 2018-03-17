@@ -96,6 +96,7 @@ module.exports = {
 					`Vous POUVEZ fouiller les maisons sans raison. N'importe quelle raison de mandat est valide (sauf insultes).`,
 					`Les policiers corrompus ne peuvent pas agir contre les forces de l'ordre. Par exemple, les policiers corrompus peuvent "ne pas prendre en compte" certains crimes ou "accidentellement" oublier de fermer la porte de la prison ; mais ils ne peuvent pas attaquer un autre policier.`,
 					`Le maire n'est pas autorisé à faire des lois ne respectant pas les règles du serveur.`,
+					`Le maire et le chef de la police ne peuvent pas licencier un policier sans aucune raison.`,
 					`La torture des prisonniers est régie par le maire ou le chef de la police.`,
 					`Le maire et les policiers ne sont pas autorisés à pratiquer des activités illégales et criminelles.<br>
 						Ils ne peuvent par exemple pas s'allier à un groupe de gangsters et utiliser des imprimantes avec eux.`,
@@ -162,28 +163,6 @@ module.exports = {
 					`Il est interdit d'utiliser le wiremod pour rechercher des joueurs ou des objets à l'extérieur de votre territoire.`,
 					`Il est interdit de construire durant un combat ou d'autres formes de confrontation.<br>
 						Dès qu'une attaque est totalement terminée, vous avez l'autorisation de reconstruire.`,
-				]
-			],
-			[
-				"Questions & Réponses (facultatif)",
-				[
-					`Puis-je utiliser des imprimantes à argent en citoyen ? → Oui, mais préférable en gangster.`,
-					`Puis-je utiliser des imprimantes à argent en vendeur d'armes, commerçant ou en barman ? → Oui, mais vous devez continuer à faire du commerce et ne pas être en alliance avec des gangsters.`,
-					`Puis-je licencier qui je souhaite en tant que Maire et chef de police (vote non-Premium), avec le menu correspondant ? → Oui.`,
-					`Puis-je me déconnecter si quelqu'un me donne une somme d'argent, et qu'il attend quelque chose en échange ? → Non.`,
-					`Ai-je le droit de faire les mêmes actes qu'un gangster en mercenaire ? → Oui, mais préférable en gangster.`,
-					`Les policiers ont-ils le droit d'arrêter les sans-abris pour la raison "couvre-feu" ? → Oui.`,
-					`Puis-je détruire/voler un distributeur en policier sans raison ? → Non.`,
-					`Puis-je uniquement créer une fading door sans mettre de keypad ni de bouton ? → Oui.`,
-					`Les policiers peuvent-ils être en alliance avec les gangsters ? → Non.`,
-					`Les gangsters peuvent-ils être en alliance avec les policiers ? → Oui, ils peuvent les aider.`,
-					`Puis-je poser une tourelle en extérieur ? → Non, les tourelles doivent être placées dans des endroits clos.`,
-					`Puis-je bloquer l'accès à un quartier/immeuble entier si je possède tous les bâtiments compris dans ce dernier ? → Oui.`,
-					`Puis-je me venger de quelqu'un qui m'a tué/braqué il y a plus d'une heure ? → Non.`,
-					`Ai-je le droit de détruire tous les props d'une base d'autrui afin de pouvoir m'approprier les lieux ? → Non.`,
-					`Lors d'un couvre-feu, un policier a t-il le droit de m'arrêter quand bien même que je suis dans un bâtiment, même s'il ne m'appartient pas ? → Non.`,
-					`Ai-je le droit, en tant que maire de rester sur un immeuble avec mon hélicoptère et faire des loteries ? → Non.`,
-					`Ai-je le droit, en tant que maire d'initier des couvre-feux interminables, avec une raison valide ? → Non.`,
 				]
 			],
 		],
