@@ -1295,10 +1295,10 @@ local french = {
 	lockdown_info_timeleft = "Vous avez %d secondes pour rentrer chez vous",
 	lockdown_info_timeout = "Vous pouvez être arrêté pour un non respect d'un couvre feu",
 
-	pd_permit_give = "Give/extend PD entrance permit (%d min)",
-	pd_permit_timeleft = "PD entrance permit: %s",
-	pd_permit_given = "Signed PD permit for %s",
-	pd_permit_got = "Got a PD entrance permit",
+	pd_permit_give = "Donner/extendre l'autorisation d'entrée commissariat (%d min)",
+	pd_permit_timeleft = "Autorisation d'entrée commissariat : %s",
+	pd_permit_given = "L'autorisation d'entrée commissariat pour %s a été effectuée avec succès ",
+	pd_permit_got = "Vous avez reçu une autorisation d'entrée commissariat",
 
 	purchase_placement = "Choisissez où mettre vos achats.\nVous pouvez mettre vos achats dans le véhicule le plus proche.\n",
 	buy_printer_for = "Acheter une imprimante à argent pour %s",
