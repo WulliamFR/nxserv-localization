@@ -440,6 +440,73 @@ local french = {
 	hitman_changed_team = "Le mercenaire a changé de métier !",
 	x_had_hit_ordered_by_y = "%s a une cible à tuer, requête par %s",
 
+	-- Hits
+	hit_errors = {
+		no_access = "no access",
+		not_found = "contract not found",
+		same_request = "contract is similar to existing",
+		same_subscribe = "you are already subscribed",
+		cant_subscribe = "can't subscribe",
+		too_many = "subscriptions limit hit",
+		bad_reward = "reward doesn't meet requirements",
+		cant_afford = "not enough money",
+		no_clients = "clients cancelled contract",
+		victim_left = "victim left the city",
+		victim_changed_team = "victim changed their profession and contract's minimal reward has increased",
+	},
+
+	hits_menu_subscriptions_title = "\"Business offers\"",
+	hits_menu_subscriptions_hint = "You subscribe up to 3 hits simultaneously.\nIf you have allies, they can help you with completing these contracts.",
+	hits_menu_subscriptions_empty = "There's no contracts yet, watch for notifications.",
+	hits_menu_subscriptions_subscribe =  "Subscribe",
+	hits_menu_subscriptions_unsubscribe =  "Unsubscribe",
+
+	hits_menu_makehit_title = "Order Mercenary Services",
+	hits_menu_makehit_target = "Target",
+	hits_menu_makehit_reason = "Reason",
+	hits_menu_makehit_reason_hint = "Any hit request should follow with adequate reason. Hit without reason is RDM.\nClient is responsible in case of Hit-RDM, not mercenary.",
+	hits_menu_makehit_reward = "Reward",
+	hits_menu_makehit_reward_minam = "Minimal amount: %s. Higher reward makes your contract more likely to be completed soon.",
+	hits_menu_makehit_reward_job = " (depends on victim's job)",
+	hits_menu_makehit_submit = "Make a hit!",
+
+	hits_menu_ctrlhit_title = "My Contracts",
+	hits_menu_ctrlhit_empty = "You haven't ordered mercenary services yet. Maybe it's just about time to do so?",
+	hits_menu_ctrlhit_empty_makeone = "Make a contract",
+
+	hits_msg_created = "%s was created!",
+	hits_msg_new_available = "%s is now available!",
+	hits_msg_create_fail = "Couldn't create contract, %s",
+	hits_msg_removed = "%s was removed!",
+	hits_msg_remove_fail = "Couldn't remove contract, %s",
+	hits_msg_subscribed = "Subscribed to %s!",
+	hits_msg_subscribed_boss = "Mob Boss has subscribed to %s!",
+	hits_msg_subscribe_fail = "Couldn't subscribe, %s",
+	hits_msg_unsubbed = "Unsubscribed from %s!",
+	hits_msg_unsubbed_boss = "Mob Boss has unsubscribed from %s!",
+	hits_msg_unsub_fail = "Couldn't unsubscribe, %s",
+	hit_msg_completed_client = "%s has been completed!",
+	hit_msg_completed_for = "%s completed for %s!",
+	hit_msg_completed_for_boss = "%s completed %s! You gain %s",
+	hit_msg_completed = "%s is complete! You gain %s",
+	hit_msg_aborted = "%s was cancelled, %s",
+	hits_msg_need_target = "Pick a target!",
+	hits_msg_need_reason = "Specify a reason!",
+	hits_msg_cop_fail = "Fail, police killed mercenary with necessary clues",
+	hits_msg_cop_success = "Success! Police has arrested mercenary. Conducting search for clients!",
+	hits_msg_cop_found = "Customers of crime were found, arrest them!",
+	
+	hit_selfdesc_kill = "Contract to eliminate %s",
+	hit_selfdescobj_kill = "Eliminate %s",
+
+	hit_letter_title = "Hit list",
+
+	dealer_title = "Criminal Services",
+	dealer_buy_printer = "Purchase Printer",
+
+	hits_hud_target = "Targets",
+	hits_wanted_reason = "Customer of crime",
+
 	-- Vote Restrictions
 	hobos_no_rights = "Les sans abri n'ont pas le droit de vote",
 	gangsters_cant_vote_for_government = "Les gangsters ne peuvent voter pour des affaires gouvernementales.",
@@ -458,6 +525,7 @@ local french = {
 	none_alt = "personne",
 	confirmed = "Confirmé",
 	v_back = "< Retour",
+	esc_back = "[ESC] Retour",
 
 	x_options = "Options de %s",
 	sell_x = "Vendre %s",
@@ -812,6 +880,7 @@ local french = {
 	laws_license = "Licence requise",
 	laws_illegal = "Illégal",
 	close = "Fermer",
+	close_and_dont_show_for_week = "Fermer et ne pas montre pour une semaine",
 	apply = "Appliquer",
 	laws_added = "Le maire a ajouté la loi numéro ",
 	laws_edited = "Le maire a édité la loi numéro ",
@@ -1077,6 +1146,7 @@ local french = {
 	dna_killer_arrested = "Le tueur a été arrêté par la police",
 	dna_killer_leave = "Le tueur a quitté la ville",
 	dna_killer_cop = "Tué par la Police",
+	dna_killer_hitman = "Killed by Mercenary",
 
 	--
 	arrest_question = "Arrêter %s\nOui - spécifier la raison\nNon - relâcher de la prison\nL'accusé sera relâché si aucune raison ne sera spécifiée.",
@@ -1300,11 +1370,11 @@ local french = {
 	pd_permit_given = "L'autorisation d'entrée commissariat pour %s a été effectuée avec succès ",
 	pd_permit_got = "Vous avez reçu une autorisation d'entrée commissariat",
 
-	purchase_placement = "Choisissez où mettre vos achats.\nVous pouvez mettre vos achats dans le véhicule le plus proche.\n",
+	purchase_placement = "Choisissez où mettre vos achats.\nVous pouvez mettre vos achats dans le véhicule le plus proche.",
 	buy_printer_for = "Acheter une imprimante à argent pour %s",
 	my_pocket = "Ma poche",
 	restock_in = "Réapprovisionnement dans %s",
-	for_you_in_stock = "\nPour vous en stock : %d/%d\n%s",
+	for_you_in_stock = "Pour vous en stock : %d/%d\n%s",
 	printerman_gui_title = "Service d'imprimantes",
 	restock_m_s = "%02dm%02ds",
 	restock_s = "%02ds",
