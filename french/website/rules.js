@@ -17,7 +17,7 @@ module.exports = {
 				"Règles du chat",
 				[
 					"Il est interdit d'insulter les autres joueurs.",
-					"Les sous-entendus insensés ainsi que les affirmations insensées comme (\"ce serveur est nul\", \"super les admins ici...\") vous meneront uniquement vers un bannissement.",
+					"Les sous-entendus insensés ainsi que les affirmations insensées comme (\"ce serveur est nul\", \"super les admins ici...\") vous mèneront uniquement vers un bannissement.",
 					"Les discriminations basées sur le sexe d'une personne sont interdites.",
 					"Le harcèlement sexuel est interdit.",
 					"Il est interdit de faire de la publicité pour des serveurs, des communautés, des groupes Steam ou autres.",
@@ -31,7 +31,7 @@ module.exports = {
 				"Communication avec l'administration",
 				[
 					"Soyez poli et patient lorsque vous communiquez avec un administrateur. Ne soyez pas arrogant, la seule chose que vous obtiendrez sera un bannissement.",
-					`Lorsque vous appellez un administrateur, vous devez indiquer le problème ainsi que le nom du joueur offensant.
+					`Lorsque vous appelez un administrateur, vous devez indiquer le problème ainsi que le nom du joueur offensant.
 					<br>Vous devez presser la touche F7 pour contacter un modérateur.`,
 					"Ne menacez pas les administrateurs de les faire rétrograder, vous n'avez aucun pouvoir.",
 					"N'ajoutez pas les admins sur Steam ou d'autres moyens de communication. Utilisez le forum.",
@@ -123,7 +123,7 @@ module.exports = {
 			[
 				"Règles des mercenaires",
 				[
-					`Les demandes d'exécution doivent uniquement être créées à partir du système du mercenaire (appuyez sur E sur un mercenaire ou un chef de gang). Les demandes d'exécution faites sous d'autres formes ne sont pas valides.`,
+					`Les demandes d'exécution doivent uniquement être créées à partir du système du mercenaire (C > Appels d'urgences ou de services > Commander des services mercenaires). Les demandes d'exécution faites sous d'autres formes ne sont pas valides.`,
 					`Toutes les demandes d'exécution devront être suivies par une raison adéquate. Exécuter sans raison est du RandomDeathMatch (RDM).`,
 					`Le client est responsable en cas d'exécution aléatoire, et non pas le mercenaire.`,
 				]
