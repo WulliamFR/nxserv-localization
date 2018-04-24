@@ -14,7 +14,7 @@ module.exports = {
 				]
 			],
 			[
-				"Règles du chat",
+				"Règles du chat (vocal et écrit)",
 				[
 					"Il est interdit d'insulter les autres joueurs.",
 					"Les sous-entendus insensés ainsi que les affirmations insensées comme (\"ce serveur est nul\", \"super les admins ici...\") vous mèneront uniquement vers un bannissement.",
@@ -71,7 +71,7 @@ module.exports = {
 				]
 			],
 			[
-				"Règles du chat",
+				"Règles du chat (vocal et écrit)",
 				[
 					`N'utilisez pas le chat Ville pour ne communiquer qu'avec une seule personne en particulier.<br>
 						Pour discuter avec quelqu'un en privé utilisez l'onglet avec l'enveloppe dans le chat.`,
