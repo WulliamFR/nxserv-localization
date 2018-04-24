@@ -1,107 +1,107 @@
 {
-	"category_thread_counter": "<0><0>{{count}}</0></0>thread",
-	"category_thread_counter_plural": "<0><0>{{count}}</0></0>threads",
-	"new_thread": "New thread",
-	"post_count": "{{count}} post",
-	"post_count_plural": "{{count}} posts",
-	"pinned_large": "PINNED:",
-	"language_section": "Language section:",
-	"formatting_help": "Formatting help",
-	"create": "Create",
-	"field_new_title": "Thread title (at least 3-4 words)",
-	"field_new_text": "Thread content",
-	"pinned_notice": "This thread has been pinned",
-	"deleted_notice": "This thread is deleted",
-	"locked_notice": "This thread has been locked",
-	"delete": "Delete",
-	"restore": "Restore",
-	"lock": "Lock",
-	"unlock": "Unlock",
-	"pin": "Pin",
-	"unpin": "Unpin",
-	"move": "Move",
-	"view_history": "View history",
-	"newreply_login_hint": "Have something to say? Log in to join the conversation.",
-	"newreply_big_hint": "Leave your answer",
-	"newreply_placeholder": "Write your answer",
-	"send": "Send",
-	"edit": "Edit",
-	"report": "Report",
-	"reply": "Reply",
-	"save": "Save",
-	"cancel": "Cancel",
-	"permalink": "Permanent link",
-	"moderator": "Moderator",
-	"administrator": "Administrator",
-	"category_empty": "No threads to show, category is empty",
-	"category_the_end": "The end, no more pages!",
-	"report_title": "Reporting message",
-	"reason": "Reason",
-	"report_note": "This is ONLY to be used to report spam, advertising, and problematic (harassment, fighting, or rude) posts.",
-	"history_of": "History of {{subject}} #{{id}}",
-	"actor": "Actor",
+	"category_thread_counter": "<0><0>{{count}}</0></0>sujet",
+	"category_thread_counter_plural": "<0><0>{{count}}</0></0>sujets",
+	"new_thread": "Nouveau sujet",
+	"post_count": "{{count}} message",
+	"post_count_plural": "{{count}} messages",
+	"pinned_large": "ÉPINGLÉ:",
+	"language_section": "Langue:",
+	"formatting_help": "Aide au formatage",
+	"create": "Créer",
+	"field_new_title": "Titre du sujet (au moins 3-4 mots)",
+	"field_new_text": "Contenu du sujet",
+	"pinned_notice": "Ce sujet est épinglé",
+	"deleted_notice": "Ce sujet est supprimé",
+	"locked_notice": "Ce sujet est verrouillé",
+	"delete": "Supprimer",
+	"restore": "Restaurer",
+	"lock": "Verrouiller",
+	"unlock": "Déverrouiller",
+	"pin": "Épingler",
+	"unpin": "Désépingler",
+	"move": "Déplacer",
+	"view_history": "Voir l'historique",
+	"newreply_login_hint": "Quelque chose à dire ? Connectez-vous pour rejoindre la conversation.",
+	"newreply_big_hint": "Laissez votre réponse",
+	"newreply_placeholder": "Rédigez votre réponse",
+	"send": "Envoyer",
+	"edit": "Modifier",
+	"report": "Signaler",
+	"reply": "Répondre",
+	"save": "Sauvegarder",
+	"cancel": "Annuler",
+	"permalink": "Lien permanent",
+	"moderator": "Modérateur",
+	"administrator": "Administrateur",
+	"category_empty": "Aucun sujet à montrer, cette catégorie est vide",
+	"category_the_end": "C'est la fin, plus de pages !",
+	"report_title": "Signaler le message",
+	"reason": "Raison",
+	"report_note": "Utilisez cela UNIQUEMENT pour signaler du spam, de la publicité et des messages problématiques (harcèlement, agressivité, grossièretés).",
+	"history_of": "Historique de {{subject}} #{{id}}",
+	"actor": "Auteur",
 	"action": "Action",
 	"date": "Date",
-	"thread_moving_title": "Moving thread #{{id}}",
-	"thread_moving_pick": "Pick category",
-	"thread_renaming_title": "Renaming thread #{{id}}",
-	"page_prev": "Prev",
-	"page_next": "Next",
+	"thread_moving_title": "Déplacer le sujet #{{id}}",
+	"thread_moving_pick": "Choisissez une catégorie",
+	"thread_renaming_title": "Renommer le sujet #{{id}}",
+	"page_prev": "Préc",
+	"page_next": "Suiv",
 	
-	"fh_h1": "Header text",
-	"fh_b": "Bold text",
-	"fh_u": "Underlined text",
-	"fh_i": "Italic text",
-	"fh_strike": "Strikethrough text",
-	"fh_spoiler": "Spoiler text",
-	"fh_noparse": "Doesn't parse [b]tags[/b]",
-	"fh_url": "Website link",
-	"fh_list": "Bulleted list",
-	"fh_olist": "Ordered list",
-	"fh_quote": "Quoted text",
-	"fh_code": "Fixed-width font,    preserves spaces",
+	"fh_h1": "Texte d'en-tête",
+	"fh_b": "Texte en gras",
+	"fh_u": "Texte souligné",
+	"fh_i": "Texte en italique",
+	"fh_strike": "Texte barré",
+	"fh_spoiler": "Spoiler",
+	"fh_noparse": "Empêche le remplacement des [b]tags[/b]",
+	"fh_url": "Lien d'un site internet",
+	"fh_list": "Liste à puces",
+	"fh_olist": "Liste ordonnée",
+	"fh_quote": "Citation",
+	"fh_code": "Police à largeur fixe,        qui préserve les espaces",
 
 
 	"categories": {
 		"general": {
-			"name": "General Discussion",
-			"desc": "If no other category fits your needs"
+			"name": "Discussions générales",
+			"desc": "Si aucune catégorie ne convient à vos besoins"
 		},
 		"reports": {
-			"name": "Report Center",
-			"desc": "Report naughty players here"
+			"name": "Centre des plaintes",
+			"desc": "Signalez les vilains joueurs ici"
 		},
 		"unban": {
-			"name": "Ban Appeals",
-			"desc": "Appeal your ban here"
+			"name": "Demandes de débannissement",
+			"desc": "Contestez votre bannissement ici"
 		},
 		"payment": {
-			"name": "Payment Issues & Questions",
-			"desc": "Solving various problems with purchases"
+			"name": "Problèmes de paiement & Questions",
+			"desc": "Résolution de divers problèmes avec les achats"
 		},
 		"demands": {
-			"name": "Staff Applications",
-			"desc": "Want to help us in keeping order? Leave your application here!"
+			"name": "Candidatures",
+			"desc": "Souhaitez-vous nous aider à maintenir l'ordre ? Laissez votre candidature ici !"
 		},
 		"forum_tests": {
-			"name": "Test Field",
+			"name": "Zone de tests",
 			"desc": ""
 		},
 		"forum_reports": {
-			"name": "Reported Posts",
+			"name": "Messages signalés",
 			"desc": ""
 		},
 		"contraptions": {
-			"name": "Building and Wiremod",
-			"desc": "Duplicates, buildings, Expression 2, Wiremod, tutorials etc."
+			"name": "Construction & Wiremod",
+			"desc": "Duplications, constructions, Expression 2, Wiremod, tutoriels etc."
 		},
 		"suggestions": {
-			"name": "Ideas & Suggestions",
-			"desc": "Discuss potential changes and additions"
+			"name": "Idées & Suggestions",
+			"desc": "Discutez de potentiels changements et ajouts"
 		},
 		"problems": {
-			"name": "Problem Solving",
-			"desc": "Report bugs, issues, mistakes or problems"
+			"name": "Résolution de problèmes",
+			"desc": "Signalez des bugs, problèmes ou erreurs"
 		}
 	}
 }
