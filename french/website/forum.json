@@ -1,0 +1,107 @@
+{
+	"category_thread_counter": "<0><0>{{count}}</0></0>thread",
+	"category_thread_counter_plural": "<0><0>{{count}}</0></0>threads",
+	"new_thread": "New thread",
+	"post_count": "{{count}} post",
+	"post_count_plural": "{{count}} posts",
+	"pinned_large": "PINNED:",
+	"language_section": "Language section:",
+	"formatting_help": "Formatting help",
+	"create": "Create",
+	"field_new_title": "Thread title (at least 3-4 words)",
+	"field_new_text": "Thread content",
+	"pinned_notice": "This thread has been pinned",
+	"deleted_notice": "This thread is deleted",
+	"locked_notice": "This thread has been locked",
+	"delete": "Delete",
+	"restore": "Restore",
+	"lock": "Lock",
+	"unlock": "Unlock",
+	"pin": "Pin",
+	"unpin": "Unpin",
+	"move": "Move",
+	"view_history": "View history",
+	"newreply_login_hint": "Have something to say? Log in to join the conversation.",
+	"newreply_big_hint": "Leave your answer",
+	"newreply_placeholder": "Write your answer",
+	"send": "Send",
+	"edit": "Edit",
+	"report": "Report",
+	"reply": "Reply",
+	"save": "Save",
+	"cancel": "Cancel",
+	"permalink": "Permanent link",
+	"moderator": "Moderator",
+	"administrator": "Administrator",
+	"category_empty": "No threads to show, category is empty",
+	"category_the_end": "The end, no more pages!",
+	"report_title": "Reporting message",
+	"reason": "Reason",
+	"report_note": "This is ONLY to be used to report spam, advertising, and problematic (harassment, fighting, or rude) posts.",
+	"history_of": "History of {{subject}} #{{id}}",
+	"actor": "Actor",
+	"action": "Action",
+	"date": "Date",
+	"thread_moving_title": "Moving thread #{{id}}",
+	"thread_moving_pick": "Pick category",
+	"thread_renaming_title": "Renaming thread #{{id}}",
+	"page_prev": "Prev",
+	"page_next": "Next",
+	
+	"fh_h1": "Header text",
+	"fh_b": "Bold text",
+	"fh_u": "Underlined text",
+	"fh_i": "Italic text",
+	"fh_strike": "Strikethrough text",
+	"fh_spoiler": "Spoiler text",
+	"fh_noparse": "Doesn't parse [b]tags[/b]",
+	"fh_url": "Website link",
+	"fh_list": "Bulleted list",
+	"fh_olist": "Ordered list",
+	"fh_quote": "Quoted text",
+	"fh_code": "Fixed-width font,    preserves spaces",
+
+
+	"categories": {
+		"general": {
+			"name": "General Discussion",
+			"desc": "If no other category fits your needs"
+		},
+		"reports": {
+			"name": "Report Center",
+			"desc": "Report naughty players here"
+		},
+		"unban": {
+			"name": "Ban Appeals",
+			"desc": "Appeal your ban here"
+		},
+		"payment": {
+			"name": "Payment Issues & Questions",
+			"desc": "Solving various problems with purchases"
+		},
+		"demands": {
+			"name": "Staff Applications",
+			"desc": "Want to help us in keeping order? Leave your application here!"
+		},
+		"forum_tests": {
+			"name": "Test Field",
+			"desc": ""
+		},
+		"forum_reports": {
+			"name": "Reported Posts",
+			"desc": ""
+		},
+		"contraptions": {
+			"name": "Building and Wiremod",
+			"desc": "Duplicates, buildings, Expression 2, Wiremod, tutorials etc."
+		},
+		"suggestions": {
+			"name": "Ideas & Suggestions",
+			"desc": "Discuss potential changes and additions"
+		},
+		"problems": {
+			"name": "Problem Solving",
+			"desc": "Report bugs, issues, mistakes or problems"
+		}
+	}
+}
