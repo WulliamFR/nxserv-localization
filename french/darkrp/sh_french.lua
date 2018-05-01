@@ -496,6 +496,7 @@ local french = {
 	hits_msg_cop_fail = "Échec, la police a tué le mercenaire avec les indices nécessaires",
 	hits_msg_cop_success = "Succès ! La police a arrêté le mercenaire. Recherche des clients en cours !",
 	hits_msg_cop_found = "Les clients du crime ont été trouvés, arrêtez-les !",
+	hits_msg_you_dead = "You were assassinated by hitman!",
 	
 	hit_selfdesc_kill = "Contrat pour éliminer %s",
 	hit_selfdescobj_kill = "Éliminer %s",
@@ -506,6 +507,8 @@ local french = {
 	dealer_buy_printer = "Acheter une imprimante",
 
 	hits_hud_target = "Cibles",
+	hits_hud_hint = "Subscribe to %d contracts from %d available",
+	
 	hits_wanted_reason = "Client du crime",
 
 	-- Vote Restrictions
@@ -1007,6 +1010,7 @@ local french = {
 	stop_timer = "Arrêter le chronomètre",
 	wrong_code = "Mauvais code",
 	letter_code = "Le code de la bombe est ",
+	disarm = "Disarm",
 
 	-- weplocker
 	pwl_title = "Casier d'artillerie de la police",
@@ -1370,6 +1374,8 @@ local french = {
 	pd_permit_timeleft = "Autorisation d'entrée commissariat : %s",
 	pd_permit_given = "L'autorisation d'entrée commissariat pour %s a été effectuée avec succès ",
 	pd_permit_got = "Vous avez reçu une autorisation d'entrée commissariat",
+
+	pd_entrance_warning = "Entrer ici sans autorisation est interdit",
 
 	purchase_placement = "Choisissez où mettre vos achats.\nVous pouvez mettre vos achats dans le véhicule le plus proche.",
 	buy_printer_for = "Acheter une imprimante à argent pour %s",
