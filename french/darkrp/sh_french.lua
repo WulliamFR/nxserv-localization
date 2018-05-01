@@ -496,7 +496,7 @@ local french = {
 	hits_msg_cop_fail = "Échec, la police a tué le mercenaire avec les indices nécessaires",
 	hits_msg_cop_success = "Succès ! La police a arrêté le mercenaire. Recherche des clients en cours !",
 	hits_msg_cop_found = "Les clients du crime ont été trouvés, arrêtez-les !",
-	hits_msg_you_dead = "You were assassinated by hitman!",
+	hits_msg_you_dead = "Vous avez été assassiné par un mercenaire !",
 	
 	hit_selfdesc_kill = "Contrat pour éliminer %s",
 	hit_selfdescobj_kill = "Éliminer %s",
@@ -507,7 +507,7 @@ local french = {
 	dealer_buy_printer = "Acheter une imprimante",
 
 	hits_hud_target = "Cibles",
-	hits_hud_hint = "Subscribe to %d contracts from %d available",
+	hits_hud_hint = "Inscrivez-vous à %d contrats sur %d disponibles",
 	
 	hits_wanted_reason = "Client du crime",
 
@@ -1010,7 +1010,7 @@ local french = {
 	stop_timer = "Arrêter le chronomètre",
 	wrong_code = "Mauvais code",
 	letter_code = "Le code de la bombe est ",
-	disarm = "Disarm",
+	disarm = "Désarmer",
 
 	-- weplocker
 	pwl_title = "Casier d'artillerie de la police",
