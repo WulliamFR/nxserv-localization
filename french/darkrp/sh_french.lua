@@ -198,8 +198,9 @@ local french = {
 	drop_item = "Inventaire",
 
 	pickup_item = "Ramasser un objet",
+	put_item_in_pocket = "Put item in pocket",
 	drop_last_item = "Jeter le dernier objet ramassé",
-	invertory = "Inventaire",
+	inventory = "Inventaire",
 
 	bonus_destroying_entity = "Destruction de l'objet illégal.",
 
@@ -920,7 +921,7 @@ local french = {
 	cc_invited = "Le maire de la ville a invité %s dans la police.",
 	cc_invite_fail_ban = "%s ne peut pas devenir agent de police.",
 	cc_nopoints = "Crédits du gouvernement insuffisants",
-	cc_kicked = "Le %s de la ville a licencié %s.",
+	cc_kicked = "Le %s de la ville a licencié %s. Raison: %s",
 	cc_chiefassigned = "Le maire a promu %s, et est maintenant chef de la police.",
 	cc_upgradedalready = "Amélioration déjà achetée",
 	cc_upgraded = "Vous avez acheté l'amélioration '%s'",
