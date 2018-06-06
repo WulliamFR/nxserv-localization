@@ -18,7 +18,7 @@ const terms = [
 
 	`Vous reconnaissez et acceptez que tous les paiements et autres frais liés aux services payants sont payés en avance et <b>ne sont pas éligibles pour un remboursement qu'il soit total ou partiel</b>. <u>Vous êtes l'unique responsable de toutes les dépenses liées à votre compte, y compris <b>TOUT</b> paiement ou action non autorisé.</u>`,
 
-	`Toutes les transactions et achats sont traités automatiquement à n'importe quelle heure de la jouréne, à l'exception des interruptions techniques ou des défaillances dans les opérations des agents de paiement.`,
+	`Toutes les transactions et achats sont traités automatiquement à n'importe quelle heure de la journée, à l'exception des interruptions techniques ou des défaillances dans les opérations des agents de paiement.`,
 
 	`Vous reconnaissez et acceptez que l'achat d'un article sur les serveurs NxServ signifie que nous vous donnons accès à un article ou à un service sur les ressources de NxServ pendant la durée de vie de l'article/service. L'achat d'article/service virtuel ne signifie pas que la propriété de l'article/service devient celle de l'acheteur. En cas de blocage de compte ou de résiliation des Conditions d'Utilisation l'accès à l'article/service sera bloqué ou perdu, aucune compensation ne sera effectuée, de manière totale ou partielle.`,
 
