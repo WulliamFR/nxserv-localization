@@ -198,7 +198,7 @@ local french = {
 	drop_item = "Inventaire",
 
 	pickup_item = "Ramasser un objet",
-	put_item_in_pocket = "Put item in pocket",
+	put_item_in_pocket = "Mettre l'objet dans la poche",
 	drop_last_item = "Jeter le dernier objet ramassé",
 	inventory = "Inventaire",
 
