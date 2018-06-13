@@ -3,7 +3,7 @@
 	"alert_message2": "Raison : {{reason}}, temps restant : {{remaining}}.",
 	"alert_message3": "Vous pouvez <1>envoyer une demande de débannissement</1>, mais elle peut être refusée.",
 	"alert_message4": "Vous pouvez aussi <1>payer un débannissement</1> et retourner en jeu sans délai.",
-	"alert_url": "https://steamcommunity.com/groups/NxServ/discussions/7/",
+	"alert_url": "https://nxserv.eu/forum/category/3",
 
 	"fullban_h1": "Votre compte est banni",
 	"fullban_1": "Vous avez malheureusement été banni. Vous ne pouvez plus jouer sur nos serveurs.",
