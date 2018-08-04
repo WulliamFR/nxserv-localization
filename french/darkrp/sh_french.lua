@@ -549,7 +549,6 @@ local french = {
 	F4entities = "Objets",
 	F4ammo = "Munitions",
 	F4vehicles = "Véhicules",
-	F4donate = "Dons",
 	F4premium = "Premium",
 	F4cars = "Véhicules",
 	F4hats = "Vêtements",
@@ -962,9 +961,7 @@ local french = {
 	phone_on = "Allumer le téléphone",
 	phone_is_off = "Téléphone éteint",
 	phone_is_on = "Téléphone allumé",
-	send_location = "Envoyer votre position",
 	option_gang = "- Gang -",
-	location_sent = "Position envoyée",
 	call_taxi = "Appeler un taxi",
 	write_letter = "Écrire une lettre",
 	show_laws = "Lire les lois",
@@ -1105,7 +1102,6 @@ local french = {
 	coolmodel_title = "Personnalisation de votre apparence",
 
 	--
-	rpname_fail = "2 parties (prénom et nom de famille) requises",
 	he_wants_demote = "%s (%s) veut rétrograder %s (%s) :\n%s",
 	he_wants_demote_vgui = "veut rétrograder",
 	he_wants_demote_vgui_res = "pour la raison :",
@@ -1215,7 +1211,6 @@ local french = {
 	gang_boss = "Chef de",
 
 	-- Markers
-	marker_sent_you = " vous a envoyé sa position",
 	marker_no_police = "Malheureusement il n'y a aucun policier actuellement.",
 	marker_no_fire = "Malheureusement il n'y a aucun pompier actuellement.",
 	marker_no_medic = "Malheureusement il n'y a aucun médecin actuellement.",
@@ -1261,6 +1256,12 @@ local french = {
 	rpname_info = "Réfléchissez bien à votre nom rôleplay.\nIl devra être réaliste (et non Chat Miaou, L'Homme Crabe), il ne devra pas contenir de ponctuation inutile et devra suivre les règles générales de capitalisation des mots (pas de noms tout en majuscules).",
 	rpname_name = "Prénom",
 	rpname_surname = "Nom de famille",
+	rpname_fail_length_min = "Needs to be no shorter than %d",
+	rpname_fail_length_max = "Needs to be no longer than %d",
+	rpname_fail_blocked = "Bad name",
+	rpname_fail_notallowed = "Includes unallowed characters",
+	rpname_fail_exclusive = "hm?", -- not needed for this language
+	rpname_fail_words = "2 parties (prénom et nom de famille) requises",
 
 	premium = "Premium",
 	connecting = "Connexion",

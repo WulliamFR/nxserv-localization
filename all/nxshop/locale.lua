@@ -20,6 +20,7 @@ nxshop.langs = {
 		item_bought = "Success: Item Purchased",
 		error = "Error",
 		button_topup = "How to top up?",
+		button_topup_act = "Add money to your balance",
 		scroll = "Scroll with mouse wheel",
 		already_bought = "You already own this item",
 		few_seconds = "few seconds",
@@ -39,14 +40,15 @@ nxshop.langs = {
 		slots = "Slots:",
 		store = "Store:",
 		ui_back = "< Back",
+		equip = "Wear",
+		unequip = "Remove",
 		game_money = "In-Game Money: ",
 		darkrp_premium_desc = [["Premium" package allows you to gain additional advantages in the game on our DarkRP servers.
 With "Premium" you gain money quickier and survive better in the city full of criminality.
 
 Character:
 * Respawn time shortens to 10 seconds
-* Hunger rate is 2 times slower
-* Max armor increases up until 200%
+* Hunger rate is 4 times slower
 * Premium icon in scoreboard makes you more noticeable
 
 Cars:
@@ -95,6 +97,7 @@ Gameplay:
 		item_bought = "Предмет куплен",
 		error = "Ошибка",
 		button_topup = "Как пополнить?",
+		button_topup_act = "Пополнить счёт",
 		scroll = "Прокрутка колёсиком мыши",
 		already_bought = "Предмет уже куплен",
 		few_seconds = "пару секунд",
@@ -114,14 +117,15 @@ Gameplay:
 		slots = "Слоты:",
 		store = "Магазин:",
 		ui_back = "< Назад",
+		equip = "Надеть",
+		unequip = "Снять",
 		game_money = "Игровые деньги: ",
 		darkrp_premium_desc = [[Пакет "Премиум" даст вам дополнительные преимущества в игре на наших DarkRP серверах.
 С "Премиум" вы зарабатываете быстрее и выживаете чаще в городе с высокой преступностью.
 
 Персонаж:
 * Время ожидания возрождения сокращается до 10 секунд
-* Голод накапливается в 2 раза медленнее
-* Лимит брони увеличивается до 200%
+* Голод накапливается в 4 раза медленнее
 * Появляется доступ к красивым изменяемым моделям на профессиях Бармен, Глава города (Брин), Рыбак (Илай), Глава банды, Медик (Кляйнер), Продавец оружия (Отец Григорий), Охранник, Таксист
 * Премиум иконка в скорборде заметно выделяет вас среди остальных
 
@@ -173,6 +177,7 @@ Gameplay:
 		item_bought = "Succès !",
 		error = "Erreur",
 		button_topup = "Comment recharger ?",
+		button_topup_act = "Compléter votre solde",
 		scroll = "Molette de la souris – faire défiler",
 		already_bought = "Vous possédez déjà cet élément",
 		few_seconds = "quelques secondes",
@@ -192,14 +197,15 @@ Gameplay:
 		slots = "Emplacements :",
 		store = "Magasin :",
 		ui_back = "< Retour",
+		equip = "Mettre",
+		unequip = "Enlever",
 		game_money = "Monnaie du jeu : ",
 		darkrp_premium_desc = [[Le "Premium" vous donne des avantages supplémentaires dans le jeu sur nos serveurs DarkRP.
 Avec le "Premium", vous gagnez de l'argent plus rapidement et vous survivez mieux dans cette ville pleine de criminalité.
 
 Personnage :
 * Le temps de respawn réduit à 10 secondes
-* La barre de faim descend 2 fois moins vite
-* La capacité maximum de l'armure est augmentée à 200%
+* La barre de faim descend 4 fois moins vite
 * L'icône Premium dans le TAB vous rend plus perceptible
 
 Véhicules :
