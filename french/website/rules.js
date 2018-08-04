@@ -9,8 +9,7 @@ module.exports = {
 					"Il est interdit de perturber le fonctionnement du serveur.",
 					"Il est interdit d'outrepasser le bannissement d'un compte.",
 					`Les joueurs doivent informer l'administration des problèmes majeurs, qui peuvent faire planter le serveur ou désavantager les autres joueurs.
-					<br>Il est punissable de posséder et de cacher de telles informations, ainsi que de les transmettre à d'autres joueurs.`,
-					"Votre nom ne doit pas contenir de lettres provenant de plusieurs langues."
+					<br>Il est punissable de posséder et de cacher de telles informations, ainsi que de les transmettre à d'autres joueurs.`
 				]
 			],
 			[
@@ -22,8 +21,8 @@ module.exports = {
 					"Le harcèlement sexuel est interdit.",
 					"Il est interdit de faire de la publicité pour des serveurs, des communautés, des groupes Steam ou autres.",
 					"Il est interdit de répéter le même message dans un court laps de temps (Spam).",
-					"Il est interdit d'envoyer un message en Publique (inter-serveur) chat, qui est inutile en dehors de ce serveur.",
-					"Le chat global n'est à utiliser qu'uniquement en cas critique afin de contacter un administrateur (quelqu'un essaie de faire crash le serveur ou utilise un cheat).",
+					//"Il est interdit d'envoyer un message en Publique (inter-serveur) chat, qui est inutile en dehors de ce serveur.",
+					//"Le chat global n'est à utiliser qu'uniquement en cas critique afin de contacter un administrateur (quelqu'un essaie de faire crash le serveur ou utilise un cheat).",
 					"N'utilisez pas le chat vocal pour faire des sons bruyants, des grincements et d'autres choses déplaisantes à écouter."
 				]
 			],
@@ -91,7 +90,6 @@ module.exports = {
 					`Il est interdit de menotter quelqu'un sans raison valide (FreeCuff).`,
 					`Toutes les recherches et les couvre-feux, doivent être suivis par une raison cohérente. Les raisons telles que "lol", "fouille", "ccccccc" sont invalides.`,
 					`Le couvre-feu ne peut être utilisé qu'en cas d'urgence. Il n'est pas autorisé de programmer des couvre-feux.`,
-					//`Арест должен производиться только через кнопку "арестовать" в наручниках (а не ведением нарушителя в наручниках пешком до ПУ и удержания там).`,
 					`La police est autorisée à construire des barrières, des points de contrôle, des ralentisseurs ainsi qu'à bloquer des rues ou des bâtiments. Cependant, chaque barrière bloquant quelque chose doit avoir une entrée piratable.`,
 					`Il est interdit de fouiller quelqu'un sans raison.`,
 					`Vous POUVEZ fouiller les maisons sans raison. N'importe quelle raison de mandat est valide (sauf insultes).`,
@@ -100,13 +98,6 @@ module.exports = {
 					`Le maire n'est pas autorisé à légaliser les imprimantes à argent. Cette activité est toujours hors-la-loi.`,
 					`Le maire et le chef de la police ne peuvent pas licencier un policier sans aucune raison.`,
 					`La torture des prisonniers est régie par le maire ou le chef de la police.`,
-				]
-			],
-			[
-				"Règles des gangs",
-				[
-					`Le métier "gangster" ne constitue pas qu'un seul et unique groupe. Les gangsters peuvent être l'un contre l'autre.`,
-					`Un gang est compté valide, uniquement s'il a été créé à partir du système de gang.`,
 				]
 			],
 			[
@@ -123,8 +114,8 @@ module.exports = {
 				"Règles des mercenaires",
 				[
 					`Les demandes d'exécution doivent uniquement être créées à partir du système du mercenaire (C > Appels d'urgences ou de services > Commander des services mercenaires). Les demandes d'exécution faites sous d'autres formes ne sont pas valides.`,
-					`Toutes les demandes d'exécution devront être suivies par une raison adéquate. Exécuter sans raison est du RandomDeathMatch (RDM).`,
-					`Le client est responsable en cas d'exécution aléatoire, et non pas le mercenaire.`,
+					`Toutes les demandes d'exécution devront être suivies par une raison adéquate. Exécuter sans raison est du RandomDeathMatch (RDM).
+					<br>Le client est responsable en cas d'exécution aléatoire, et non pas le mercenaire.`,
 				]
 			],
 			[
@@ -132,7 +123,6 @@ module.exports = {
 				[
 					`Il est interdit de faire temporairement apparaître un prop ou un objet pour atteindre une position inaccessible (PropClimb).`,
 					`Il est interdit de tuer avec un objet (PropKill).`,
-					`Il est interdit de voler avec la force du physgun (PropSurf).`,
 					`Il est interdit de faire apparaître plein d'objets en un endroit et/ou dans une courte période de temps (PropSpam).`,
 					`Il est interdit de pousser des objets ou des joueurs en utilisant des props (PropPush).`,
 					`Vos constructions doivent être réalistes : elles ne doivent pas être dans le ciel, avoir un support (un vrai support, et non un cylindre avec un ascenseur), et doivent avoir des matériaux/couleurs réalistes.`,
@@ -159,7 +149,7 @@ module.exports = {
 						<li>Il est interdit d'utiliser l'outil ascenseur pour reproduire un mur ou autre. Cet outil doit uniquement servir d'ascenseur.
 					</ul>`,
 					`Il est interdit de créer des sols, des échelles, des ascenseurs et des plateformes disparaissantes (via fading door).`,
-					`Il est interdit de faire apparaître des prisons sur les joueurs en utilisant le duplicateur, ou de placer des props sur des joueurs avec le physgun.`,
+					`Il est interdit de faire apparaître des prisons sur les joueurs en utilisant le duplicateur, ou de placer des props sur des joueurs.`,
 					`Il est interdit d'utiliser le wiremod pour rechercher des joueurs ou des objets à l'extérieur de votre territoire.`,
 					`Il est interdit de construire durant un combat ou d'autres formes de confrontation.<br>
 						Dès qu'une attaque est totalement terminée, vous avez l'autorisation de reconstruire.`,
