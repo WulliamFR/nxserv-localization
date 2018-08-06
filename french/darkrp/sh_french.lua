@@ -991,7 +991,7 @@ local french = {
 	select_radio_channel = "Changer la fréquence radio",
 	radio_off = "Éteindre la radio",
 	radio_on = "Allumer la radio",
-	ballot_reopen = "Ouvrir un bulletin électoral",
+	ballot_reopen = "Participer à l'élection",
 	phone_printer_hint = "Besoin d'argent ? Imprimantes à argent — méthode facile mais criminelle d'obtenir de l'argent.",
 	phone_business_hint = "De nombreux vendeurs peuvent satisfaire vos besoins. Certains d'entre-eux sont hors-la-loi.",
 	phone_cityserv_hint = "Contacter les services de la ville",
@@ -1267,11 +1267,11 @@ local french = {
 	rpname_info = "Réfléchissez bien à votre nom rôleplay.\nIl devra être réaliste (et non Chat Miaou, L'Homme Crabe), il ne devra pas contenir de ponctuation inutile et devra suivre les règles générales de capitalisation des mots (pas de noms tout en majuscules).",
 	rpname_name = "Prénom",
 	rpname_surname = "Nom de famille",
-	rpname_fail_length_min = "Needs to be no shorter than %d",
-	rpname_fail_length_max = "Needs to be no longer than %d",
-	rpname_fail_blocked = "Bad name",
-	rpname_fail_notallowed = "Includes unallowed characters",
-	rpname_fail_exclusive = "hm?", -- not needed for this language
+	rpname_fail_length_min = "Ne doit pas être plus court que %d",
+	rpname_fail_length_max = "Ne doit pas être plus long que %d",
+	rpname_fail_blocked = "Nom incorrect",
+	rpname_fail_notallowed = "Inclu des caractères non-autorisés",
+	rpname_fail_exclusive = "euh ?", -- not needed for this language
 	rpname_fail_words = "2 parties (prénom et nom de famille) requises",
 
 	premium = "Premium",
@@ -1517,7 +1517,7 @@ local french = {
 	lives_hud = "Vies : ",
 
 	-- election
-	election_start = "L'inscription aux élections débutent, envoyez vos candidatures !",
+	election_start = "L'inscription aux élections débute, envoyez vos candidatures !",
 	election_reg_over = "L'inscription aux élections est terminée, le vote a débuté !",
 	election_thanks_for_voting = "Votre vote a été enregistré",
 	election_over = "Les élections sont terminées. Vainqueur — %s",
