@@ -123,13 +123,13 @@ local french = {
 	job_has_become = "%s est devenu %s !",
 
 	-- Keys, vehicles and doors
-	keys_allowed_to_coown = "Vous n'êtes pas autorisé à être co-propriétaire\n(Appuyez sur F pour être co-propriétaire)\n",
+	keys_allowed_to_coown = "Vous n'êtes pas autorisé à être co-propriétaire\n(Appuyez sur C pour être co-propriétaire)\n",
 	keys_other_allowed = "Autre(s) personne(s) possédant les clés :",
-	keys_allow_ownership = "(Appuyez sur F pour activer la possession)",
-	keys_disallow_ownership = "(Appuyez sur F pour désactiver la possession)",
+	keys_allow_ownership = "(Appuyez sur C pour activer la possession)",
+	keys_disallow_ownership = "(Appuyez sur C pour désactiver la possession)",
 	keys_owned_by = "Propriétaire :",
-	keys_unowned = "Aucun propriétaire\n(Appuyez sur F pour vous approprier cela)",
-	keys_everyone = "(Appuyez sur F pour donner les clés à tout le monde)",
+	keys_unowned = "Aucun propriétaire\n(Appuyez sur C pour vous approprier cela)",
+	keys_everyone = "(Appuyez sur C pour donner les clés à tout le monde)",
 	door_unown_arrested = "Vous ne pouvez pas acheter/vendre des choses lorsque vous êtes arrêté !",
 	door_unownable = "Cette propriété ne peut être attribuée/désattribuée !",
 	door_sold = "Vous avez vendu cette propriété pour %s",
@@ -511,6 +511,41 @@ local french = {
 	hits_hud_hint = "Inscrivez-vous à %d contrats sur %d disponibles",
 	
 	hits_wanted_reason = "Client du crime",
+
+	-- Shops
+
+	shop_hint_res = "You don't have enough resources to sell goods to your customers\nVisit any $ checkpoint on map to get resources",
+	shop_hint_location = "Set your shop in appropriate place and seek for customers",
+	open_shop_gui = "Open shop",
+	finish_purchase = "Finish purchase",
+	set_profit_margin_percent = "Set profit margin percent",
+	trading_merchantry = "Trading",
+
+	finish_purchase_hint = "Press E on trader again to finish purchase",
+	purchase_sent = "Request sent to trader",
+	purchase_ques = "Do you confirm %s's purchase?",
+	purchase_ques_fail = "Trader couldn't confirm your purchase",
+	deal_fail_space = "Nowhere to place items!",
+	deal_fail_res = "Shop can not produce these items!",
+
+	shops_finish_purchase = "Finish purchase",
+	shops_total_stat = "Total: %s",
+
+	resdealer_but = "Get %d RES for %s",
+	resdealer_msg = "Got %d RES for %s",
+	resdealer_title = "Resource Dealer",
+
+	remove_current_ammo = "Eject ammo",
+
+	shop_equipment = "Equipment",
+	shop_foodstuffs = "Foodstuffs",
+
+	floor = "Floor",
+	ground = "Ground",
+
+	deployable = "Deployable",
+	stackable = "Stackable",
+	canpocket = "Fits in pocket",
 
 	-- Vote Restrictions
 	hobos_no_rights = "Les sans abri n'ont pas le droit de vote",
@@ -1008,7 +1043,7 @@ local french = {
 	make_shipment = "Créer une cargaison",
 	pack = "Emballer",
 
-	cmenu_hint = "Maintenez la touche pour voir les actions possibles",
+	cmenu_hint = "Appuyez la touche pour voir les actions possibles",
 	hint = "Astuce",
 
 	-- bomb
@@ -1228,7 +1263,7 @@ local french = {
 
 	-- Permaupgrades
 	up_flashlight = "Lampe torche",
-	up_flashlight_desc = "Débloque la lampe torche, appuyez sur F, pour l'utiliser.",
+	up_flashlight_desc = "Débloque la lampe torche, appuyez sur H, pour l'utiliser.",
 	up_door_upgrade = "Portes améliorées",
 	up_door_upgrade_desc = "Toutes les portes que vous possédez accèdent à un écran tactile de verrouillage/déverrouillage.",
 	up_parkour = "Parcours",
