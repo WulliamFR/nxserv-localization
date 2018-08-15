@@ -514,38 +514,38 @@ local french = {
 
 	-- Shops
 
-	shop_hint_res = "You don't have enough resources to sell goods to your customers\nVisit any $ checkpoint on map to get resources",
-	shop_hint_location = "Set your shop in appropriate place and seek for customers",
-	open_shop_gui = "Open shop",
-	finish_purchase = "Finish purchase",
-	set_profit_margin_percent = "Set profit margin percent",
-	trading_merchantry = "Trading",
+	shop_hint_res = "Vous n'avez pas assez de ressources pour vendre des biens à vos clients\nRendez-vous à n'importe quel $ point sur la carte pour en avoir",
+	shop_hint_location = "Installez votre magasin dans un endroit stratégique et cherchez des clients",
+	open_shop_gui = "Ouvrir le magasin",
+	finish_purchase = "Finaliser la commande",
+	set_profit_margin_percent = "Définir la marge en pourcentages",
+	trading_merchantry = "Gestion du magasin",
 
-	finish_purchase_hint = "Press E on trader again to finish purchase",
-	purchase_sent = "Request sent to trader",
-	purchase_ques = "Do you confirm %s's purchase?",
-	purchase_ques_fail = "Trader couldn't confirm your purchase",
-	deal_fail_space = "Nowhere to place items!",
-	deal_fail_res = "Shop can not produce these items!",
+	finish_purchase_hint = "Pressez une nouvelle fois E sur le vendeur pour finaliser la commande",
+	purchase_sent = "Requête envoyée au vendeur",
+	purchase_ques = "Confirmez-vous la commande de %s ?",
+	purchase_ques_fail = "Le vendeur n'a pas pu confirmer votre commande",
+	deal_fail_space = "Aucun endroit où placer les objets !",
+	deal_fail_res = "Le magasin ne peut pas produire ces objets !",
 
-	shops_finish_purchase = "Finish purchase",
-	shops_total_stat = "Total: %s",
+	shops_finish_purchase = "Finaliser la commande",
+	shops_total_stat = "Total : %s",
 
-	resdealer_but = "Get %d RES for %s",
-	resdealer_msg = "Got %d RES for %s",
-	resdealer_title = "Resource Dealer",
+	resdealer_but = "Obtenir %d RES pour %s",
+	resdealer_msg = "Vous avez reçu %d RES pour %s",
+	resdealer_title = "Vendeur de ressources",
 
-	remove_current_ammo = "Eject ammo",
+	remove_current_ammo = "Éjecter les munitions",
 
-	shop_equipment = "Equipment",
-	shop_foodstuffs = "Foodstuffs",
+	shop_equipment = "Équipements",
+	shop_foodstuffs = "Nourriture",
 
-	floor = "Floor",
-	ground = "Ground",
+	floor = "Sol",
+	ground = "Sol",
 
-	deployable = "Deployable",
+	deployable = "Déployable",
 	stackable = "Stackable",
-	canpocket = "Fits in pocket",
+	canpocket = "Rentre dans la poche",
 
 	-- Vote Restrictions
 	hobos_no_rights = "Les sans abri n'ont pas le droit de vote",
