@@ -1032,7 +1032,7 @@ local french = {
 	phone_cityserv_hint = "Contacter les services de la ville",
 	no_actions = "Pas d'action",
 	drop_item_hint = "Cliquez sur un objet pour le jeter",
-	x_interactions = "%d interactions",
+	x_interactions = "%d interaction(s)",
 
 	create_group = "Créer un nouveau gang",
 	manage_group = "Gérer votre gang",
