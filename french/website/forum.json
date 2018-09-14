@@ -47,6 +47,10 @@
 	"thread_renaming_title": "Renommer le sujet #{{id}}",
 	"page_prev": "Préc",
 	"page_next": "Suiv",
+	"all": "Tous les sujets",
+	"unread": "Sujets non lus",
+	"mark_as_read": "Tout marquer comme lu",
+	"edited": "(modifié X plus tard)",
 	
 	"fh_h1": "Texte d'en-tête",
 	"fh_b": "Texte en gras",
