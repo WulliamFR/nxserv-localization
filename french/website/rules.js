@@ -5,9 +5,9 @@ module.exports = {
 			[
 				"Section principale",
 				[
-					"Il est interdit d'utiliser des logiciels ou bugs, qui peuvent procurer un avantage par rapport aux autres joueurs (Cheats, UseBug, Anti-AFK).",
+					"Il est interdit d'utiliser des logiciels ou bugs, qui procurent un avantage par rapport aux autres joueurs (Cheats, UseBug, Anti-AFK).",
 					"Il est interdit de perturber le fonctionnement du serveur.",
-					"Il est interdit d'outrepasser le bannissement d'un compte.",
+					"Il est interdit de contourner le bannissement d'un compte.",
 					`Les joueurs doivent informer l'administration des problèmes majeurs, qui peuvent faire planter le serveur ou désavantager les autres joueurs.
 					<br>Il est punissable de posséder et de cacher de telles informations, ainsi que de les transmettre à d'autres joueurs.`
 				]
@@ -27,14 +27,14 @@ module.exports = {
 				]
 			],
 			[
-				"Communication avec l'administration",
+				"Communication avec la modération",
 				[
-					"Soyez poli et patient lorsque vous communiquez avec un administrateur. Ne soyez pas arrogant, la seule chose que vous obtiendrez sera un bannissement.",
-					`Lorsque vous appelez un administrateur, vous devez indiquer le problème ainsi que le nom du joueur offensant.
-					<br>Vous devez presser la touche F7 pour contacter un modérateur.`,
-					"Ne menacez pas les administrateurs de les faire rétrograder, vous n'avez aucun pouvoir.",
-					"N'ajoutez pas les admins sur Steam ou d'autres moyens de communication. Utilisez le forum.",
-					"Les administrateurs aident de leur plein gré, ils ne sont pas obligés de vous répondre."
+					"Soyez poli et patient lorsque vous communiquez avec un modérateur.",
+					`Lorsque vous avez besoin d'un modérateur, vous devez indiquer le problème ainsi que le nom du joueur offensant.
+					<br>Pressez la touche F7 pour en contacter un.`,
+					"Ne menacez pas les modérateurs de les faire rétrograder.",
+					"N'ajoutez pas les modérateurs sur Steam ou autre. Utilisez le forum.",
+					"Les modérateurs aident de leur plein gré, ils ne sont pas obligés de vous répondre."
 				]
 			]
 		]
@@ -47,15 +47,16 @@ module.exports = {
 				"Section principale",
 				[
 					`Le Rôle Play est un jeu de rôles. Cela signifie que vous pouvez jouer différents rôles en jeu. Le RP ne veut pas dire que tout doit être comme dans la réalité. S'il vous plaît, soyez conscients que les termes et les concepts tels que NonRP, FearRP, FailRP et autres, ne concernent pas nos serveurs.`,
-					`Votre nom rôleplay doit être réaliste (et non Chat Miaou, L'Homme Crabe), il ne doit pas contenir de ponctuation inutile et doit suivre les règles capitalisation des noms propres (pas de noms tout en majuscules).`,
-					`Il est interdit de se suicider, de se déconnecter puis de se reconnecter, ou bien même de changer de métier pour échapper à une situation RP, comme être poursuivi par la police, être braqué, être pris en otage, avoir faim ou autre.`,
+					`Votre nom rôleplay doit être réaliste (et non Jean Neymar ou L'Homme Crabe), il ne doit pas contenir de ponctuation inutile et ne doit pas être tout en majuscules.`,
+					`Il est interdit de se suicider, de se déconnecter puis de se reconnecter, ou bien même de changer de métier pour échapper à une situation RP, tel qu'être poursuivi par la police, être braqué, être pris en otage, avoir faim ou autre.`,
 					`Ne tuez pas chaque personne que vous voyez sur votre chemin. Tout meurtre doit être suivi d'une raison adéquate, s'il est possible d'éviter un meurtre, évitez-le (sommations, avertissements) (RandomDeathMatch, RDM).`,
 					`Il est tout à fait raisonnable de tuer quelqu'un pour se venger. Toutefois, tuer une même personne plusieurs fois est du RDM.`,
 					`N'importe quel métier peut avoir une arme pour se défendre.`,
+					`N'importe quel métier peut utiliser des imprimantes à argent en quantité raisonnable s'il continue son activité principale.`,
 					`Les gangsters et les chefs de gangs sont "invisibles" - ils ressemblent à des citoyens normaux (ce qui signifie que vous ne pouvez pas fouiller un gangster, juste parce que vous voyez qu'il est gangster).<br>
 						Toutes les autres informations affichées sur l'écran sont aussi vues par votre personnage.`,
 					`Ne changez pas de métier dans l'unique but d'acquérir des objets, des armes, des capacités ou n'importe quoi d'autre (JobAbuse).`,
-					`En cas d'attaque terroriste contre le maire, il est formellement interdit de tuer tous les policiers que vous voyez. Si vous souhaitez vous venger d'un policier qui vous aurait embêté, vengez-vous uniquement sur cette personne, et non sur tous les policiers.`,
+					`En cas d'attaque contre le maire, il est formellement interdit de tuer tous les policiers que vous voyez.`,
 					`Seuls les gangsters, les sans-abris et les mercenaires peuvent commettre des actes sévèrement illégaux, comme des braquages, attentats contre le maire, etc.`,
 					`Ne faites pas quelque chose d'impossible qu'une personne réelle ne ferait pas, c'est-à-dire :
 						<ul>
@@ -75,25 +76,24 @@ module.exports = {
 					`N'utilisez pas le chat Ville pour ne communiquer qu'avec une seule personne en particulier.<br>
 						Pour discuter avec quelqu'un en privé utilisez l'onglet avec l'enveloppe dans le chat.`,
 					`Il est interdit de commettre des actions rôleplay sexuellement explicites.`,
-					`Il est interdit d'envoyer une publicité en /advert, qui n'est pas une publicité RP.`,
-					`Évitez d'utiliser la radio vocale si vous êtes âgé de moins de 14 ans.`,
-					`N'utilisez pas le portable ainsi que le /advert pour appeler un admin.`,
+					`Il est interdit d'envoyer une publicité en \"publicité\", qui n'est pas une publicité RP.`,
+					`N'utilisez pas le portable ainsi que le chat pour appeler un modérateur.`,
 					`Ne menacez pas les autres joueurs de les bannir.`,
 				]
 			],
 			[
 				"Règles des forces de l'ordre",
 				[
-					`Il est interdit d'emprisonner quelqu'un sans raison en officier de police (Random Arrest).`,
+					`Il est interdit d'emprisonner quelqu'un sans raison en officier de police (FreeArrest).`,
 					`Les policiers ne doivent utiliser leurs armes létales qu'uniquement si la vie d'autrui ou leur propre vie est mise en danger (personne armée, réparation de tourelle, C4, chef de gang qui menotte des gens, etc.)`,
 					`Il est interdit de taser quelqu'un sans raison valide (FreeTase).`,
-					`Il est interdit de menotter quelqu'un sans raison valide (FreeCuff).`,
+					`Il est interdit de menotter quelqu'un abusivement (FreeCuff).`,
 					`Toutes les recherches et les couvre-feux, doivent être suivis par une raison cohérente. Les raisons telles que "lol", "fouille", "ccccccc" sont invalides.`,
 					`Le couvre-feu ne peut être utilisé qu'en cas d'urgence. Il n'est pas autorisé de programmer des couvre-feux.`,
 					`La police est autorisée à construire des barrières, des points de contrôle, des ralentisseurs ainsi qu'à bloquer des rues ou des bâtiments. Cependant, chaque barrière bloquant quelque chose doit avoir une entrée piratable.`,
 					`Il est interdit de fouiller quelqu'un sans raison.`,
 					`Vous POUVEZ fouiller les maisons sans raison. N'importe quelle raison de mandat est valide (sauf insultes).`,
-					`Les policiers corrompus ne peuvent pas agir contre les forces de l'ordre. Par exemple, les policiers corrompus peuvent "ne pas prendre en compte" certains crimes ou "accidentellement" oublier de fermer la porte de la prison ; mais ils ne peuvent pas attaquer un autre policier.`,
+					`Les policiers corrompus ne peuvent pas agir contre les forces de l'ordre. Par exemple, les policiers corrompus peuvent "ne pas prendre en compte" certains crimes ou "accidentellement" oublier de fermer la porte de la prison ; mais ils ne peuvent pas voler leur véhicule sans raison.`,
 					`Le maire n'est pas autorisé à faire des lois ne respectant pas les règles du serveur.`,
 					`Le maire n'est pas autorisé à légaliser les imprimantes à argent. Cette activité est toujours hors-la-loi.`,
 					`Le maire et le chef de la police ne peuvent pas licencier un policier sans aucune raison.`,
@@ -106,14 +106,13 @@ module.exports = {
 					`Les règles suivantes concernent tous les métiers présents dans les onglets "Services de la ville" et "Affaires".`,
 					`Si un de vos clients vous agresse ou vous insulte, perturbe la paix dans votre boutique, est recherché par la police ou ne possède pas de licence ou autre, vous pouvez ne pas le servir.<br/>
 						Dans le cas contraire où le client est pacifique, vous devez le servir.`,
-					`Les pompiers, les médecins, les vendeurs d'armes, les commerçants, les barmans, les mécaniciens, les agents de sécurité et les chauffeurs de taxis ne sont pas autorisés à utiliser leurs capacités à des fins criminelles ou de participer à des activités criminelles.`,
-					`Tous les hommes d'affaires devraient faire des profits sur leurs ventes.`,
+					`Les pompiers, les médecins, les vendeurs d'armes, les commerçants, les barmans, les mécaniciens, les agents de sécurité et les chauffeurs (bus & taxi) ne sont pas autorisés à utiliser leurs capacités à des fins criminelles ou de participer à des activités criminelles.`,
 				]
 			],
 			[
 				"Règles des mercenaires",
 				[
-					`Les demandes d'exécution doivent uniquement être créées à partir du système du mercenaire (C > Appels d'urgences ou de services > Commander des services mercenaires). Les demandes d'exécution faites sous d'autres formes ne sont pas valides.`,
+					`Les demandes d'exécution doivent uniquement être créées à partir du système du mercenaire (C > Urgences & Services > Services mercenaires). Les demandes d'exécution faites sous d'autres formes ne sont pas valides.`,
 					`Toutes les demandes d'exécution devront être suivies par une raison adéquate. Exécuter sans raison est du RandomDeathMatch (RDM).
 					<br>Le client est responsable en cas d'exécution aléatoire, et non pas le mercenaire.`,
 				]
@@ -153,6 +152,8 @@ module.exports = {
 					`Il est interdit d'utiliser le wiremod pour rechercher des joueurs ou des objets à l'extérieur de votre territoire.`,
 					`Il est interdit de construire durant un combat ou d'autres formes de confrontation.<br>
 						Dès qu'une attaque est totalement terminée, vous avez l'autorisation de reconstruire.`,
+					`L'utilisation de props avec des matériaux et couleurs empêchant une visibilité correcte de ces derniers est interdite (props noirs avec matériaux noirs qui bloquent la lumière, props blancs qui éblouissent...).`,
+					`Il est interdit de disposer des props au-dessus d'une construction ayant pour but d'empêcher les hélicoptères de s'y poser.`,
 				]
 			],
 		],
