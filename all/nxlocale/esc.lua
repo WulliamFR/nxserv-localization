@@ -16,6 +16,8 @@ return {
 		players = "%d players",
 		on_map = "on %s",
 		join = "Join",
+		forum = "Forum",
+		rules = "Rules",
 	},
 
 	ru = {
@@ -35,6 +37,8 @@ return {
 		players = "%d игроков",
 		on_map = "на %s",
 		join = "Подключиться",
+		forum = "Форум",
+		rules = "Правила",
 	},
 
 	fr = {
@@ -54,5 +58,7 @@ return {
 		players = "%d joueurs",
 		on_map = "sur %s",
 		join = "Rejoindre",
+		forum = "Forum",
+		rules = "Règles",
 	},
 }

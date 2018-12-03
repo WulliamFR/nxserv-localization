@@ -196,6 +196,7 @@ local french = {
 	pocket_full = "Votre poche est pleine !",
 	pocket_no_items = "Votre poche est vide.",
 	drop_item = "Inventaire",
+	drop_ammo = "Drop ammo/attachments",
 
 	pickup_item = "Ramasser un objet",
 	put_item_in_pocket = "Mettre l'objet dans la poche",
@@ -247,6 +248,7 @@ local french = {
 	group = "(groupe)",
 	demote = "(RÉTROGRADATION)",
 	ooc = "Ville",
+	chat_in_region = "Region",
 	radio_x = "Radio %d",
 
 	talk = "parler",
@@ -257,7 +259,7 @@ local french = {
 	talk_to_your_group = "parlez au groupe",
 
 	channel_set_to_x = "Canal radio réglé sur %s.",
-	channel_not_set = "Aucun canal radio sélectionné (utilisez le menu C pour en sélectionner un).",
+	channel_not_set = "Aucun canal radio sélectionné (utilisez le menu F pour en sélectionner un).",
 
 	-- Notifies
 	disabled = "%s a été désactivé ! %s",
@@ -381,6 +383,7 @@ local french = {
 	lottery_noone_entered = "Personne n'a participé à la loterie !",
 	lottery_won = "%s a remporté la loterie ! Il a gagné %s",
 	lottery_you_won = "Vous avez remporté la loterie !",
+	lottery_msg = "Lottery %s has started",
 
 	-- Animations
 	custom_animation = "Gestes",
@@ -512,6 +515,9 @@ local french = {
 	
 	hits_wanted_reason = "Client du crime",
 
+	dealer_sellgoods = "Sell Illegal Goods",
+	sold_x_goods = "You have sold %d goods for %s!",
+
 	-- Shops
 
 	shop_hint_res = "Vous n'avez pas assez de ressources pour vendre des biens à vos clients\nRendez-vous à n'importe quel $ point sur la carte pour en avoir",
@@ -547,6 +553,8 @@ local french = {
 	stackable = "Stackable",
 	canpocket = "Rentre dans la poche",
 
+	no_place_excl = "Pas d'espace!",
+
 	-- Vote Restrictions
 	hobos_no_rights = "Les sans abri n'ont pas le droit de vote",
 	gangsters_cant_vote_for_government = "Les gangsters ne peuvent voter pour des affaires gouvernementales.",
@@ -572,6 +580,7 @@ local french = {
 	set_x_title = "Mettre un titre à %s",
 	set_x_title_long = "Donnez un nom à l'objet %s que vous regardez.",
 	jobs = "Métiers",
+	menu = "Menu",
 	buy_x = "Acheter %s",
 
 	-- F4menu
@@ -1119,7 +1128,7 @@ local french = {
 
 	--
 	car_hint_coplight = "Appuyer sur shift et R pour activer les gyrophares",
-	car_hint_taxiprice = "Vous pouvez changer le prix par kilomètre en restant appuyé sur C et cliquer sur 'Fixer le prix au kilomètre'",
+	car_hint_taxiprice = "Vous pouvez changer le prix par kilomètre en restant appuyé sur F et cliquer sur 'Fixer le prix au kilomètre'",
 
 	-- Taxi
 	taxi_nomoney = "Vous n'avez plus assez d'argent pour payer le chauffeur !",
@@ -1308,6 +1317,7 @@ local french = {
 	rpname_fail_notallowed = "Inclu des caractères non-autorisés",
 	rpname_fail_exclusive = "euh ?", -- not needed for this language
 	rpname_fail_words = "2 parties (prénom et nom de famille) requises",
+	rpname_fail_capital = "Lettres majuscules?",
 
 	premium = "Premium",
 	connecting = "Connexion",
@@ -1357,8 +1367,8 @@ local french = {
 	turret_repairing = "Réparation de la tourelle...",
 	turret_attacked = "La tourelle se fait attaquer !",
 	turret_lockpicker = "Crochetteur !",
-	turret_owner = "Propriétaire : ",
-	turret_state = "Santé : ",
+	turret_owner = "Propriétaire : %s",
+	turret_state = "Santé : %d%% (%d)",
 
 	-- Player stats
 	stat_stamina_low = "Épuisé",

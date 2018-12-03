@@ -123,7 +123,6 @@ module.exports = {
 					`Il est interdit de faire temporairement apparaître un prop ou un objet pour atteindre une position inaccessible (PropClimb).`,
 					`Il est interdit de tuer avec un objet (PropKill).`,
 					`Il est interdit de faire apparaître plein d'objets en un endroit et/ou dans une courte période de temps (PropSpam).`,
-					`Il est interdit de pousser des objets ou des joueurs en utilisant des props (PropPush).`,
 					`Vos constructions doivent être réalistes : elles ne doivent pas être dans le ciel, avoir un support (un vrai support, et non un cylindre avec un ascenseur), et doivent avoir des matériaux/couleurs réalistes.`,
 					`Il est interdit de bloquer une entrée publique.`,
 					`Toute construction doit posséder une entrée, accessible via fading door (les boutons ou KeyPad reliés à celle-ci ne sont pas obligatoires) (PropBlock).`,

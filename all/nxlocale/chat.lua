@@ -57,6 +57,11 @@ return {
 			advert = "advert",
 			team = "team",
 			all = "all",
+			region = "region",
+		},
+
+		chattypes_hints = {
+			region = "message will be visible to all neighbor servers",
 		},
 	},
 
@@ -118,6 +123,11 @@ return {
 			advert = "объявление",
 			team = "команда",
 			all = "всем",
+			region = "регион",
+		},
+
+		chattypes_hints = {
+			region = "сообщение будет видно всем соседним серверам",
 		},
 	},
 
@@ -179,6 +189,11 @@ return {
 			advert = "publicité",
 			team = "groupe",
 			all = "tout",
+			region = "region",
+		},
+
+		chattypes_hints = {
+			region = "message will be visible to all neighbor servers",
 		},
 	},
 }
