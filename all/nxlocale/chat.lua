@@ -193,7 +193,7 @@ return {
 		},
 
 		chattypes_hints = {
-			region = "message will be visible to all neighbor servers",
+			region = "le message sera visible sur tous les serveurs voisins.",
 		},
 	},
 }
