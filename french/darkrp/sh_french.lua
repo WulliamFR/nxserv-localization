@@ -515,8 +515,8 @@ local french = {
 	
 	hits_wanted_reason = "Client du crime",
 
-	dealer_sellgoods = "Sell Illegal Goods",
-	sold_x_goods = "You have sold %d goods for %s!",
+	dealer_sellgoods = "Vendre des marchandises illégales",
+	sold_x_goods = "Vous avez vendu %d marchandises pour %s!",
 
 	-- Shops
 
