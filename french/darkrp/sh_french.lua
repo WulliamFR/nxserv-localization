@@ -196,7 +196,7 @@ local french = {
 	pocket_full = "Votre poche est pleine !",
 	pocket_no_items = "Votre poche est vide.",
 	drop_item = "Inventaire",
-	drop_ammo = "Drop ammo/attachments",
+	drop_ammo = "Jeter les munitions/attachements",
 
 	pickup_item = "Ramasser un objet",
 	put_item_in_pocket = "Mettre l'objet dans la poche",
